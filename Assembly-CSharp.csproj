@@ -63,8 +63,11 @@
     <Compile Include="Assets\Network\Constants.cs" />
     <Compile Include="Assets\Network\Packet.cs" />
     <Compile Include="Assets\Network\TCP.cs" />
-    <Compile Include="Assets\Network\Program.cs" />
     <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\Network\GameManager.cs" />
+    <Compile Include="Assets\Network\PlayerManager.cs" />
+    <Compile Include="Assets\Network\PlayerController.cs" />
+    <Compile Include="Assets\Network\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -14,11 +14,12 @@ internal static class ClientSend
         Client.instance.udp.Send(packet);
     }
 
-    public static void WelcomeReceived(string message)
+    public static void WelcomeReceived(string username)
     {
         using (Packet packet = new Packet((int)ClientPackets.welcomeReceived))
         {
-            packet.Write(message);
+            packet.Write(Client.instance.id);
+            packet.Write(UIManager.instance.usernameField.text);
             SendTCPData(packet);
         }
     }

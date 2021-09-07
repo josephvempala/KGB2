@@ -3,8 +3,9 @@ using System;
 using System.Buffers;
 using System.Net;
 using System.Net.Sockets;
+using System.Threading;
 using System.Threading.Tasks;
-
+using UnityEngine;
 
 internal class TCP
 {
@@ -12,9 +13,11 @@ internal class TCP
     private Packet receivedData;
     private Socket socket;
     public EndPoint LocalEndPoint;
+    private CancellationTokenSource cancellationTokenSource;
 
     public void Connect(EndPoint endpoint)
     {
+        cancellationTokenSource = new CancellationTokenSource();
         try
         {
             socket = new Socket(SocketType.Stream, ProtocolType.Tcp);
@@ -24,17 +27,17 @@ internal class TCP
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Exception encountered while connecting to TCP server {ex}");
+            Debug.Log($"Exception encountered while connecting to TCP server {ex}");
             return;
         }
-        _ = Task.Run(Receive);
+        _ = Task.Run(() => Receive(cancellationTokenSource.Token));
     }
 
     public void Send(Packet packet)
     {
         if (socket == null)
         {
-            Console.WriteLine($"Call Connect(IPEndpoint ep) on the TCP object with an IPEndpoint as parameter before calling Send(Packet p)");
+            Debug.Log($"Call Connect(IPEndpoint ep) on the TCP object with an IPEndpoint as parameter before calling Send(Packet p)");
             return;
         }
         try
@@ -44,13 +47,13 @@ internal class TCP
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Exception encountered when Sending TCP packet {ex}");
+            Debug.Log($"Exception encountered when Sending TCP packet {ex}");
         }
     }
 
-    private async Task Receive()
+    private async Task Receive(CancellationToken token)
     {
-        while (true)
+        while (!token.IsCancellationRequested)
         {
             try
             {
@@ -70,17 +73,19 @@ internal class TCP
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Exception encountered when Receiving TCP packet {ex}");
+                Disconnect();
+                Debug.Log($"Exception encountered when Receiving TCP packet {ex}");
             }
         }
     }
 
     public void Disconnect()
     {
-        stream.Close();
-        socket.Shutdown(SocketShutdown.Both);
+        cancellationTokenSource.Cancel();
         socket.Close();
+        stream.Close();
         receivedData.Dispose();
+        cancellationTokenSource.Dispose();
     }
 
     private bool HandleData(byte[] data)
@@ -105,10 +110,10 @@ internal class TCP
             if (Client.instance.packetHandlers.ContainsKey(packet_id))
             {
                 TickManager.ExecuteOnTick(() =>
-                    {
-                        Client.instance.packetHandlers[packet_id].Invoke(packet);
-                        packet.Dispose();
-                    });
+                {
+                    Client.instance.packetHandlers[packet_id].Invoke(packet);
+                    packet.Dispose();
+                });
             }
 
             packet_length = 0;

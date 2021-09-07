@@ -2,16 +2,20 @@
 using System.Buffers;
 using System.Net;
 using System.Net.Sockets;
+using System.Threading;
 using System.Threading.Tasks;
+using UnityEngine;
 
 internal class UDP
 {
     private Socket socket;
     private EndPoint serverEndPoint;
     public EndPoint localEndPoint;
+    private CancellationTokenSource cancellationTokenSource;
 
     public void Connect(EndPoint ServerEndPoint)
     {
+        cancellationTokenSource = new CancellationTokenSource();
         try
         {
             serverEndPoint = ServerEndPoint;
@@ -24,15 +28,15 @@ internal class UDP
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Exception encountered while connecting to UDP server {ex}");
+            Debug.Log($"Exception encountered while connecting to UDP server {ex}");
         }
-        _ = Task.Run(Receive);
+        _ = Task.Run(() => Receive(cancellationTokenSource.Token));
     }
 
 
-    private async Task Receive()
+    private async Task Receive(CancellationToken token)
     {
-        while (true)
+        while (!token.IsCancellationRequested)
         {
             try
             {
@@ -49,7 +53,8 @@ internal class UDP
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Exception encountered when Receiving UDP packet {ex}");
+                Debug.Log($"Exception encountered when Receiving UDP packet {ex}");
+                Disconnect();
                 return;
             }
         }
@@ -59,7 +64,7 @@ internal class UDP
     {
         if (socket == null)
         {
-            Console.WriteLine($"Call Connect(IPEndpoint ep) on the UDP object with an IPEndpoint as parameter before calling Send(Packet p)");
+            Debug.Log($"Call Connect(IPEndpoint ep) on the UDP object with an IPEndpoint as parameter before calling Send(Packet p)");
             return;
         }
         try
@@ -69,14 +74,15 @@ internal class UDP
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Exception encountered when Sending UDP packet {ex}");
+            Disconnect();
+            Debug.Log($"Exception encountered when Sending UDP packet {ex}");
         }
 
     }
 
     public void Disconnect()
     {
-        socket.Shutdown(SocketShutdown.Both);
+        cancellationTokenSource.Cancel();
         socket.Close();
         localEndPoint = null;
     }
@@ -88,11 +94,11 @@ internal class UDP
         if (Client.instance.packetHandlers.ContainsKey(packetId))
         {
             TickManager.ExecuteOnTick(() =>
-                {
-                    Client.instance.packetHandlers[packetId].Invoke(packet);
-                    ArrayPool<byte>.Shared.Return(data);
-                    packet.Dispose();
-                });
+            {
+                Client.instance.packetHandlers[packetId].Invoke(packet);
+                ArrayPool<byte>.Shared.Return(data);
+                packet.Dispose();
+            });
         }
     }
 }

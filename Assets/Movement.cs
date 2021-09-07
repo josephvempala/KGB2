@@ -30,12 +30,16 @@ public class Movement : MonoBehaviour
 
     [Header("Movement Settings")]
     private Vector2 horizontalMovementInput;
-    private Vector3 verticalVelocity;
+    private Vector3 movementVelocity;
+    public float playerGravity;
     [SerializeField] private float jumpHeight;
+    [SerializeField] private float jumpTime;
+    public Vector3 jumpingForce;
+    public Vector3 jumpingVelocity;
+    private Vector3 airmovement;
 
     [Header("Checks")]
-    private bool isGrounded;
-    private bool jump;
+    public bool isGrounded;
     private bool isCrouching;
     private bool isWalking;
     private bool isHeadBlocked;
@@ -48,24 +52,31 @@ public class Movement : MonoBehaviour
     {
         controls = new InputMaster();
         controls.GroundMovement.HorizontalMovement.performed += ctx => horizontalMovementInput = ctx.ReadValue<Vector2>();
-        controls.GroundMovement.Jump.performed += _ => jump = !jump;
+        controls.GroundMovement.Jump.performed += _ => Jump();
         controls.GroundMovement.MouseX.performed += ctx => mouseX = ctx.ReadValue<float>();
         controls.GroundMovement.MouseY.performed += ctx => mouseY = ctx.ReadValue<float>();
-        controls.GroundMovement.Walk.performed += _ => isWalking = !isWalking;
-        controls.GroundMovement.Crouch.performed += _ => isCrouching = !isCrouching;
+        controls.GroundMovement.Walk.performed += _ => Walk();
+        controls.GroundMovement.Crouch.performed += _ => Crouch();
         controls.Enable();
         CameraRotation = cameraHolder.localRotation.eulerAngles;
         CharacterRotation = transform.localRotation.eulerAngles;
+        initialPlayerScale = transform.localScale;
+        initialSpeed = speed;
     }
 
     public void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, 0.55f, groundMask);
+        isGrounded = Physics.Raycast(groundCheck.position, Vector3.down, 0.55f, groundMask);
         isHeadBlocked = Physics.CheckSphere(ceilingCheck.position, 0.55f, groundMask);
         CalculateMouseLook();
-        CalculateMovement();
+        CalculateGroundMovement();
+        CalculateJump();
     }
 
+    public void FixedUpdate()
+    {
+        
+    }
 
     public void CalculateMouseLook()
     {
@@ -76,40 +87,53 @@ public class Movement : MonoBehaviour
         cameraHolder.localRotation = Quaternion.Euler(CameraRotation);
     }
 
-    private void CalculateMovement()
+    private void CalculateGroundMovement()
     {
-        Vector3 horizontalVelocity = new Vector3(horizontalMovementInput.x, 0f, horizontalMovementInput.y) * speed;
-        horizontalVelocity = transform.TransformDirection(horizontalVelocity);
-        if (isGrounded)
+        
+
+        if (playerGravity > terminalVelocity && jumpingVelocity.y < 0.1f)
         {
-            verticalVelocity.x = 0f;
-            verticalVelocity.y = 0f;
-            verticalVelocity.z = 0f;
-            controller.Move(horizontalVelocity * Time.deltaTime);
+            playerGravity -= gravity * Time.deltaTime;
         }
-        CalculateJump(horizontalVelocity);
+        if (playerGravity < 0.01f && isGrounded)
+        {
+            var horizontalMovement = horizontalMovementInput.x * speed;
+            var verticalMovement = horizontalMovementInput.y * speed;
+            movementVelocity = new Vector3(horizontalMovement, 0f, verticalMovement);
+            movementVelocity = transform.TransformDirection(movementVelocity);
+            playerGravity = -0.01f;
+        }
+        else
+        {
+            var horizontalMovement = horizontalMovementInput.x * 8f * Time.deltaTime;
+            var verticalMovement = horizontalMovementInput.y * 8f * Time.deltaTime;
+            var airVelocity = new Vector3(horizontalMovement, 0f, verticalMovement);
+            airVelocity = transform.TransformDirection(airVelocity);
+            if(airVelocity.magnitude < 0.1f)
+                movementVelocity += airVelocity;
+        }
+        movementVelocity.y = playerGravity;
+        movementVelocity += jumpingVelocity;
+        controller.Move(movementVelocity * Time.deltaTime);
     }
 
-    private void CalculateJump(Vector3 horizontalVelocity)
+    private void CalculateJump()
     {
-        if (jump)
+        jumpingVelocity = Vector3.SmoothDamp(jumpingVelocity, Vector3.zero, ref jumpingForce, jumpTime);
+    }
+
+    private void Jump()
+    {
+        if (isGrounded)
         {
-            verticalVelocity.x = horizontalVelocity.x;
-            verticalVelocity.z = horizontalVelocity.z;
-            if (isGrounded)
-            {
-                verticalVelocity.y = Mathf.Sqrt(2f * jumpHeight * gravity);
-            }
-            jump = false;
+            jumpingVelocity = Vector3.up * jumpHeight;
+            playerGravity = 0f;
         }
-        verticalVelocity.x += horizontalVelocity.x * 0.001f;
-        verticalVelocity.z += horizontalVelocity.z * 0.001f;
-        verticalVelocity.y -= gravity * Time.deltaTime;
-        controller.Move(verticalVelocity * Time.deltaTime);
     }
 
     public void Walk()
     {
+        isWalking = !isWalking;
         if (isWalking)
         {
             speed = walkSpeed;
@@ -120,10 +144,11 @@ public class Movement : MonoBehaviour
 
     public void Crouch()
     {
+        isCrouching = !isCrouching;
         if (isCrouching)
         {
             Vector3 crouchedHeight = initialPlayerScale;
-            crouchedHeight.y /= 2;
+            crouchedHeight.y /= 2f;
             speed = walkSpeed;
             transform.localScale = crouchedHeight;
             return;

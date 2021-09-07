@@ -13,9 +13,339 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-08-27T14:01:20.865+05:30
-  initializedAtString: 2021-08-27T13:54:18.304+05:30
+  lastUpdatedAtString: 2021-09-07T17:43:02.606+05:30
+  initializedAtString: 2021-09-07T12:28:48.304+05:30
   log:
+  - commitID: 84497a26485fb251ce1328592f9b093bb7a53fbc
+    mergeA: 
+    mergeB: 
+    authorName: joseph
+    authorEmail: josephvempala@gmail.com
+    commitEmail: josephvempala@gmail.com
+    commitName: joseph
+    summary: made movement KGB2 like
+    description: 
+    timeString: 2021-08-27T14:02:00.000+05:30
+    commitTimeString: 2021-08-27T14:02:00.000+05:30
+    changes:
+    - path: .vs\KGB2\v17\.suo
+      fullPath: C:\Users\Joseph\KGB2\.vs\KGB2\v17\.suo
+      projectPath: .vs\KGB2\v17\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\Joseph\KGB2\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\Joseph\KGB2\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Movement.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Movement.cs
+      projectPath: Assets\Movement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\PlayerSettings.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\PlayerSettings.cs
+      projectPath: Assets\PlayerSettings.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\PlayerSettings.cs.meta
+      fullPath: C:\Users\Joseph\KGB2\Assets\PlayerSettings.cs.meta
+      projectPath: Assets\PlayerSettings.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Joseph\KGB2\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: KGB2.sln
+      fullPath: C:\Users\Joseph\KGB2\KGB2.sln
+      projectPath: KGB2.sln
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\Joseph\KGB2\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\01\018ad1933cb12e033e228e5bccb0a248
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\01\018ad1933cb12e033e228e5bccb0a248
+      projectPath: Library\Artifacts\01\018ad1933cb12e033e228e5bccb0a248
+      originalPath: Library\Artifacts\66\662fea5da1c93e185d1165776fc45b8c
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      projectPath: Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b9\b9f0b73b39e919d6eb4b858eaf0229ee
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b9\b9f0b73b39e919d6eb4b858eaf0229ee
+      projectPath: Library\Artifacts\b9\b9f0b73b39e919d6eb4b858eaf0229ee
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      projectPath: Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\Joseph\KGB2\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\Joseph\KGB2\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorUserBuildSettings.asset
+      fullPath: C:\Users\Joseph\KGB2\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\Joseph\KGB2\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\Joseph\KGB2\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\Joseph\KGB2\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitfilelog.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitfilelog.yaml
+      projectPath: Library\gfu\cache\gitfilelog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\ApiUpdaterCheck.txt
+      fullPath: C:\Users\Joseph\KGB2\Logs\ApiUpdaterCheck.txt
+      projectPath: Logs\ApiUpdaterCheck.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0-prev.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\AssetImportWorker0-prev.log
+      projectPath: Logs\AssetImportWorker0-prev.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe10.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe10.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe10.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe11.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe11.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe11.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe13.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe13.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe13.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe14.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe14.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe14.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe15.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe15.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe15.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe5.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe6.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe7.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe8.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe8.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe8.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe9.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe9.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe9.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: gitignore
+      fullPath: C:\Users\Joseph\KGB2\gitignore
+      projectPath: gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      fullPath: C:\Users\Joseph\KGB2\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      fullPath: C:\Users\Joseph\KGB2\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\Joseph\KGB2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 142055006d641421fedd635d146046ebde78b3c0
     mergeA: 
     mergeB: 
