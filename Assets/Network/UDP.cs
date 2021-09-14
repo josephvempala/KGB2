@@ -24,6 +24,7 @@ internal class UDP
             using (Packet packet = new Packet())
             {
                 Send(packet);
+                Debug.Log("sent udp neg packet");
             }
         }
         catch (Exception ex)

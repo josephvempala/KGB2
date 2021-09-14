@@ -1,5 +1,6 @@
 ﻿
 
+using UnityEngine;
 
 internal static class ClientSend
 {
@@ -14,11 +15,10 @@ internal static class ClientSend
         Client.instance.udp.Send(packet);
     }
 
-    public static void WelcomeReceived(string username)
+    public static void WelcomeReceived()
     {
         using (Packet packet = new Packet((int)ClientPackets.welcomeReceived))
         {
-            packet.Write(Client.instance.id);
             packet.Write(UIManager.instance.usernameField.text);
             SendTCPData(packet);
         }
@@ -28,6 +28,15 @@ internal static class ClientSend
         using (Packet packet = new Packet((int)ClientPackets.message))
         {
             packet.Write(message);
+            SendUDPData(packet);
+        }
+    }
+    public static void SendControls(byte[] controls)
+    {
+        using (Packet packet = new Packet((int)ClientPackets.playerControls))
+        {
+            packet.Write(controls.Length);
+            packet.Write(controls);
             SendUDPData(packet);
         }
     }

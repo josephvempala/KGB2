@@ -82,8 +82,8 @@ internal class TCP
     public void Disconnect()
     {
         cancellationTokenSource.Cancel();
-        socket.Close();
         stream.Close();
+        socket.Close();
         receivedData.Dispose();
         cancellationTokenSource.Dispose();
     }

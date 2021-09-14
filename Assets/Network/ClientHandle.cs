@@ -9,7 +9,7 @@ internal static class ClientHandle
         Client.instance.id = packet.ReadInt();
         string item = packet.ReadString();
         Debug.Log($"Server says {item}");
-        ClientSend.WelcomeReceived("thanq for welcome");
+        ClientSend.WelcomeReceived();
         Client.instance.udp.localEndPoint = Client.instance.tcp.LocalEndPoint;
         Client.instance.udp.Connect(Client.instance.ServerEndpoint);
     }
@@ -28,5 +28,21 @@ internal static class ClientHandle
         Quaternion rotation = packet.ReadQuaternion();
 
         GameManager.instance.SpawnPlayer(id, username, vector3, rotation);
+    }
+
+    public static void PlayerRotation(Packet packet)
+    {
+        int playerid = packet.ReadInt();
+        Quaternion playerRotation = packet.ReadQuaternion();
+        
+        GameManager.players[playerid].transform.rotation = playerRotation;
+    }
+
+    public static void PlayerPosition(Packet packet)
+    {
+        int playerid = packet.ReadInt();
+        Vector3 playerPosition = packet.ReadVector3();
+
+        GameManager.players[playerid].transform.position = playerPosition;
     }
 }

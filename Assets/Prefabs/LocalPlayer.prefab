@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 8050145155320814213}
   - component: {fileID: 8050145155320814209}
   - component: {fileID: 8050145155320814212}
+  - component: {fileID: 6294690868518947794}
   - component: {fileID: -4514658406076096742}
   m_Layer: 0
   m_Name: LocalPlayer
@@ -168,24 +169,36 @@ MonoBehaviour:
   walkSpeed: 7.5
   gravity: 19.6
   terminalVelocity: -100
-  cameraHolder: {fileID: 8050145155310859066}
   groundMask:
     serializedVersion: 2
     m_Bits: 64
   groundCheck: {fileID: 8050145155433179628}
   ceilingCheck: {fileID: 8050145156253986954}
+  jumpHeight: 20
+  jumpTime: 0.1
+  playerGravity: 0
+  jumpingForce: {x: 0, y: 0, z: 0}
+  jumpingVelocity: {x: 0, y: 0, z: 0}
+  isGrounded: 0
+--- !u!114 &6294690868518947794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8050145155320814330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ffd904d40a32440b8d540e167f911e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraHolder: {fileID: 8050145155310859066}
   camClampXMax: 90
   camClampXMin: -90
   MouseSensitivityX: 20
   MouseSensitivityY: 20
   InvertMouseX: 0
   InvertMouseY: 0
-  playerGravity: 0
-  jumpHeight: 20
-  jumpTime: 0.1
-  jumpingForce: {x: 0, y: 0, z: 0}
-  jumpingVelocity: {x: 0, y: 0, z: 0}
-  isGrounded: 0
 --- !u!114 &-4514658406076096742
 MonoBehaviour:
   m_ObjectHideFlags: 0

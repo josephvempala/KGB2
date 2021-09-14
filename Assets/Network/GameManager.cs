@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this);
         }
-        Application.targetFrameRate = 999;
     }
 
     public void SpawnPlayer(int id, string username, Vector3 postion, Quaternion rotation)

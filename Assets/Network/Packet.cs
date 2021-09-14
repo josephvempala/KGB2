@@ -17,7 +17,7 @@ public enum ServerPackets
 public enum ClientPackets
 {
     welcomeReceived = 1,
-    playerMovement,
+    playerControls,
     message
 }
 
@@ -185,6 +185,13 @@ public class Packet : IDisposable
         Write(_value.y);
         Write(_value.z);
         Write(_value.w);
+    }
+    /// <summary>Adds a Vector2 to the packet.</summary>
+    /// <param name="_value">The string to add.</param>
+    public void Write(Vector2 _value)
+    {
+        Write(_value.x);
+        Write(_value.y);
     }
     #endregion
 
@@ -368,6 +375,12 @@ public class Packet : IDisposable
     public Quaternion ReadQuaternion(bool _moveReadPos = true)
     {
         return new Quaternion(ReadFloat(_moveReadPos), ReadFloat(_moveReadPos), ReadFloat(_moveReadPos), ReadFloat(_moveReadPos));
+    }
+    /// <summary>Reads a Vector2 from the packet.</summary>
+    /// <param name="_moveReadPos">Whether or not to move the buffer's read position.</param>
+    public Vector2 ReadVector2(bool _moveReadPos = true)
+    {
+        return new Vector2(ReadFloat(_moveReadPos), ReadFloat(_moveReadPos));
     }
     #endregion
 

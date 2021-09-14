@@ -8,8 +8,9 @@ using UnityEngine.InputSystem.Utilities;
 
 public class @InputMaster : IInputActionCollection, IDisposable
 {
+    public static InputMaster instance;
     public InputActionAsset asset { get; }
-    public @InputMaster()
+    private @InputMaster()
     {
         asset = InputActionAsset.FromJson(@"{
     ""name"": ""InputMaster"",
@@ -262,6 +263,19 @@ public class @InputMaster : IInputActionCollection, IDisposable
     {
         get => asset.bindingMask;
         set => asset.bindingMask = value;
+    }
+
+    public static @InputMaster GetInstance()
+    {
+        if(instance == null)
+        {
+            instance = new InputMaster();
+            return instance;
+        }
+        else
+        {
+            return instance;
+        }
     }
 
     public ReadOnlyArray<InputDevice>? devices
