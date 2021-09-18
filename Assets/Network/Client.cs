@@ -55,7 +55,8 @@ internal class Client : MonoBehaviour
         {
             {(int)ServerPackets.welcome, ClientHandle.Welcome },
             {(int)ServerPackets.message, ClientHandle.Message },
-            {(int)ServerPackets.spawnPlayer, ClientHandle.SpawnPlayer  }
+            {(int)ServerPackets.spawnPlayer, ClientHandle.SpawnPlayer },
+            {(int)ServerPackets.playerPosition, ClientHandle.PlayerState },
         };
     }
 }

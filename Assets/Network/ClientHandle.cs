@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Net;
 using UnityEngine;
 
 internal static class ClientHandle
@@ -10,7 +11,7 @@ internal static class ClientHandle
         string item = packet.ReadString();
         Debug.Log($"Server says {item}");
         ClientSend.WelcomeReceived();
-        Client.instance.udp.localEndPoint = Client.instance.tcp.LocalEndPoint;
+        Client.instance.udp.localEndPoint = Client.instance.tcp.LocalEndPoint as IPEndPoint;
         Client.instance.udp.Connect(Client.instance.ServerEndpoint);
     }
     public static void Message(Packet packet)
@@ -30,19 +31,11 @@ internal static class ClientHandle
         GameManager.instance.SpawnPlayer(id, username, vector3, rotation);
     }
 
-    public static void PlayerRotation(Packet packet)
+    public static void PlayerState(Packet packet)
     {
-        int playerid = packet.ReadInt();
-        Quaternion playerRotation = packet.ReadQuaternion();
-        
-        GameManager.players[playerid].transform.rotation = playerRotation;
-    }
-
-    public static void PlayerPosition(Packet packet)
-    {
-        int playerid = packet.ReadInt();
-        Vector3 playerPosition = packet.ReadVector3();
-
-        GameManager.players[playerid].transform.position = playerPosition;
+        int client_id = packet.ReadInt();
+        Vector3 position = packet.ReadVector3();
+        Quaternion rotation = packet.ReadQuaternion();
+        GameManager.players[client_id].RecieveMovement(rotation, position);
     }
 }

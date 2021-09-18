@@ -1,7 +1,4 @@
 ﻿
-
-using UnityEngine;
-
 internal static class ClientSend
 {
     private static void SendTCPData(Packet packet)

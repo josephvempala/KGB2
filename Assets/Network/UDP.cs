@@ -8,23 +8,22 @@ using UnityEngine;
 
 internal class UDP
 {
-    private Socket socket;
-    private EndPoint serverEndPoint;
-    public EndPoint localEndPoint;
+    private UdpClient socket;
+    private IPEndPoint serverEndPoint;
+    public IPEndPoint localEndPoint;
     private CancellationTokenSource cancellationTokenSource;
 
-    public void Connect(EndPoint ServerEndPoint)
+    public void Connect(IPEndPoint ServerEndPoint)
     {
         cancellationTokenSource = new CancellationTokenSource();
         try
         {
             serverEndPoint = ServerEndPoint;
-            socket = new Socket(SocketType.Dgram, ProtocolType.Udp);
-            socket.Bind(localEndPoint);
+            socket = new UdpClient(localEndPoint);
+            socket.Connect(serverEndPoint);
             using (Packet packet = new Packet())
             {
                 Send(packet);
-                Debug.Log("sent udp neg packet");
             }
         }
         catch (Exception ex)
@@ -41,16 +40,14 @@ internal class UDP
         {
             try
             {
-                byte[] udpBuffer = ArrayPool<byte>.Shared.Rent(Constants.MAX_BUFFER_SIZE);
-                SocketReceiveFromResult socketData = await SocketTaskExtensions.ReceiveFromAsync(socket, new ArraySegment<byte>(udpBuffer), SocketFlags.None, localEndPoint).ConfigureAwait(false);
-                if (socketData.ReceivedBytes < 4)
+                var socketData = await socket.ReceiveAsync().ConfigureAwait(false);
+                if (socketData.Buffer.Length < 4)
                 {
                     continue;
                 }
-                byte[] received_buffer = ArrayPool<byte>.Shared.Rent(socketData.ReceivedBytes);
-                Array.Copy(udpBuffer, received_buffer, socketData.ReceivedBytes);
-                ArrayPool<byte>.Shared.Return(udpBuffer);
-                HandleData(udpBuffer);
+                byte[] received_buffer = ArrayPool<byte>.Shared.Rent(socketData.Buffer.Length);
+                Array.Copy(socketData.Buffer, received_buffer, socketData.Buffer.Length);
+                HandleData(received_buffer);
             }
             catch (Exception ex)
             {
@@ -71,7 +68,7 @@ internal class UDP
         try
         {
             packet.InsertInt(Client.instance.id);
-            _ = SocketTaskExtensions.SendToAsync(socket, new ArraySegment<byte>(packet.ToArray()), SocketFlags.None, serverEndPoint).ConfigureAwait(false);
+            _ = socket.SendAsync(packet.ToArray(),packet.Length).ConfigureAwait(false);
         }
         catch (Exception ex)
         {
