@@ -37,4 +37,14 @@ internal static class ClientSend
             SendUDPData(packet);
         }
     }
+
+    public static void SendOrientation(byte[] orientation)
+    {
+        using (Packet packet = new Packet((int)ClientPackets.playerOrientation))
+        {
+            packet.Write(orientation.Length);
+            packet.Write(orientation);
+            SendUDPData(packet);
+        }
+    }
 }

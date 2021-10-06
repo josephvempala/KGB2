@@ -3,7 +3,6 @@ using System.Buffers;
 using System.IO;
 using Unity.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem.EnhancedTouch;
 
 
 public class Movement : MonoBehaviour
@@ -24,7 +23,7 @@ public class Movement : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float jumpHeight;
     [SerializeField] private float jumpTime;
-    private Vector2 horizontalMovementInput;
+    public Vector2 horizontalMovementInput;
     private Vector3 movementVelocity;
     public float playerGravity;
     public Vector3 jumpingForce;
@@ -41,9 +40,7 @@ public class Movement : MonoBehaviour
     private float initialSpeed;
     private Vector3 initialPlayerScale;
 
-    [Header("network")]
-    public Controls ControlsToSend;
-
+    public Controls CurentInputs;
 
     public void Awake()
     {
@@ -61,24 +58,20 @@ public class Movement : MonoBehaviour
     {
         isGrounded = Physics.Raycast(groundCheck.position, Vector3.down, 0.55f, groundMask);
         isHeadBlocked = Physics.CheckSphere(ceilingCheck.position, 0.55f, groundMask);
-        CalculateGroundMovement();
+        CalculateControlsToSend();
+        CalculateGroundMovement(CurentInputs);
+        controller.Move(movementVelocity * Time.deltaTime);
         CalculateJump();
     }
 
-    public void FixedUpdate()
+    public void CalculateControlsToSend()
     {
-        byte[] controlBuffer = ArrayPool<byte>.Shared.Rent(18);
-        ControlsToSend.horizontalMovement = horizontalMovementInput;
-        ControlsToSend.Yrotation = transform.localRotation.y;
-        ControlsToSend.walk = isWalking;
-        ControlsToSend.crouch = isCrouching;
-        ControlsToSend.Serialize(ref controlBuffer);
-        ClientSend.SendControls(controlBuffer);
-        ControlsToSend.Reset();
-        ArrayPool<byte>.Shared.Return(controlBuffer);
+        CurentInputs.walk = isWalking;
+        CurentInputs.crouch = isCrouching;
+        CurentInputs.horizontalMovement = horizontalMovementInput;
     }
 
-    private void CalculateGroundMovement()
+    public Vector3 CalculateGroundMovement(Controls input)
     {
         if (playerGravity > terminalVelocity && jumpingVelocity.y < 0.1f)
         {
@@ -86,25 +79,53 @@ public class Movement : MonoBehaviour
         }
         if (playerGravity < 0.01f && isGrounded)
         {
-            var horizontalMovement = horizontalMovementInput.x * speed;
-            var verticalMovement = horizontalMovementInput.y * speed;
+            var horizontalMovement = input.horizontalMovement.x * speed;
+            var verticalMovement = input.horizontalMovement.y * speed;
             movementVelocity = new Vector3(horizontalMovement, 0f, verticalMovement);
             movementVelocity = transform.TransformDirection(movementVelocity);
             playerGravity = -0.01f;
         }
         else
         {
-            var horizontalMovement = horizontalMovementInput.x * 8f * Time.deltaTime;
-            var verticalMovement = horizontalMovementInput.y * 8f * Time.deltaTime;
+            var horizontalMovement = input.horizontalMovement.x * 8f * Time.deltaTime;
+            var verticalMovement = input.horizontalMovement.y * 8f * Time.deltaTime;
             var airVelocity = new Vector3(horizontalMovement, 0f, verticalMovement);
             airVelocity = transform.TransformDirection(airVelocity);
-            if(airVelocity.magnitude < 0.1f)
+            if (airVelocity.magnitude < 0.1f)
                 movementVelocity += airVelocity;
         }
         movementVelocity.y = playerGravity;
         movementVelocity += jumpingVelocity;
-        controller.Move(movementVelocity * Time.deltaTime);
+        return movementVelocity;
     }
+
+    //private void CalculateGroundMovement()
+    //{
+    //    if (playerGravity > terminalVelocity && jumpingVelocity.y < 0.1f)
+    //    {
+    //        playerGravity -= gravity * Time.deltaTime;
+    //    }
+    //    if (playerGravity < 0.01f && isGrounded)
+    //    {
+    //        var horizontalMovement = horizontalMovementInput.x * speed;
+    //        var verticalMovement = horizontalMovementInput.y * speed;
+    //        movementVelocity = new Vector3(horizontalMovement, 0f, verticalMovement);
+    //        movementVelocity = transform.TransformDirection(movementVelocity);
+    //        playerGravity = -0.01f;
+    //    }
+    //    else
+    //    {
+    //        var horizontalMovement = horizontalMovementInput.x * 8f * Time.deltaTime;
+    //        var verticalMovement = horizontalMovementInput.y * 8f * Time.deltaTime;
+    //        var airVelocity = new Vector3(horizontalMovement, 0f, verticalMovement);
+    //        airVelocity = transform.TransformDirection(airVelocity);
+    //        if(airVelocity.magnitude < 0.1f)
+    //            movementVelocity += airVelocity;
+    //    }
+    //    movementVelocity.y = playerGravity;
+    //    movementVelocity += jumpingVelocity;
+    //    controller.Move(movementVelocity * Time.deltaTime);
+    //}
 
     private void CalculateJump()
     {
@@ -115,7 +136,7 @@ public class Movement : MonoBehaviour
     {
         if (isGrounded)
         {
-            ControlsToSend.jump = true;
+            CurentInputs.jump = true;
             jumpingVelocity = Vector3.up * jumpHeight;
             playerGravity = 0f;
         }

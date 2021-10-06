@@ -6,16 +6,18 @@ ScriptsOnlyBuild:
     - MouseLook
     - Movement
     - PlayerManager
+    - PlayerNetworkManager
     - TickManager
     - UIManager
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
+    - GitHub.Unity.GitLogCache
     - GitHub.Unity.GitStatusCache
     - GitHub.Unity.RepositoryInfoCache
-    - GitHub.Unity.Window
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -70,33 +72,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1526}
     - Class: 114
-      Script: {instanceID: 2096}
+      Script: {instanceID: 2098}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2348}
     - Class: 114
-      Script: {instanceID: 2440}
+      Script: {instanceID: 2442}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2528}
     - Class: 114
-      Script: {instanceID: 2654}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 2826}
+      Script: {instanceID: 2828}
     - Class: 114
-      Script: {instanceID: 2876}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3038}
-    - Class: 114
-      Script: {instanceID: 3134}
+      Script: {instanceID: 3040}
     - Class: 114
       Script: {instanceID: 3136}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 3890}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 4544}
+      Script: {instanceID: 3892}
+    - Class: 114
+      Script: {instanceID: 4064}
+    - Class: 114
+      Script: {instanceID: 4548}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -598,6 +602,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: ba5e4b276a78854c485d0ef3e64797ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerNetworkManager
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb

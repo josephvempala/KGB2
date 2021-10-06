@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 8050145155320814213}
   - component: {fileID: 8050145155320814209}
   - component: {fileID: 8050145155320814212}
+  - component: {fileID: 526462846111172887}
   - component: {fileID: 6294690868518947794}
   - component: {fileID: -4514658406076096742}
   m_Layer: 0
@@ -180,6 +181,22 @@ MonoBehaviour:
   jumpingForce: {x: 0, y: 0, z: 0}
   jumpingVelocity: {x: 0, y: 0, z: 0}
   isGrounded: 0
+  isJumping: 0
+--- !u!114 &526462846111172887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8050145155320814330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce591f040207840a0cedd19d125051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: {fileID: 8050145155320814212}
+  mouseLook: {fileID: 6294690868518947794}
+  current_tick: 0
 --- !u!114 &6294690868518947794
 MonoBehaviour:
   m_ObjectHideFlags: 0

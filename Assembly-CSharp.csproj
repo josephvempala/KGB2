@@ -64,11 +64,14 @@
     <Compile Include="Assets\Network\UDP.cs" />
     <Compile Include="Assets\Player\MouseLook.cs" />
     <Compile Include="Assets\Network\Constants.cs" />
-    <Compile Include="Assets\Network\PlayerManager.cs" />
+    <Compile Include="Assets\Player\PlayerManager.cs" />
     <Compile Include="Assets\Network\Packet.cs" />
     <Compile Include="Assets\Network\TCP.cs" />
-    <Compile Include="Assets\Player\Movement.cs" />
+    <Compile Include="Assets\Player\PlayerNetworkManager.cs" />
     <Compile Include="Assets\Player\Controls.cs" />
+    <Compile Include="Assets\Player\Movement.cs" />
+    <Compile Include="Assets\Player\ClientState.cs" />
+    <Compile Include="Assets\Player\Orientation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -292,6 +295,12 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>Assets\Plugins\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
       <HintPath>Assets\Plugins\System.Buffers.dll</HintPath>

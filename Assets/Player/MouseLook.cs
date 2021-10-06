@@ -15,6 +15,8 @@ public class MouseLook : MonoBehaviour
     private float mouseY;
     private Vector3 CameraRotation;
     private Vector3 CharacterRotation;
+    public Orientation orientationToSend;
+
     public float MouseSensitivityX;
     public float MouseSensitivityY;
     public bool InvertMouseX;
@@ -28,13 +30,7 @@ public class MouseLook : MonoBehaviour
         CameraRotation = cameraHolder.localRotation.eulerAngles;
         CharacterRotation = transform.localRotation.eulerAngles;
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         CalculateMouseLook();
@@ -47,5 +43,7 @@ public class MouseLook : MonoBehaviour
         CharacterRotation.y += MouseSensitivityX * (InvertMouseX ? -mouseX : mouseX) * Time.deltaTime;
         transform.localRotation = Quaternion.Euler(CharacterRotation);
         cameraHolder.localRotation = Quaternion.Euler(CameraRotation);
+        orientationToSend.CameraRotationX = CameraRotation.x;
+        orientationToSend.CharacterRotationY = CharacterRotation.y;
     }
 }

@@ -34,8 +34,11 @@ internal static class ClientHandle
     public static void PlayerState(Packet packet)
     {
         int client_id = packet.ReadInt();
-        Vector3 position = packet.ReadVector3();
-        Quaternion rotation = packet.ReadQuaternion();
-        GameManager.players[client_id].RecieveMovement(rotation, position);
+        uint tick = (uint)packet.ReadLong();
+        ClientState newState;
+        newState.position = packet.ReadVector3();
+        newState.rotation = packet.ReadQuaternion();
+
+        GameManager.players[client_id].RecieveMovement(newState, tick);
     }
 }

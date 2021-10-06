@@ -11,7 +11,6 @@ internal class Client : MonoBehaviour
     public UDP udp = new UDP();
     public int id;
     public static Client instance;
-    private bool isConnected = false;
 
     private void Awake()
     {
@@ -39,11 +38,6 @@ internal class Client : MonoBehaviour
 
     public void Disconnect()
     {
-        if (!isConnected)
-        {
-            return;
-        }
-        isConnected = false;
         tcp.Disconnect();
         udp.Disconnect();
         Debug.Log("disconnected from server");
@@ -56,7 +50,7 @@ internal class Client : MonoBehaviour
             {(int)ServerPackets.welcome, ClientHandle.Welcome },
             {(int)ServerPackets.message, ClientHandle.Message },
             {(int)ServerPackets.spawnPlayer, ClientHandle.SpawnPlayer },
-            {(int)ServerPackets.playerPosition, ClientHandle.PlayerState },
+            {(int)ServerPackets.playerState, ClientHandle.PlayerState },
         };
     }
 }
