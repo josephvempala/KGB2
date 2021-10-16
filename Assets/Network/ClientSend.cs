@@ -1,50 +1,43 @@
-﻿
-internal static class ClientSend
+﻿internal static class ClientSend
 {
-    private static void SendTCPData(Packet packet)
+    private static void SendTcpData(Packet packet)
     {
         packet.WriteLength();
-        Client.instance.tcp.Send(packet);
+        Client.Instance.Tcp.Send(packet);
     }
 
-    private static void SendUDPData(Packet packet)
+    private static void SendUdpData(Packet packet)
     {
-        Client.instance.udp.Send(packet);
+        Client.Instance.Udp.Send(packet);
     }
 
     public static void WelcomeReceived()
     {
-        using (Packet packet = new Packet((int)ClientPackets.welcomeReceived))
-        {
-            packet.Write(UIManager.instance.usernameField.text);
-            SendTCPData(packet);
-        }
+        using var packet = new Packet((int) ClientPackets.WelcomeReceived);
+        packet.Write(UIManager.Instance.usernameField.text);
+        SendTcpData(packet);
     }
+
     public static void SendMessage(string message)
     {
-        using (Packet packet = new Packet((int)ClientPackets.message))
-        {
-            packet.Write(message);
-            SendUDPData(packet);
-        }
+        using var packet = new Packet((int) ClientPackets.Message);
+        packet.Write(message);
+        SendUdpData(packet);
     }
+
     public static void SendControls(byte[] controls)
     {
-        using (Packet packet = new Packet((int)ClientPackets.playerControls))
-        {
-            packet.Write(controls.Length);
-            packet.Write(controls);
-            SendUDPData(packet);
-        }
+        using var packet = new Packet((int) ClientPackets.PlayerControls);
+        packet.Write(controls.Length);
+        packet.Write(controls);
+        SendUdpData(packet);
     }
 
     public static void SendOrientation(byte[] orientation)
     {
-        using (Packet packet = new Packet((int)ClientPackets.playerOrientation))
-        {
-            packet.Write(orientation.Length);
-            packet.Write(orientation);
-            SendUDPData(packet);
-        }
+        using var packet = new Packet((int) ClientPackets.PlayerOrientation);
+        packet.Write(orientation.Length);
+        packet.Write(orientation);
+        SendUdpData(packet);
     }
 }

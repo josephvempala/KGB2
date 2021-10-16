@@ -3,45 +3,38 @@ using UnityEngine;
 
 public struct Controls
 {
-    public uint tick;
-    public Vector2 horizontalMovement;
-    public bool jump;
-    public bool crouch;
-    public bool walk;
+    public uint Tick;
+    public Vector2 HorizontalMovement;
+    public bool Jump;
+    public bool Crouch;
+    public bool Walk;
 
     public void Serialize(ref byte[] controls)
     {
-        MemoryStream stream = new MemoryStream(controls);
-        using (BinaryWriter packet = new BinaryWriter(stream))
-        {
-            packet.Write(tick);
-            packet.Write(horizontalMovement.x);
-            packet.Write(horizontalMovement.y);
-            packet.Write(jump);
-            packet.Write(crouch);
-            packet.Write(walk);
-        }
+        var stream = new MemoryStream(controls);
+        using var packet = new BinaryWriter(stream);
+        packet.Write(Tick);
+        packet.Write(HorizontalMovement.x);
+        packet.Write(HorizontalMovement.y);
+        packet.Write(Jump);
+        packet.Write(Crouch);
+        packet.Write(Walk);
     }
 
     public void Deserialize(in byte[] controls)
     {
-        MemoryStream stream = new MemoryStream(controls);
-        using (BinaryReader packet = new BinaryReader(stream))
-        {
-            tick = packet.ReadUInt32();
-            horizontalMovement.x = packet.ReadSingle();
-            horizontalMovement.y = packet.ReadSingle();
-            jump = packet.ReadBoolean();
-            crouch = packet.ReadBoolean();
-            walk = packet.ReadBoolean();
-        }
+        var stream = new MemoryStream(controls);
+        using var packet = new BinaryReader(stream);
+        Tick = packet.ReadUInt32();
+        HorizontalMovement.x = packet.ReadSingle();
+        HorizontalMovement.y = packet.ReadSingle();
+        Jump = packet.ReadBoolean();
+        Crouch = packet.ReadBoolean();
+        Walk = packet.ReadBoolean();
     }
 
     public void Reset()
     {
-        horizontalMovement = Vector2.zero;
-        jump = false;
-        crouch = false;
-        walk = false;
+        Jump = false;
     }
 }

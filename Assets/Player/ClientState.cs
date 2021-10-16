@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
-using System.Text;
-using System.Threading.Tasks;
+﻿using UnityEngine;
 
 public struct ClientState
 {
-    public Vector3 position;
-    public Quaternion rotation;
+    public Vector3 Position;
+    public Quaternion Rotation;
 }

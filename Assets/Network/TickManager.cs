@@ -4,45 +4,43 @@ using UnityEngine;
 
 public class TickManager : MonoBehaviour
 {
-    private static readonly List<Action> executeOnTick = new List<Action>();
-    private static readonly List<Action> executeOnTickCopy = new List<Action>();
-    private static bool actionToExecuteOnTick = false;
+    private static readonly List<Action> ToExecuteOnTick = new List<Action>();
+    private static readonly List<Action> ToExecuteOnTickCopy = new List<Action>();
+    private static bool _actionToExecuteOnTickPresent;
 
     public void Update()
     {
         StartTick();
     }
 
-    public static void ExecuteOnTick(Action _action)
+    public static void ExecuteOnTick(Action action)
     {
-        if (_action == null)
+        if (action == null)
         {
             Debug.Log("No action to execute on tick!");
             return;
         }
 
-        lock (executeOnTick)
+        lock (ToExecuteOnTick)
         {
-            executeOnTick.Add(_action);
-            actionToExecuteOnTick = true;
+            ToExecuteOnTick.Add(action);
+            _actionToExecuteOnTickPresent = true;
         }
     }
 
-    public static void StartTick()
+    private static void StartTick()
     {
-        if (actionToExecuteOnTick)
+        if (_actionToExecuteOnTickPresent)
         {
-            executeOnTickCopy.Clear();
-            lock (executeOnTick)
+            ToExecuteOnTickCopy.Clear();
+            lock (ToExecuteOnTick)
             {
-                executeOnTickCopy.AddRange(executeOnTick);
-                executeOnTick.Clear();
-                actionToExecuteOnTick = false;
+                ToExecuteOnTickCopy.AddRange(ToExecuteOnTick);
+                ToExecuteOnTick.Clear();
+                _actionToExecuteOnTickPresent = false;
             }
-            for (int i = 0; i < executeOnTickCopy.Count; i++)
-            {
-                executeOnTickCopy[i]();
-            }
+
+            for (var i = 0; i < ToExecuteOnTickCopy.Count; i++) ToExecuteOnTickCopy[i]();
         }
     }
 }

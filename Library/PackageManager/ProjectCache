@@ -66,6 +66,10 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.0
         - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -80,6 +84,10 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.0
         - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -358,6 +366,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.2.4
         compatible:
         - 1.0.2
         - 1.0.3
@@ -370,7 +379,8 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -440,9 +450,11 @@ m_PackageAssets:
         - 1.0.1
         - 1.0.2
         - 1.1.0-pre.5
+        - 1.1.0-pre.6
         - 1.1.0-preview.1
         - 1.1.0-preview.2
         - 1.1.0-preview.3
+        - 1.1.1
         compatible:
         - 0.1.2-preview
         - 0.2.0-preview
@@ -469,9 +481,11 @@ m_PackageAssets:
         - 1.0.1
         - 1.0.2
         - 1.1.0-pre.5
+        - 1.1.0-pre.6
         - 1.1.0-preview.1
         - 1.1.0-preview.2
         - 1.1.0-preview.3
+        - 1.1.1
         verified: 1.0.2
       dependencies: []
       resolvedDependencies: []

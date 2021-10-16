@@ -5,12 +5,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
+using Object = UnityEngine.Object;
 
-public class @InputMaster : IInputActionCollection, IDisposable
+public class InputMaster : IInputActionCollection, IDisposable
 {
     public static InputMaster instance;
-    public InputActionAsset asset { get; }
-    private @InputMaster()
+
+    // GroundMovement
+    private readonly InputActionMap m_GroundMovement;
+    private readonly InputAction m_GroundMovement_Crouch;
+    private readonly InputAction m_GroundMovement_HorizontalMovement;
+    private readonly InputAction m_GroundMovement_Jump;
+    private readonly InputAction m_GroundMovement_MouseX;
+    private readonly InputAction m_GroundMovement_MouseY;
+    private readonly InputAction m_GroundMovement_Prone;
+    private readonly InputAction m_GroundMovement_StanceDown;
+    private readonly InputAction m_GroundMovement_StanceUp;
+    private readonly InputAction m_GroundMovement_Walk;
+    private IGroundMovementActions m_GroundMovementActionsCallbackInterface;
+
+    private InputMaster()
     {
         asset = InputActionAsset.FromJson(@"{
     ""name"": ""InputMaster"",
@@ -242,40 +256,30 @@ public class @InputMaster : IInputActionCollection, IDisposable
     ""controlSchemes"": []
 }");
         // GroundMovement
-        m_GroundMovement = asset.FindActionMap("GroundMovement", throwIfNotFound: true);
-        m_GroundMovement_HorizontalMovement = m_GroundMovement.FindAction("HorizontalMovement", throwIfNotFound: true);
-        m_GroundMovement_Jump = m_GroundMovement.FindAction("Jump", throwIfNotFound: true);
-        m_GroundMovement_Walk = m_GroundMovement.FindAction("Walk", throwIfNotFound: true);
-        m_GroundMovement_Crouch = m_GroundMovement.FindAction("Crouch", throwIfNotFound: true);
-        m_GroundMovement_Prone = m_GroundMovement.FindAction("Prone", throwIfNotFound: true);
-        m_GroundMovement_StanceUp = m_GroundMovement.FindAction("StanceUp", throwIfNotFound: true);
-        m_GroundMovement_StanceDown = m_GroundMovement.FindAction("StanceDown", throwIfNotFound: true);
-        m_GroundMovement_MouseX = m_GroundMovement.FindAction("MouseX", throwIfNotFound: true);
-        m_GroundMovement_MouseY = m_GroundMovement.FindAction("MouseY", throwIfNotFound: true);
+        m_GroundMovement = asset.FindActionMap("GroundMovement", true);
+        m_GroundMovement_HorizontalMovement = m_GroundMovement.FindAction("HorizontalMovement", true);
+        m_GroundMovement_Jump = m_GroundMovement.FindAction("Jump", true);
+        m_GroundMovement_Walk = m_GroundMovement.FindAction("Walk", true);
+        m_GroundMovement_Crouch = m_GroundMovement.FindAction("Crouch", true);
+        m_GroundMovement_Prone = m_GroundMovement.FindAction("Prone", true);
+        m_GroundMovement_StanceUp = m_GroundMovement.FindAction("StanceUp", true);
+        m_GroundMovement_StanceDown = m_GroundMovement.FindAction("StanceDown", true);
+        m_GroundMovement_MouseX = m_GroundMovement.FindAction("MouseX", true);
+        m_GroundMovement_MouseY = m_GroundMovement.FindAction("MouseY", true);
     }
+
+    public InputActionAsset asset { get; }
+    public GroundMovementActions GroundMovement => new GroundMovementActions(this);
 
     public void Dispose()
     {
-        UnityEngine.Object.Destroy(asset);
+        Object.Destroy(asset);
     }
 
     public InputBinding? bindingMask
     {
         get => asset.bindingMask;
         set => asset.bindingMask = value;
-    }
-
-    public static @InputMaster GetInstance()
-    {
-        if(instance == null)
-        {
-            instance = new InputMaster();
-            return instance;
-        }
-        else
-        {
-            return instance;
-        }
     }
 
     public ReadOnlyArray<InputDevice>? devices
@@ -311,102 +315,125 @@ public class @InputMaster : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
-    // GroundMovement
-    private readonly InputActionMap m_GroundMovement;
-    private IGroundMovementActions m_GroundMovementActionsCallbackInterface;
-    private readonly InputAction m_GroundMovement_HorizontalMovement;
-    private readonly InputAction m_GroundMovement_Jump;
-    private readonly InputAction m_GroundMovement_Walk;
-    private readonly InputAction m_GroundMovement_Crouch;
-    private readonly InputAction m_GroundMovement_Prone;
-    private readonly InputAction m_GroundMovement_StanceUp;
-    private readonly InputAction m_GroundMovement_StanceDown;
-    private readonly InputAction m_GroundMovement_MouseX;
-    private readonly InputAction m_GroundMovement_MouseY;
+    public static InputMaster GetInstance()
+    {
+        if (instance == null)
+        {
+            instance = new InputMaster();
+            return instance;
+        }
+
+        return instance;
+    }
+
     public struct GroundMovementActions
     {
-        private @InputMaster m_Wrapper;
-        public GroundMovementActions(@InputMaster wrapper) { m_Wrapper = wrapper; }
-        public InputAction @HorizontalMovement => m_Wrapper.m_GroundMovement_HorizontalMovement;
-        public InputAction @Jump => m_Wrapper.m_GroundMovement_Jump;
-        public InputAction @Walk => m_Wrapper.m_GroundMovement_Walk;
-        public InputAction @Crouch => m_Wrapper.m_GroundMovement_Crouch;
-        public InputAction @Prone => m_Wrapper.m_GroundMovement_Prone;
-        public InputAction @StanceUp => m_Wrapper.m_GroundMovement_StanceUp;
-        public InputAction @StanceDown => m_Wrapper.m_GroundMovement_StanceDown;
-        public InputAction @MouseX => m_Wrapper.m_GroundMovement_MouseX;
-        public InputAction @MouseY => m_Wrapper.m_GroundMovement_MouseY;
-        public InputActionMap Get() { return m_Wrapper.m_GroundMovement; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
+        private readonly InputMaster m_Wrapper;
+
+        public GroundMovementActions(InputMaster wrapper)
+        {
+            m_Wrapper = wrapper;
+        }
+
+        public InputAction HorizontalMovement => m_Wrapper.m_GroundMovement_HorizontalMovement;
+        public InputAction Jump => m_Wrapper.m_GroundMovement_Jump;
+        public InputAction Walk => m_Wrapper.m_GroundMovement_Walk;
+        public InputAction Crouch => m_Wrapper.m_GroundMovement_Crouch;
+        public InputAction Prone => m_Wrapper.m_GroundMovement_Prone;
+        public InputAction StanceUp => m_Wrapper.m_GroundMovement_StanceUp;
+        public InputAction StanceDown => m_Wrapper.m_GroundMovement_StanceDown;
+        public InputAction MouseX => m_Wrapper.m_GroundMovement_MouseX;
+        public InputAction MouseY => m_Wrapper.m_GroundMovement_MouseY;
+
+        public InputActionMap Get()
+        {
+            return m_Wrapper.m_GroundMovement;
+        }
+
+        public void Enable()
+        {
+            Get().Enable();
+        }
+
+        public void Disable()
+        {
+            Get().Disable();
+        }
+
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(GroundMovementActions set) { return set.Get(); }
+
+        public static implicit operator InputActionMap(GroundMovementActions set)
+        {
+            return set.Get();
+        }
+
         public void SetCallbacks(IGroundMovementActions instance)
         {
             if (m_Wrapper.m_GroundMovementActionsCallbackInterface != null)
             {
-                @HorizontalMovement.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnHorizontalMovement;
-                @HorizontalMovement.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnHorizontalMovement;
-                @HorizontalMovement.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnHorizontalMovement;
-                @Jump.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnJump;
-                @Jump.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnJump;
-                @Jump.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnJump;
-                @Walk.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnWalk;
-                @Walk.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnWalk;
-                @Walk.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnWalk;
-                @Crouch.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnCrouch;
-                @Crouch.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnCrouch;
-                @Crouch.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnCrouch;
-                @Prone.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnProne;
-                @Prone.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnProne;
-                @Prone.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnProne;
-                @StanceUp.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceUp;
-                @StanceUp.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceUp;
-                @StanceUp.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceUp;
-                @StanceDown.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceDown;
-                @StanceDown.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceDown;
-                @StanceDown.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceDown;
-                @MouseX.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseX;
-                @MouseX.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseX;
-                @MouseX.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseX;
-                @MouseY.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseY;
-                @MouseY.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseY;
-                @MouseY.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseY;
+                HorizontalMovement.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnHorizontalMovement;
+                HorizontalMovement.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnHorizontalMovement;
+                HorizontalMovement.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnHorizontalMovement;
+                Jump.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnJump;
+                Jump.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnJump;
+                Jump.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnJump;
+                Walk.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnWalk;
+                Walk.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnWalk;
+                Walk.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnWalk;
+                Crouch.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnCrouch;
+                Crouch.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnCrouch;
+                Crouch.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnCrouch;
+                Prone.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnProne;
+                Prone.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnProne;
+                Prone.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnProne;
+                StanceUp.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceUp;
+                StanceUp.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceUp;
+                StanceUp.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceUp;
+                StanceDown.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceDown;
+                StanceDown.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceDown;
+                StanceDown.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnStanceDown;
+                MouseX.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseX;
+                MouseX.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseX;
+                MouseX.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseX;
+                MouseY.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseY;
+                MouseY.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseY;
+                MouseY.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseY;
             }
+
             m_Wrapper.m_GroundMovementActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @HorizontalMovement.started += instance.OnHorizontalMovement;
-                @HorizontalMovement.performed += instance.OnHorizontalMovement;
-                @HorizontalMovement.canceled += instance.OnHorizontalMovement;
-                @Jump.started += instance.OnJump;
-                @Jump.performed += instance.OnJump;
-                @Jump.canceled += instance.OnJump;
-                @Walk.started += instance.OnWalk;
-                @Walk.performed += instance.OnWalk;
-                @Walk.canceled += instance.OnWalk;
-                @Crouch.started += instance.OnCrouch;
-                @Crouch.performed += instance.OnCrouch;
-                @Crouch.canceled += instance.OnCrouch;
-                @Prone.started += instance.OnProne;
-                @Prone.performed += instance.OnProne;
-                @Prone.canceled += instance.OnProne;
-                @StanceUp.started += instance.OnStanceUp;
-                @StanceUp.performed += instance.OnStanceUp;
-                @StanceUp.canceled += instance.OnStanceUp;
-                @StanceDown.started += instance.OnStanceDown;
-                @StanceDown.performed += instance.OnStanceDown;
-                @StanceDown.canceled += instance.OnStanceDown;
-                @MouseX.started += instance.OnMouseX;
-                @MouseX.performed += instance.OnMouseX;
-                @MouseX.canceled += instance.OnMouseX;
-                @MouseY.started += instance.OnMouseY;
-                @MouseY.performed += instance.OnMouseY;
-                @MouseY.canceled += instance.OnMouseY;
+                HorizontalMovement.started += instance.OnHorizontalMovement;
+                HorizontalMovement.performed += instance.OnHorizontalMovement;
+                HorizontalMovement.canceled += instance.OnHorizontalMovement;
+                Jump.started += instance.OnJump;
+                Jump.performed += instance.OnJump;
+                Jump.canceled += instance.OnJump;
+                Walk.started += instance.OnWalk;
+                Walk.performed += instance.OnWalk;
+                Walk.canceled += instance.OnWalk;
+                Crouch.started += instance.OnCrouch;
+                Crouch.performed += instance.OnCrouch;
+                Crouch.canceled += instance.OnCrouch;
+                Prone.started += instance.OnProne;
+                Prone.performed += instance.OnProne;
+                Prone.canceled += instance.OnProne;
+                StanceUp.started += instance.OnStanceUp;
+                StanceUp.performed += instance.OnStanceUp;
+                StanceUp.canceled += instance.OnStanceUp;
+                StanceDown.started += instance.OnStanceDown;
+                StanceDown.performed += instance.OnStanceDown;
+                StanceDown.canceled += instance.OnStanceDown;
+                MouseX.started += instance.OnMouseX;
+                MouseX.performed += instance.OnMouseX;
+                MouseX.canceled += instance.OnMouseX;
+                MouseY.started += instance.OnMouseY;
+                MouseY.performed += instance.OnMouseY;
+                MouseY.canceled += instance.OnMouseY;
             }
         }
     }
-    public GroundMovementActions @GroundMovement => new GroundMovementActions(this);
+
     public interface IGroundMovementActions
     {
         void OnHorizontalMovement(InputAction.CallbackContext context);

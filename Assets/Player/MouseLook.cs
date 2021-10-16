@@ -1,28 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class MouseLook : MonoBehaviour
 {
-    private InputMaster controls;
+    [Header("Camera Settings")] [SerializeField]
+    private Transform cameraHolder;
 
-    [Header("Camera Settings")]
-    [SerializeField] private Transform cameraHolder;
     public float camClampXMax = 90f;
     public float camClampXMin = -90f;
-    private float mouseX;
-    private float mouseY;
-    private Vector3 CameraRotation;
-    private Vector3 CharacterRotation;
-    public Orientation orientationToSend;
 
     public float MouseSensitivityX;
     public float MouseSensitivityY;
     public bool InvertMouseX;
     public bool InvertMouseY;
+    private Vector3 CameraRotation;
+    private Vector3 CharacterRotation;
+    private InputMaster controls;
+    private float mouseX;
+    private float mouseY;
+    public Orientation orientationToSend;
 
-    void Awake()
+    private void Awake()
     {
         controls = InputMaster.GetInstance();
         controls.GroundMovement.MouseX.performed += ctx => mouseX = ctx.ReadValue<float>();
@@ -31,12 +28,12 @@ public class MouseLook : MonoBehaviour
         CharacterRotation = transform.localRotation.eulerAngles;
     }
 
-    void Update()
+    private void Update()
     {
         CalculateMouseLook();
     }
 
-    public void CalculateMouseLook()
+    private void CalculateMouseLook()
     {
         CameraRotation.x += MouseSensitivityY * (InvertMouseY ? mouseY : -mouseY) * Time.deltaTime;
         CameraRotation.x = Mathf.Clamp(CameraRotation.x, camClampXMin, camClampXMax);

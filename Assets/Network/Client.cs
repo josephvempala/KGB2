@@ -5,23 +5,19 @@ using UnityEngine;
 internal class Client : MonoBehaviour
 {
     public delegate void PacketHandler(Packet packet);
-    public Dictionary<int, PacketHandler> packetHandlers;
-    public IPEndPoint ServerEndpoint;
-    public TCP tcp = new TCP();
-    public UDP udp = new UDP();
+
+    public static Client Instance;
     public int id;
-    public static Client instance;
+    public Dictionary<int, PacketHandler> PacketHandlers;
+    public IPEndPoint ServerEndpoint;
+    public readonly TCP Tcp = new TCP();
+    public readonly UDP Udp = new UDP();
 
     private void Awake()
     {
-        if(instance == null)
-        {
-            instance = this;
-        }
-        else if (instance != this)
-        {
-            Destroy(this);
-        }
+        if (Instance == null)
+            Instance = this;
+        else if (Instance != this) Destroy(this);
     }
 
     private void OnApplicationQuit()
@@ -33,24 +29,24 @@ internal class Client : MonoBehaviour
     {
         ServerEndpoint = endPoint;
         InitializePacketHandlers();
-        tcp.Connect(ServerEndpoint);
+        Tcp.Connect(ServerEndpoint);
     }
 
     public void Disconnect()
     {
-        tcp.Disconnect();
-        udp.Disconnect();
+        Tcp.Disconnect();
+        Udp.Disconnect();
         Debug.Log("disconnected from server");
     }
 
     private void InitializePacketHandlers()
     {
-        packetHandlers = new Dictionary<int, PacketHandler>
+        PacketHandlers = new Dictionary<int, PacketHandler>
         {
-            {(int)ServerPackets.welcome, ClientHandle.Welcome },
-            {(int)ServerPackets.message, ClientHandle.Message },
-            {(int)ServerPackets.spawnPlayer, ClientHandle.SpawnPlayer },
-            {(int)ServerPackets.playerState, ClientHandle.PlayerState },
+            {(int) ServerPackets.Welcome, ClientHandle.Welcome},
+            {(int) ServerPackets.Message, ClientHandle.Message},
+            {(int) ServerPackets.SpawnPlayer, ClientHandle.SpawnPlayer},
+            {(int) ServerPackets.PlayerState, ClientHandle.PlayerState}
         };
     }
 }

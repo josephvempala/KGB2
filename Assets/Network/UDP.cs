@@ -8,20 +8,20 @@ using UnityEngine;
 
 internal class UDP
 {
-    private UdpClient socket;
-    private IPEndPoint serverEndPoint;
-    public IPEndPoint localEndPoint;
-    private CancellationTokenSource cancellationTokenSource;
+    private CancellationTokenSource _cancellationTokenSource;
+    public IPEndPoint LocalEndPoint;
+    private IPEndPoint _serverEndPoint;
+    private UdpClient _socket;
 
-    public void Connect(IPEndPoint ServerEndPoint)
+    public void Connect(IPEndPoint serverEndPoint)
     {
-        cancellationTokenSource = new CancellationTokenSource();
+        _cancellationTokenSource = new CancellationTokenSource();
         try
         {
-            serverEndPoint = ServerEndPoint;
-            socket = new UdpClient(localEndPoint);
-            socket.Connect(serverEndPoint);
-            using (Packet packet = new Packet())
+            _serverEndPoint = serverEndPoint;
+            _socket = new UdpClient(LocalEndPoint);
+            _socket.Connect(_serverEndPoint);
+            using (var packet = new Packet())
             {
                 Send(packet);
             }
@@ -30,24 +30,21 @@ internal class UDP
         {
             Debug.Log($"Exception encountered while connecting to UDP server {ex}");
         }
-        _ = Task.Run(() => Receive(cancellationTokenSource.Token));
+
+        _ = Task.Run(() => Receive(_cancellationTokenSource.Token));
     }
 
 
     private async Task Receive(CancellationToken token)
     {
         while (!token.IsCancellationRequested)
-        {
             try
             {
-                var socketData = await socket.ReceiveAsync().ConfigureAwait(false);
-                if (socketData.Buffer.Length < 4)
-                {
-                    continue;
-                }
-                byte[] received_buffer = ArrayPool<byte>.Shared.Rent(socketData.Buffer.Length);
-                Array.Copy(socketData.Buffer, received_buffer, socketData.Buffer.Length);
-                HandleData(received_buffer);
+                var socketData = await _socket.ReceiveAsync().ConfigureAwait(false);
+                if (socketData.Buffer.Length < 4) continue;
+                var receivedBuffer = ArrayPool<byte>.Shared.Rent(socketData.Buffer.Length);
+                Array.Copy(socketData.Buffer, receivedBuffer, socketData.Buffer.Length);
+                HandleData(receivedBuffer);
             }
             catch (Exception ex)
             {
@@ -55,48 +52,46 @@ internal class UDP
                 Disconnect();
                 return;
             }
-        }
     }
 
     public void Send(Packet packet)
     {
-        if (socket == null)
+        if (_socket == null)
         {
-            Debug.Log($"Call Connect(IPEndpoint ep) on the UDP object with an IPEndpoint as parameter before calling Send(Packet p)");
+            Debug.Log(
+                "Call Connect(IPEndpoint ep) on the UDP object with an IPEndpoint as parameter before calling Send(Packet p)");
             return;
         }
+
         try
         {
-            packet.InsertInt(Client.instance.id);
-            _ = socket.SendAsync(packet.ToArray(),packet.Length).ConfigureAwait(false);
+            packet.InsertInt(Client.Instance.id);
+            _ = _socket.SendAsync(packet.ToArray(), packet.Length).ConfigureAwait(false);
         }
         catch (Exception ex)
         {
             Disconnect();
             Debug.Log($"Exception encountered when Sending UDP packet {ex}");
         }
-
     }
 
     public void Disconnect()
     {
-        cancellationTokenSource.Cancel();
-        socket.Close();
-        localEndPoint = null;
+        _cancellationTokenSource.Cancel();
+        _socket.Close();
+        LocalEndPoint = null;
     }
 
     private void HandleData(byte[] data)
     {
-        Packet packet = new Packet(data);
-        int packetId = packet.ReadInt();
-        if (Client.instance.packetHandlers.ContainsKey(packetId))
-        {
+        var packet = new Packet(data);
+        var packetId = packet.ReadInt();
+        if (Client.Instance.PacketHandlers.ContainsKey(packetId))
             TickManager.ExecuteOnTick(() =>
             {
-                Client.instance.packetHandlers[packetId].Invoke(packet);
+                Client.Instance.PacketHandlers[packetId].Invoke(packet);
                 ArrayPool<byte>.Shared.Return(data);
                 packet.Dispose();
             });
-        }
     }
 }

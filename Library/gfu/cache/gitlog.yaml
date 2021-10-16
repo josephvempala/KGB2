@@ -13,9 +13,453 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-10-06T21:20:48.132+05:30
-  initializedAtString: 2021-10-06T21:20:48.132+05:30
+  lastUpdatedAtString: 2021-10-16T10:31:22.041+05:30
+  initializedAtString: 2021-10-16T09:39:23.742+05:30
   log:
+  - commitID: d552276cfe61fed8f4bb5061c44130415b880aab
+    mergeA: 
+    mergeB: 
+    authorName: joseph
+    authorEmail: josephvempala@gmail.com
+    commitEmail: josephvempala@gmail.com
+    commitName: joseph
+    summary: Added Client-side prediction and reconcilliation
+    description: 
+    timeString: 2021-10-06T21:21:45.000+05:30
+    commitTimeString: 2021-10-06T21:21:45.000+05:30
+    changes:
+    - path: .vs\KGB2\v17\.suo
+      fullPath: C:\Users\Joseph\KGB2\.vs\KGB2\v17\.suo
+      projectPath: .vs\KGB2\v17\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\Joseph\KGB2\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\Client.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\Client.cs
+      projectPath: Assets\Network\Client.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\ClientHandle.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\ClientHandle.cs
+      projectPath: Assets\Network\ClientHandle.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\ClientSend.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\ClientSend.cs
+      projectPath: Assets\Network\ClientSend.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\Packet.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\Packet.cs
+      projectPath: Assets\Network\Packet.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\PlayerManager.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\PlayerManager.cs
+      projectPath: Assets\Network\PlayerManager.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Player\ClientState.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\ClientState.cs
+      projectPath: Assets\Player\ClientState.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player\ClientState.cs.meta
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\ClientState.cs.meta
+      projectPath: Assets\Player\ClientState.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player\Controls.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\Controls.cs
+      projectPath: Assets\Player\Controls.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\MouseLook.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\MouseLook.cs
+      projectPath: Assets\Player\MouseLook.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\Movement.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\Movement.cs
+      projectPath: Assets\Player\Movement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\Orientation.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\Orientation.cs
+      projectPath: Assets\Player\Orientation.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player\Orientation.cs.meta
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\Orientation.cs.meta
+      projectPath: Assets\Player\Orientation.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player\PlayerManager.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\PlayerManager.cs
+      projectPath: Assets\Player\PlayerManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player\PlayerManager.cs.meta
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\PlayerManager.cs.meta
+      projectPath: Assets\Player\PlayerManager.cs.meta
+      originalPath: Assets\Network\PlayerManager.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Player\PlayerNetworkManager.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\PlayerNetworkManager.cs
+      projectPath: Assets\Player\PlayerNetworkManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player\PlayerNetworkManager.cs.meta
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\PlayerNetworkManager.cs.meta
+      projectPath: Assets\Player\PlayerNetworkManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\LocalPlayer.prefab
+      fullPath: C:\Users\Joseph\KGB2\Assets\Prefabs\LocalPlayer.prefab
+      projectPath: Assets\Prefabs\LocalPlayer.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Build\KGB2_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\Joseph\KGB2\Build\KGB2_Data\Managed\Assembly-CSharp.dll
+      projectPath: Build\KGB2_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Build\KGB2_Data\globalgamemanagers
+      fullPath: C:\Users\Joseph\KGB2\Build\KGB2_Data\globalgamemanagers
+      projectPath: Build\KGB2_Data\globalgamemanagers
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Build\KGB2_Data\globalgamemanagers.assets
+      fullPath: C:\Users\Joseph\KGB2\Build\KGB2_Data\globalgamemanagers.assets
+      projectPath: Build\KGB2_Data\globalgamemanagers.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Build\KGB2_Data\level0
+      fullPath: C:\Users\Joseph\KGB2\Build\KGB2_Data\level0
+      projectPath: Build\KGB2_Data\level0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Build\KGB2_Data\sharedassets0.assets
+      fullPath: C:\Users\Joseph\KGB2\Build\KGB2_Data\sharedassets0.assets
+      projectPath: Build\KGB2_Data\sharedassets0.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\APIUpdater\project-dependencies.graph
+      fullPath: C:\Users\Joseph\KGB2\Library\APIUpdater\project-dependencies.graph
+      projectPath: Library\APIUpdater\project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\Joseph\KGB2\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\0b\0b841ac131e64bd41b0eadf55cdabcec
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0b\0b841ac131e64bd41b0eadf55cdabcec
+      projectPath: Library\Artifacts\0b\0b841ac131e64bd41b0eadf55cdabcec
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\1c\1c90bd89ebce86733ddca505d8a59b24
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1c\1c90bd89ebce86733ddca505d8a59b24
+      projectPath: Library\Artifacts\1c\1c90bd89ebce86733ddca505d8a59b24
+      originalPath: Library\Artifacts\bf\bfeabbc4056dae8ac2699ecc26546c84
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\1e\1ea905898492e9601e05d5c3433fa1b5
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1e\1ea905898492e9601e05d5c3433fa1b5
+      projectPath: Library\Artifacts\1e\1ea905898492e9601e05d5c3433fa1b5
+      originalPath: Library\Artifacts\e2\e2168d36c0fb49a35a2507a288718df5
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\35\35295be7bd0405976d9b453a085bebf3
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\35\35295be7bd0405976d9b453a085bebf3
+      projectPath: Library\Artifacts\35\35295be7bd0405976d9b453a085bebf3
+      originalPath: Library\Artifacts\ab\aba74cd9bc0b11500871c2fb2626ee94
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\39\39f6381887a9623c6caa577840fffff7
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\39\39f6381887a9623c6caa577840fffff7
+      projectPath: Library\Artifacts\39\39f6381887a9623c6caa577840fffff7
+      originalPath: Library\Artifacts\66\666ecc7d32b53b502630f2b5ad70dd73
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\3b\3b87a9844c60422c8570782d636c78bf
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3b\3b87a9844c60422c8570782d636c78bf
+      projectPath: Library\Artifacts\3b\3b87a9844c60422c8570782d636c78bf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\3d\3d0aebb7934ee1544f7e7c8164b70919
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3d\3d0aebb7934ee1544f7e7c8164b70919
+      projectPath: Library\Artifacts\3d\3d0aebb7934ee1544f7e7c8164b70919
+      originalPath: Library\Artifacts\21\21e8b43481db7b6389279c29b55e2739
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\3f\3f4ad2073cd0758ad62b54a14c1edcd4
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3f\3f4ad2073cd0758ad62b54a14c1edcd4
+      projectPath: Library\Artifacts\3f\3f4ad2073cd0758ad62b54a14c1edcd4
+      originalPath: Library\Artifacts\21\2103c28474ef1fa8e0455ab9821b0573
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\4d\4d31be6cd5b0c35d5a2848cd77279291
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4d\4d31be6cd5b0c35d5a2848cd77279291
+      projectPath: Library\Artifacts\4d\4d31be6cd5b0c35d5a2848cd77279291
+      originalPath: Library\Artifacts\f9\f99884b4fa6010d53ba4adb2e5c5bcdd
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\56\5643a66d7ca009d0c3ebd389cc522274
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\56\5643a66d7ca009d0c3ebd389cc522274
+      projectPath: Library\Artifacts\56\5643a66d7ca009d0c3ebd389cc522274
+      originalPath: Library\Artifacts\14\1499a51dafda987872565cb4a6626a82
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\70\70706151dbe8963d6f14866ec291ca0f
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\70\70706151dbe8963d6f14866ec291ca0f
+      projectPath: Library\Artifacts\70\70706151dbe8963d6f14866ec291ca0f
+      originalPath: Library\Artifacts\b4\b4071520663eae71d862182f91ce3fc2
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\91\9179a0ffa97a0c5f290af53de6556787
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\91\9179a0ffa97a0c5f290af53de6556787
+      projectPath: Library\Artifacts\91\9179a0ffa97a0c5f290af53de6556787
+      originalPath: Library\Artifacts\c7\c78af36f1aafa396e952dfe8c75bc336
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\92\9252ff608abb873cc6b3e1d91cad6eae
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\92\9252ff608abb873cc6b3e1d91cad6eae
+      projectPath: Library\Artifacts\92\9252ff608abb873cc6b3e1d91cad6eae
+      originalPath: Library\Artifacts\3b\3b9593e1969bbae4f683e764f0fbe82f
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\93\93f431789e4345e4769e09d48de27b3d
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\93\93f431789e4345e4769e09d48de27b3d
+      projectPath: Library\Artifacts\93\93f431789e4345e4769e09d48de27b3d
+      originalPath: Library\Artifacts\58\583e4d9489b5d76678bc528beda67ea7
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\c4\c42d1225d102fa437d4b97279339b6fc
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c4\c42d1225d102fa437d4b97279339b6fc
+      projectPath: Library\Artifacts\c4\c42d1225d102fa437d4b97279339b6fc
+      originalPath: Library\Artifacts\de\defc084d02cbb0197bb461d99f0d1f14
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\c8\c887390055ebb25d7181b69c9d5104a2
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c8\c887390055ebb25d7181b69c9d5104a2
+      projectPath: Library\Artifacts\c8\c887390055ebb25d7181b69c9d5104a2
+      originalPath: Library\Artifacts\55\551f82a394284ce4444b79f47d90b590
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\d0\d0f2378f4eb9e819a6a82974699bc914
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d0\d0f2378f4eb9e819a6a82974699bc914
+      projectPath: Library\Artifacts\d0\d0f2378f4eb9e819a6a82974699bc914
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\df\df1cfabe59bf43b6204283526d741c7c
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\df\df1cfabe59bf43b6204283526d741c7c
+      projectPath: Library\Artifacts\df\df1cfabe59bf43b6204283526d741c7c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\ec\eca663d8d962fd3c11a94e89231a349f
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ec\eca663d8d962fd3c11a94e89231a349f
+      projectPath: Library\Artifacts\ec\eca663d8d962fd3c11a94e89231a349f
+      originalPath: Library\Artifacts\1f\1f605d5c39a75c35b4b6391f3e02d315
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\BuildPlayerData\Editor\TypeDb-All.json
+      fullPath: C:\Users\Joseph\KGB2\Library\BuildPlayerData\Editor\TypeDb-All.json
+      projectPath: Library\BuildPlayerData\Editor\TypeDb-All.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\BuildPlayerData\Player\TypeDb-All.json
+      fullPath: C:\Users\Joseph\KGB2\Library\BuildPlayerData\Player\TypeDb-All.json
+      projectPath: Library\BuildPlayerData\Player\TypeDb-All.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\Joseph\KGB2\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\Joseph\KGB2\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\LastBuild.buildreport
+      fullPath: C:\Users\Joseph\KGB2\Library\LastBuild.buildreport
+      projectPath: Library\LastBuild.buildreport
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\Joseph\KGB2\Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+      projectPath: Library\PlayerDataCache\Win64\Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+      fullPath: C:\Users\Joseph\KGB2\Library\PlayerDataCache\Win64\Data\globalgamemanagers
+      projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
+      fullPath: C:\Users\Joseph\KGB2\Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
+      projectPath: Library\PlayerDataCache\Win64\Data\globalgamemanagers.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Win64\Data\level0
+      fullPath: C:\Users\Joseph\KGB2\Library\PlayerDataCache\Win64\Data\level0
+      projectPath: Library\PlayerDataCache\Win64\Data\level0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Win64\Data\sharedassets0.assets
+      fullPath: C:\Users\Joseph\KGB2\Library\PlayerDataCache\Win64\Data\sharedassets0.assets
+      projectPath: Library\PlayerDataCache\Win64\Data\sharedassets0.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
+      projectPath: Library\PlayerDataCache\Win64\ScriptsOnlyCache.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\Joseph\KGB2\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\Joseph\KGB2\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\ApiUpdaterCheck.txt
+      fullPath: C:\Users\Joseph\KGB2\Logs\ApiUpdaterCheck.txt
+      projectPath: Logs\ApiUpdaterCheck.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0-prev.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\AssetImportWorker0-prev.log
+      projectPath: Logs\AssetImportWorker0-prev.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\AssetImportWorker0.log
+      projectPath: Logs\AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      fullPath: C:\Users\Joseph\KGB2\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      fullPath: C:\Users\Joseph\KGB2\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: cf81cd7bb2c2f844f65beb228c5438db4aff9f17
     mergeA: 
     mergeB: 

@@ -4,24 +4,22 @@ public class PlayerManager : MonoBehaviour
 {
     public int id;
     public string username;
-    private PlayerNetworkManager networkManager;
+    private PlayerNetworkManager _networkManager;
 
     private void Awake()
     {
-        if(TryGetComponent(out PlayerNetworkManager manager))
-        {
-            networkManager = manager;
-        }
+        if (TryGetComponent(out PlayerNetworkManager manager)) _networkManager = manager;
     }
 
-    public void RecieveMovement(ClientState newState, uint tick)
+    public void ReceiveMovement(ClientState newState, uint tick)
     {
-        if (networkManager)
+        if (_networkManager)
         {
-            networkManager.RecievePositionFromServer(newState, tick);
+            _networkManager.ReceivePositionFromServer(newState, tick);
             return;
         }
-        transform.localRotation = newState.rotation;
-        transform.localPosition = newState.position;
+
+        transform.localRotation = newState.Rotation;
+        transform.localPosition = newState.Position;
     }
 }

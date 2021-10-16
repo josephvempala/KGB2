@@ -2,35 +2,31 @@
 
 public struct Orientation
 {
-    public uint tick;
+    public uint Tick;
     public float CameraRotationX;
     public float CharacterRotationY;
 
     public void Serialize(ref byte[] buffer)
     {
-        MemoryStream stream = new MemoryStream(buffer);
-        using (BinaryWriter br = new BinaryWriter(stream))
-        {
-            br.Write(tick);
-            br.Write(CameraRotationX);
-            br.Write(CharacterRotationY);
-        }
+        var stream = new MemoryStream(buffer);
+        using var br = new BinaryWriter(stream);
+        br.Write(Tick);
+        br.Write(CameraRotationX);
+        br.Write(CharacterRotationY);
     }
 
     public void Deserialize(in byte[] buffer)
     {
-        MemoryStream stream = new MemoryStream(buffer);
-        using (BinaryReader br = new BinaryReader(stream))
-        {
-            tick = br.ReadUInt32();
-            CameraRotationX = br.ReadSingle();
-            CharacterRotationY = br.ReadSingle();
-        }
+        var stream = new MemoryStream(buffer);
+        using var br = new BinaryReader(stream);
+        Tick = br.ReadUInt32();
+        CameraRotationX = br.ReadSingle();
+        CharacterRotationY = br.ReadSingle();
     }
 
     public void Reset()
     {
-        tick = 0;
+        Tick = 0;
         CameraRotationX = 0;
         CharacterRotationY = 0;
     }
