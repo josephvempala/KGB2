@@ -18,11 +18,7 @@ public class GameManager : MonoBehaviour
 
     public void SpawnPlayer(int id, string username, Vector3 position, Quaternion rotation)
     {
-        GameObject player;
-        if (id == Client.Instance.id)
-            player = Instantiate(localPlayerPrefab, position, rotation);
-        else
-            player = Instantiate(playerPrefab, position, rotation);
+        var player = Instantiate(id == Client.Instance.id ? localPlayerPrefab : playerPrefab, position, rotation);
         var playerComponent = player.GetComponent<PlayerManager>();
         playerComponent.id = id;
         playerComponent.username = username;

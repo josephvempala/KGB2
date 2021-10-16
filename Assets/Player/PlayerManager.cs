@@ -19,7 +19,8 @@ public class PlayerManager : MonoBehaviour
             return;
         }
 
-        transform.localRotation = newState.Rotation;
-        transform.localPosition = newState.Position;
+        var transform1 = transform;
+        transform1.localRotation = newState.Rotation;
+        transform1.localPosition = newState.Position;
     }
 }

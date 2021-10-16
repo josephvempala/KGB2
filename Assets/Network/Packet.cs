@@ -20,7 +20,7 @@ public enum ClientPackets
     PlayerOrientation
 }
 
-public class Packet : IDisposable
+public sealed class Packet : IDisposable
 {
     private List<byte> _buffer;
 
@@ -31,7 +31,7 @@ public class Packet : IDisposable
     /// <summary>Creates a new empty packet (without an ID).</summary>
     public Packet()
     {
-        _buffer = new List<byte>(); // Intitialize buffer
+        _buffer = new List<byte>(); // Initialize buffer
         _readPos = 0; // Set readPos to 0
     }
 
@@ -39,7 +39,7 @@ public class Packet : IDisposable
     /// <param name="id">The packet ID.</param>
     public Packet(int id)
     {
-        _buffer = new List<byte>(); // Intitialize buffer
+        _buffer = new List<byte>(); // Initialize buffer
         _readPos = 0; // Set readPos to 0
 
         Write(id); // Write packet id to the buffer
@@ -49,7 +49,7 @@ public class Packet : IDisposable
     /// <param name="data">The bytes to add to the packet.</param>
     public Packet(byte[] data)
     {
-        _buffer = new List<byte>(data.Length); // Intitialize buffer
+        _buffer = new List<byte>(data.Length); // Initialize buffer
         _readPos = 0; // Set readPos to 0
 
         SetBytes(data);
@@ -61,7 +61,7 @@ public class Packet : IDisposable
         GC.SuppressFinalize(this);
     }
 
-    protected virtual void Dispose(bool disposing)
+    private void Dispose(bool disposing)
     {
         if (!_disposed)
         {
@@ -297,34 +297,28 @@ public class Packet : IDisposable
     /// <param name="moveReadPos">Whether or not to move the buffer's read position.</param>
     public long ReadLong(bool moveReadPos = true)
     {
-        if (_buffer.Count > _readPos)
-        {
-            // If there are unread bytes
-            var value = BitConverter.ToInt64(_readableBuffer, _readPos); // Convert the bytes to a long
-            if (moveReadPos)
-                // If _moveReadPos is true
-                _readPos += 8; // Increase readPos by 8
-            return value; // Return the long
-        }
+        if (_buffer.Count <= _readPos) throw new Exception("Could not read value of type 'long'!");
+        // If there are unread bytes
+        var value = BitConverter.ToInt64(_readableBuffer, _readPos); // Convert the bytes to a long
+        if (moveReadPos)
+            // If _moveReadPos is true
+            _readPos += 8; // Increase readPos by 8
+        return value; // Return the long
 
-        throw new Exception("Could not read value of type 'long'!");
     }
 
     /// <summary>Reads a float from the packet.</summary>
     /// <param name="moveReadPos">Whether or not to move the buffer's read position.</param>
     public float ReadFloat(bool moveReadPos = true)
     {
-        if (_buffer.Count > _readPos)
-        {
-            // If there are unread bytes
-            var value = BitConverter.ToSingle(_readableBuffer, _readPos); // Convert the bytes to a float
-            if (moveReadPos)
-                // If _moveReadPos is true
-                _readPos += 4; // Increase readPos by 4
-            return value; // Return the float
-        }
+        if (_buffer.Count <= _readPos) throw new Exception("Could not read value of type 'float'!");
+        // If there are unread bytes
+        var value = BitConverter.ToSingle(_readableBuffer, _readPos); // Convert the bytes to a float
+        if (moveReadPos)
+            // If _moveReadPos is true
+            _readPos += 4; // Increase readPos by 4
+        return value; // Return the float
 
-        throw new Exception("Could not read value of type 'float'!");
     }
 
     /// <summary>Reads a bool from the packet.</summary>

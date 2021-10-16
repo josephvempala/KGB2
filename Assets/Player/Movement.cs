@@ -120,5 +120,12 @@ public class Movement : MonoBehaviour
     private void Crouch()
     {
         _isCrouching = !_isCrouching;
+        if (_isCrouching)
+        {
+            speed = walkSpeed;
+            return;
+        }
+
+        speed = _initialSpeed;
     }
 }

@@ -9,7 +9,7 @@ public struct Controls
     public bool Crouch;
     public bool Walk;
 
-    public void Serialize(ref byte[] controls)
+    public byte[] Serialize(byte[] controls)
     {
         var stream = new MemoryStream(controls);
         using var packet = new BinaryWriter(stream);
@@ -19,6 +19,7 @@ public struct Controls
         packet.Write(Jump);
         packet.Write(Crouch);
         packet.Write(Walk);
+        return stream.ToArray();
     }
 
     public void Deserialize(in byte[] controls)

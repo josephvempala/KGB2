@@ -114,9 +114,6 @@ MonoBehaviour:
   jumpHeight: 20
   jumpTime: 0.1
   horizontalMovementInput: {x: 0, y: 0}
-  playerGravity: 0
-  jumpingForce: {x: 0, y: 0, z: 0}
-  jumpingVelocity: {x: 0, y: 0, z: 0}
 --- !u!114 &526462846111172887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,7 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: {fileID: 8050145155320814212}
   mouseLook: {fileID: 6294690868518947794}
-  current_tick: 0
+  currentTick: 0
 --- !u!114 &6294690868518947794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,10 +144,10 @@ MonoBehaviour:
   cameraHolder: {fileID: 8050145155310859066}
   camClampXMax: 90
   camClampXMin: -90
-  MouseSensitivityX: 20
-  MouseSensitivityY: 20
-  InvertMouseX: 0
-  InvertMouseY: 0
+  mouseSensitivityX: 20
+  mouseSensitivityY: 20
+  invertMouseX: 0
+  invertMouseY: 0
 --- !u!114 &-4514658406076096742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6de1164342eb31e4ba81aa0c1560f8af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.984
+      value: -1.04
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6de1164342eb31e4ba81aa0c1560f8af, type: 3}
       propertyPath: m_LocalPosition.z

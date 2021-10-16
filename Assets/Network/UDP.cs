@@ -21,10 +21,8 @@ internal class UDP
             _serverEndPoint = serverEndPoint;
             _socket = new UdpClient(LocalEndPoint);
             _socket.Connect(_serverEndPoint);
-            using (var packet = new Packet())
-            {
-                Send(packet);
-            }
+            using var packet = new Packet();
+            Send(packet);
         }
         catch (Exception ex)
         {

@@ -13,9 +13,573 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-10-16T10:31:22.041+05:30
-  initializedAtString: 2021-10-16T09:39:23.742+05:30
+  lastUpdatedAtString: 2021-10-16T13:18:40.934+05:30
+  initializedAtString: 2021-10-16T13:18:40.460+05:30
   log:
+  - commitID: c4657242bbe0e7434f70785e26e07c582915b29b
+    mergeA: 
+    mergeB: 
+    authorName: joseph
+    authorEmail: josephvempala@gmail.com
+    commitEmail: josephvempala@gmail.com
+    commitName: joseph
+    summary: Complete code refactor and added basic animations
+    description: 
+    timeString: 2021-10-16T10:40:18.000+05:30
+    commitTimeString: 2021-10-16T10:40:18.000+05:30
+    changes:
+    - path: .idea\.idea.KGB2\.idea\.gitignore
+      fullPath: C:\Users\Joseph\KGB2\.idea\.idea.KGB2\.idea\.gitignore
+      projectPath: .idea\.idea.KGB2\.idea\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .idea\.idea.KGB2\.idea\encodings.xml
+      fullPath: C:\Users\Joseph\KGB2\.idea\.idea.KGB2\.idea\encodings.xml
+      projectPath: .idea\.idea.KGB2\.idea\encodings.xml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .idea\.idea.KGB2\.idea\indexLayout.xml
+      fullPath: C:\Users\Joseph\KGB2\.idea\.idea.KGB2\.idea\indexLayout.xml
+      projectPath: .idea\.idea.KGB2\.idea\indexLayout.xml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .idea\.idea.KGB2\.idea\vcs.xml
+      fullPath: C:\Users\Joseph\KGB2\.idea\.idea.KGB2\.idea\vcs.xml
+      projectPath: .idea\.idea.KGB2\.idea\vcs.xml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\KGB2\v17\.suo
+      fullPath: C:\Users\Joseph\KGB2\.vs\KGB2\v17\.suo
+      projectPath: .vs\KGB2\v17\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\Joseph\KGB2\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\Joseph\KGB2\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\Client.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\Client.cs
+      projectPath: Assets\Network\Client.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\ClientHandle.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\ClientHandle.cs
+      projectPath: Assets\Network\ClientHandle.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\ClientSend.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\ClientSend.cs
+      projectPath: Assets\Network\ClientSend.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\Constants.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\Constants.cs
+      projectPath: Assets\Network\Constants.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\GameManager.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\GameManager.cs
+      projectPath: Assets\Network\GameManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\Packet.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\Packet.cs
+      projectPath: Assets\Network\Packet.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\PlayerController.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\PlayerController.cs
+      projectPath: Assets\Network\PlayerController.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Network\PlayerController.cs.meta
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\PlayerController.cs.meta
+      projectPath: Assets\Network\PlayerController.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Network\TCP.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\TCP.cs
+      projectPath: Assets\Network\TCP.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\TickManager.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\TickManager.cs
+      projectPath: Assets\Network\TickManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\UDP.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\UDP.cs
+      projectPath: Assets\Network\UDP.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Network\UIManager.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Network\UIManager.cs
+      projectPath: Assets\Network\UIManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\ClientState.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\ClientState.cs
+      projectPath: Assets\Player\ClientState.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\Controls.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\Controls.cs
+      projectPath: Assets\Player\Controls.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\InputMaster.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\InputMaster.cs
+      projectPath: Assets\Player\InputMaster.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\MouseLook.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\MouseLook.cs
+      projectPath: Assets\Player\MouseLook.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\Movement.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\Movement.cs
+      projectPath: Assets\Player\Movement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\Orientation.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\Orientation.cs
+      projectPath: Assets\Player\Orientation.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\PlayerManager.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\PlayerManager.cs
+      projectPath: Assets\Player\PlayerManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player\PlayerNetworkManager.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Player\PlayerNetworkManager.cs
+      projectPath: Assets\Player\PlayerNetworkManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\Joseph\KGB2\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\LocalPlayer.prefab
+      fullPath: C:\Users\Joseph\KGB2\Assets\Prefabs\LocalPlayer.prefab
+      projectPath: Assets\Prefabs\LocalPlayer.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: C:\Users\Joseph\KGB2\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: KGB2.sln
+      fullPath: C:\Users\Joseph\KGB2\KGB2.sln
+      projectPath: KGB2.sln
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\Joseph\KGB2\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\15\15d85d78dc1c54c15f3d2663ef3318d6
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\15\15d85d78dc1c54c15f3d2663ef3318d6
+      projectPath: Library\Artifacts\15\15d85d78dc1c54c15f3d2663ef3318d6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\3d\3d0aebb7934ee1544f7e7c8164b70919
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3d\3d0aebb7934ee1544f7e7c8164b70919
+      projectPath: Library\Artifacts\3d\3d0aebb7934ee1544f7e7c8164b70919
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\4d\4dba8aaa7882523023ff8e2ebb4a9618
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4d\4dba8aaa7882523023ff8e2ebb4a9618
+      projectPath: Library\Artifacts\4d\4dba8aaa7882523023ff8e2ebb4a9618
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
+      projectPath: Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\7d\7db32f25f1e54f0243cd6d1427b83478
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7d\7db32f25f1e54f0243cd6d1427b83478
+      projectPath: Library\Artifacts\7d\7db32f25f1e54f0243cd6d1427b83478
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\92\9252ff608abb873cc6b3e1d91cad6eae
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\92\9252ff608abb873cc6b3e1d91cad6eae
+      projectPath: Library\Artifacts\92\9252ff608abb873cc6b3e1d91cad6eae
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c4\c42d1225d102fa437d4b97279339b6fc
+      fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c4\c42d1225d102fa437d4b97279339b6fc
+      projectPath: Library\Artifacts\c4\c42d1225d102fa437d4b97279339b6fc
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\Joseph\KGB2\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\Joseph\KGB2\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PackageManager\ProjectCache
+      fullPath: C:\Users\Joseph\KGB2\Library\PackageManager\ProjectCache
+      projectPath: Library\PackageManager\ProjectCache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PackageManager\ProjectCache.md5
+      fullPath: C:\Users\Joseph\KGB2\Library\PackageManager\ProjectCache.md5
+      projectPath: Library\PackageManager\ProjectCache.md5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\Joseph\KGB2\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\Joseph\KGB2\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\e1\e185b6b7e30f0c5b0e9ce57dc7fc5fa2.json
+      fullPath: C:\Users\Joseph\KGB2\Library\StateCache\PrefabStageHierarchy\e1\e185b6b7e30f0c5b0e9ce57dc7fc5fa2.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\e1\e185b6b7e30f0c5b0e9ce57dc7fc5fa2.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\b5\b51d24cbcc1402170527011231d6d193.json
+      fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\b5\b51d24cbcc1402170527011231d6d193.json
+      projectPath: Library\StateCache\SceneView\b5\b51d24cbcc1402170527011231d6d193.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Joseph\KGB2\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0-prev.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\AssetImportWorker0-prev.log
+      projectPath: Logs\AssetImportWorker0-prev.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\AssetImportWorker0.log
+      projectPath: Logs\AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe15.log
+      fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe15.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe15.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml
+      projectPath: Packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Buffers.4.5.1\lib\netstandard1.1\System.Buffers.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\lib\netstandard1.1\System.Buffers.xml
+      projectPath: Packages\System.Buffers.4.5.1\lib\netstandard1.1\System.Buffers.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Buffers.4.5.1\lib\netstandard2.0\System.Buffers.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\lib\netstandard2.0\System.Buffers.xml
+      projectPath: Packages\System.Buffers.4.5.1\lib\netstandard2.0\System.Buffers.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Buffers.4.5.1\ref\net45\System.Buffers.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\ref\net45\System.Buffers.xml
+      projectPath: Packages\System.Buffers.4.5.1\ref\net45\System.Buffers.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Buffers.4.5.1\ref\netstandard1.1\System.Buffers.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\ref\netstandard1.1\System.Buffers.xml
+      projectPath: Packages\System.Buffers.4.5.1\ref\netstandard1.1\System.Buffers.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Buffers.4.5.1\ref\netstandard2.0\System.Buffers.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\ref\netstandard2.0\System.Buffers.xml
+      projectPath: Packages\System.Buffers.4.5.1\ref\netstandard2.0\System.Buffers.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Memory.4.5.4\lib\net461\System.Memory.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Memory.4.5.4\lib\net461\System.Memory.xml
+      projectPath: Packages\System.Memory.4.5.4\lib\net461\System.Memory.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Memory.4.5.4\lib\netstandard1.1\System.Memory.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Memory.4.5.4\lib\netstandard1.1\System.Memory.xml
+      projectPath: Packages\System.Memory.4.5.4\lib\netstandard1.1\System.Memory.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Memory.4.5.4\lib\netstandard2.0\System.Memory.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Memory.4.5.4\lib\netstandard2.0\System.Memory.xml
+      projectPath: Packages\System.Memory.4.5.4\lib\netstandard2.0\System.Memory.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml
+      projectPath: Packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Numerics.Vectors.4.5.0\lib\netstandard1.0\System.Numerics.Vectors.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\lib\netstandard1.0\System.Numerics.Vectors.xml
+      projectPath: Packages\System.Numerics.Vectors.4.5.0\lib\netstandard1.0\System.Numerics.Vectors.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Numerics.Vectors.4.5.0\lib\netstandard2.0\System.Numerics.Vectors.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\lib\netstandard2.0\System.Numerics.Vectors.xml
+      projectPath: Packages\System.Numerics.Vectors.4.5.0\lib\netstandard2.0\System.Numerics.Vectors.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.xml
+      projectPath: Packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Numerics.Vectors.4.5.0\ref\net45\System.Numerics.Vectors.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\ref\net45\System.Numerics.Vectors.xml
+      projectPath: Packages\System.Numerics.Vectors.4.5.0\ref\net45\System.Numerics.Vectors.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Numerics.Vectors.4.5.0\ref\net46\System.Numerics.Vectors.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\ref\net46\System.Numerics.Vectors.xml
+      projectPath: Packages\System.Numerics.Vectors.4.5.0\ref\net46\System.Numerics.Vectors.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Numerics.Vectors.4.5.0\ref\netstandard1.0\System.Numerics.Vectors.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\ref\netstandard1.0\System.Numerics.Vectors.xml
+      projectPath: Packages\System.Numerics.Vectors.4.5.0\ref\netstandard1.0\System.Numerics.Vectors.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Numerics.Vectors.4.5.0\ref\netstandard2.0\System.Numerics.Vectors.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\ref\netstandard2.0\System.Numerics.Vectors.xml
+      projectPath: Packages\System.Numerics.Vectors.4.5.0\ref\netstandard2.0\System.Numerics.Vectors.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.xml
+      projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.xml
+      projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
+      projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
+      projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\net461\System.Runtime.CompilerServices.Unsafe.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\net461\System.Runtime.CompilerServices.Unsafe.xml
+      projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\net461\System.Runtime.CompilerServices.Unsafe.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
+      projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
+      fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
+      projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Joseph\KGB2\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      fullPath: C:\Users\Joseph\KGB2\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      fullPath: C:\Users\Joseph\KGB2\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\Joseph\KGB2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: d552276cfe61fed8f4bb5061c44130415b880aab
     mergeA: 
     mergeB: 

@@ -6,13 +6,14 @@ public struct Orientation
     public float CameraRotationX;
     public float CharacterRotationY;
 
-    public void Serialize(ref byte[] buffer)
+    public byte[] Serialize(byte[] buffer)
     {
         var stream = new MemoryStream(buffer);
         using var br = new BinaryWriter(stream);
         br.Write(Tick);
         br.Write(CameraRotationX);
         br.Write(CharacterRotationY);
+        return stream.ToArray();
     }
 
     public void Deserialize(in byte[] buffer)

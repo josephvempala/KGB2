@@ -60,7 +60,7 @@ internal class TCP
             {
                 _receivedData = new Packet();
                 var receiveBuffer = ArrayPool<byte>.Shared.Rent(Constants.MAXBufferSize);
-                var bytesRead = await _stream.ReadAsync(receiveBuffer, 0, Constants.MAXBufferSize)
+                var bytesRead = await _stream.ReadAsync(receiveBuffer, 0, Constants.MAXBufferSize, token)
                     .ConfigureAwait(false);
                 if (bytesRead == 0)
                 {
@@ -117,15 +117,11 @@ internal class TCP
                 });
 
             packetLength = 0;
-            if (_receivedData.UnreadLength >= 4)
-            {
-                packetLength = _receivedData.ReadInt();
-                if (packetLength == 0)
-                {
-                    ArrayPool<byte>.Shared.Return(data);
-                    return true;
-                }
-            }
+            if (_receivedData.UnreadLength < 4) continue;
+            packetLength = _receivedData.ReadInt();
+            if (packetLength != 0) continue;
+            ArrayPool<byte>.Shared.Return(data);
+            return true;
         }
 
         if (packetLength <= 1)

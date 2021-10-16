@@ -32,23 +32,22 @@ internal class PlayerNetworkManager : MonoBehaviour
             var bufferSlot = latestReceivedPosition.Item2 % buffer_size;
             var positionError = latestReceivedPosition.Item1 - _clientStates[bufferSlot].Position;
 
-            if (positionError.sqrMagnitude > 0.0000001f)
+            if (!(positionError.sqrMagnitude > 0.0000001f)) continue;
+            _controller.enabled = false;
+            _controller.transform.localPosition = latestReceivedPosition.Item1;
+            _controller.enabled = true;
+            var rewindTick = latestReceivedPosition.Item2;
+            while (rewindTick < currentTick)
             {
-                _controller.enabled = false;
-                _controller.transform.localPosition = latestReceivedPosition.Item1;
-                _controller.enabled = true;
-                var rewindTick = latestReceivedPosition.Item2;
-                while (rewindTick < currentTick)
-                {
-                    bufferSlot = rewindTick % buffer_size;
-                    _inputs[bufferSlot] = movement.CurrentInputs;
-                    _clientStates[bufferSlot].Position = transform.localPosition;
-                    _clientStates[bufferSlot].Rotation = transform.localRotation;
+                bufferSlot = rewindTick % buffer_size;
+                _inputs[bufferSlot] = movement.CurrentInputs;
+                var transform1 = transform;
+                _clientStates[bufferSlot].Position = transform1.localPosition;
+                _clientStates[bufferSlot].Rotation = transform1.localRotation;
 
-                    var movementDirection = movement.CalculateGroundMovement(_inputs[bufferSlot]);
-                    _controller.Move(movementDirection * Time.deltaTime);
-                    rewindTick++;
-                }
+                var movementDirection = movement.CalculateGroundMovement(_inputs[bufferSlot]);
+                _controller.Move(movementDirection * Time.deltaTime);
+                rewindTick++;
             }
         }
     }
@@ -64,9 +63,9 @@ internal class PlayerNetworkManager : MonoBehaviour
     {
         var controlBuffer = ArrayPool<byte>.Shared.Rent(15);
         movement.CurrentInputs.Tick = currentTick;
-        movement.CurrentInputs.Serialize(ref controlBuffer);
+        var bufferToSend = movement.CurrentInputs.Serialize(controlBuffer);
         StoreStateInBuffers();
-        ClientSend.SendControls(controlBuffer);
+        ClientSend.SendControls(bufferToSend);
         movement.CurrentInputs.Reset();
         ArrayPool<byte>.Shared.Return(controlBuffer);
     }
@@ -75,17 +74,18 @@ internal class PlayerNetworkManager : MonoBehaviour
     {
         var bufferSlot = currentTick % buffer_size;
         _inputs[bufferSlot] = movement.CurrentInputs;
-        _clientStates[bufferSlot].Position = transform.localPosition;
-        _clientStates[bufferSlot].Rotation = transform.localRotation;
+        var transform1 = transform;
+        _clientStates[bufferSlot].Position = transform1.localPosition;
+        _clientStates[bufferSlot].Rotation = transform1.localRotation;
     }
 
     private void SendOrientation()
     {
         var orientationBuffer = ArrayPool<byte>.Shared.Rent(8);
-        mouseLook.orientationToSend.Tick = currentTick;
-        mouseLook.orientationToSend.Serialize(ref orientationBuffer);
-        ClientSend.SendOrientation(orientationBuffer);
-        mouseLook.orientationToSend.Reset();
+        mouseLook.OrientationToSend.Tick = currentTick;
+        var writtenToBuffer = mouseLook.OrientationToSend.Serialize(orientationBuffer);
+        ClientSend.SendOrientation(writtenToBuffer);
+        mouseLook.OrientationToSend.Reset();
         ArrayPool<byte>.Shared.Return(orientationBuffer);
     }
 

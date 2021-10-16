@@ -13,51 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-10-16T10:38:22.455+05:30
-  initializedAtString: 2021-10-16T09:34:16.601+05:30
+  lastUpdatedAtString: 2021-10-16T13:26:45.826+05:30
+  initializedAtString: 2021-10-16T12:08:42.046+05:30
   entries:
-  - path: .idea\.idea.KGB2\.idea\.gitignore
-    fullPath: C:\Users\Joseph\KGB2\.idea\.idea.KGB2\.idea\.gitignore
-    projectPath: .idea\.idea.KGB2\.idea\.gitignore
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: .idea\.idea.KGB2\.idea\encodings.xml
-    fullPath: C:\Users\Joseph\KGB2\.idea\.idea.KGB2\.idea\encodings.xml
-    projectPath: .idea\.idea.KGB2\.idea\encodings.xml
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: .idea\.idea.KGB2\.idea\indexLayout.xml
-    fullPath: C:\Users\Joseph\KGB2\.idea\.idea.KGB2\.idea\indexLayout.xml
-    projectPath: .idea\.idea.KGB2\.idea\indexLayout.xml
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: .idea\.idea.KGB2\.idea\vcs.xml
-    fullPath: C:\Users\Joseph\KGB2\.idea\.idea.KGB2\.idea\vcs.xml
-    projectPath: .idea\.idea.KGB2\.idea\vcs.xml
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: .vs\KGB2\v17\.suo
-    fullPath: C:\Users\Joseph\KGB2\.vs\KGB2\v17\.suo
-    projectPath: .vs\KGB2\v17\.suo
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\Joseph\KGB2\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\Joseph\KGB2\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Materials\Soldier_Body_diffuse.png
     fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_Body_diffuse.png
     projectPath: Assets\Materials\Soldier_Body_diffuse.png
@@ -154,30 +112,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Network\Client.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\Client.cs
-    projectPath: Assets\Network\Client.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Network\ClientHandle.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\ClientHandle.cs
-    projectPath: Assets\Network\ClientHandle.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Network\ClientSend.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\ClientSend.cs
-    projectPath: Assets\Network\ClientSend.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Network\Constants.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\Constants.cs
-    projectPath: Assets\Network\Constants.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Network\GameManager.cs
     fullPath: C:\Users\Joseph\KGB2\Assets\Network\GameManager.cs
     projectPath: Assets\Network\GameManager.cs
@@ -190,18 +124,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Network\PlayerController.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\PlayerController.cs
-    projectPath: Assets\Network\PlayerController.cs
-    originalPath: 
-    indexStatus: 5
-    workTreeStatus: 0
-  - path: Assets\Network\PlayerController.cs.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\PlayerController.cs.meta
-    projectPath: Assets\Network\PlayerController.cs.meta
-    originalPath: 
-    indexStatus: 5
-    workTreeStatus: 0
   - path: Assets\Network\TCP.cs
     fullPath: C:\Users\Joseph\KGB2\Assets\Network\TCP.cs
     projectPath: Assets\Network\TCP.cs
@@ -217,12 +139,6 @@ MonoBehaviour:
   - path: Assets\Network\UDP.cs
     fullPath: C:\Users\Joseph\KGB2\Assets\Network\UDP.cs
     projectPath: Assets\Network\UDP.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Network\UIManager.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\UIManager.cs
-    projectPath: Assets\Network\UIManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -856,21 +772,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\ClientState.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\ClientState.cs
-    projectPath: Assets\Player\ClientState.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Player\Controls.cs
     fullPath: C:\Users\Joseph\KGB2\Assets\Player\Controls.cs
     projectPath: Assets\Player\Controls.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Player\InputMaster.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\InputMaster.cs
-    projectPath: Assets\Player\InputMaster.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -904,39 +808,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Prefabs\LocalPlayer.prefab
     fullPath: C:\Users\Joseph\KGB2\Assets\Prefabs\LocalPlayer.prefab
     projectPath: Assets\Prefabs\LocalPlayer.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\Player.prefab
-    fullPath: C:\Users\Joseph\KGB2\Assets\Prefabs\Player.prefab
-    projectPath: Assets\Prefabs\Player.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\SampleScene.unity
-    fullPath: C:\Users\Joseph\KGB2\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: KGB2.sln
-    fullPath: C:\Users\Joseph\KGB2\KGB2.sln
-    projectPath: KGB2.sln
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -952,9 +826,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\07\079d705abb7fab14f161c0fa6c18274a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\07\079d705abb7fab14f161c0fa6c18274a
-    projectPath: Library\Artifacts\07\079d705abb7fab14f161c0fa6c18274a
+  - path: Library\Artifacts\05\0534d41a762019554b8b7511dac643a8
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\05\0534d41a762019554b8b7511dac643a8
+    projectPath: Library\Artifacts\05\0534d41a762019554b8b7511dac643a8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\05\05a189b19e78a47d8ff60d06cc0fee36
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\05\05a189b19e78a47d8ff60d06cc0fee36
+    projectPath: Library\Artifacts\05\05a189b19e78a47d8ff60d06cc0fee36
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\06\063d4f2f90922f493c492ab8c5b8a198
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\06\063d4f2f90922f493c492ab8c5b8a198
+    projectPath: Library\Artifacts\06\063d4f2f90922f493c492ab8c5b8a198
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\07\07e4aeb135d69ac34487aa06ce7eb4c2
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\07\07e4aeb135d69ac34487aa06ce7eb4c2
+    projectPath: Library\Artifacts\07\07e4aeb135d69ac34487aa06ce7eb4c2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -970,12 +862,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\0a\0aa2879582cc1c5719dbe6725331878c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0a\0aa2879582cc1c5719dbe6725331878c
-    projectPath: Library\Artifacts\0a\0aa2879582cc1c5719dbe6725331878c
+  - path: Library\Artifacts\0a\0a968e4f6354ee3e954f5a3f6d5d3c9e
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0a\0a968e4f6354ee3e954f5a3f6d5d3c9e
+    projectPath: Library\Artifacts\0a\0a968e4f6354ee3e954f5a3f6d5d3c9e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\0d\0da3ad99b220149601301ea066785afb
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0d\0da3ad99b220149601301ea066785afb
     projectPath: Library\Artifacts\0d\0da3ad99b220149601301ea066785afb
@@ -994,15 +886,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\0e\0eaca0a246ddd71405eeaa89aef069e3
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0e\0eaca0a246ddd71405eeaa89aef069e3
+    projectPath: Library\Artifacts\0e\0eaca0a246ddd71405eeaa89aef069e3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\0f\0f777d92f98593ea075d6a6bb8398b96
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0f\0f777d92f98593ea075d6a6bb8398b96
     projectPath: Library\Artifacts\0f\0f777d92f98593ea075d6a6bb8398b96
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\0f\0fa8f86af4b0e6c36a97d7ce15154485
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0f\0fa8f86af4b0e6c36a97d7ce15154485
-    projectPath: Library\Artifacts\0f\0fa8f86af4b0e6c36a97d7ce15154485
+  - path: Library\Artifacts\10\10241f2147674fbe6e2f34774ba243d4
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\10\10241f2147674fbe6e2f34774ba243d4
+    projectPath: Library\Artifacts\10\10241f2147674fbe6e2f34774ba243d4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1030,6 +928,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\14\14458671123dd113b25c0d07264ae93c
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\14\14458671123dd113b25c0d07264ae93c
+    projectPath: Library\Artifacts\14\14458671123dd113b25c0d07264ae93c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\14\14b7850efe4ae938090248cc8dffe02c
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\14\14b7850efe4ae938090248cc8dffe02c
     projectPath: Library\Artifacts\14\14b7850efe4ae938090248cc8dffe02c
@@ -1039,24 +943,6 @@ MonoBehaviour:
   - path: Library\Artifacts\14\14e404f3f21ec6c143861a8af98ba75c
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\14\14e404f3f21ec6c143861a8af98ba75c
     projectPath: Library\Artifacts\14\14e404f3f21ec6c143861a8af98ba75c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\15\15d85d78dc1c54c15f3d2663ef3318d6
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\15\15d85d78dc1c54c15f3d2663ef3318d6
-    projectPath: Library\Artifacts\15\15d85d78dc1c54c15f3d2663ef3318d6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\15\15ef53dd73c25a5435214b5ed7159382
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\15\15ef53dd73c25a5435214b5ed7159382
-    projectPath: Library\Artifacts\15\15ef53dd73c25a5435214b5ed7159382
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\15\15fe50266470f7241a77369b8f5e2e4c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\15\15fe50266470f7241a77369b8f5e2e4c
-    projectPath: Library\Artifacts\15\15fe50266470f7241a77369b8f5e2e4c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1072,6 +958,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\19\193f7302e6158b1e1a73880029558fdd
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\19\193f7302e6158b1e1a73880029558fdd
+    projectPath: Library\Artifacts\19\193f7302e6158b1e1a73880029558fdd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\1a\1af19dd4d6f060e80d6320d6868a0d25
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1a\1af19dd4d6f060e80d6320d6868a0d25
     projectPath: Library\Artifacts\1a\1af19dd4d6f060e80d6320d6868a0d25
@@ -1084,18 +976,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\1c\1c90bd89ebce86733ddca505d8a59b24
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1c\1c90bd89ebce86733ddca505d8a59b24
+    projectPath: Library\Artifacts\1c\1c90bd89ebce86733ddca505d8a59b24
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\1c\1cb61835b2faeb45e94e0f23b66b670d
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1c\1cb61835b2faeb45e94e0f23b66b670d
     projectPath: Library\Artifacts\1c\1cb61835b2faeb45e94e0f23b66b670d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\1e\1ec201882c8a70c6076b83a2e110f07c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1e\1ec201882c8a70c6076b83a2e110f07c
-    projectPath: Library\Artifacts\1e\1ec201882c8a70c6076b83a2e110f07c
+  - path: Library\Artifacts\1e\1ea905898492e9601e05d5c3433fa1b5
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1e\1ea905898492e9601e05d5c3433fa1b5
+    projectPath: Library\Artifacts\1e\1ea905898492e9601e05d5c3433fa1b5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\21\21d7ddd5a4cd68354ccfbf1aebdd06b9
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\21\21d7ddd5a4cd68354ccfbf1aebdd06b9
     projectPath: Library\Artifacts\21\21d7ddd5a4cd68354ccfbf1aebdd06b9
@@ -1126,12 +1024,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\27\2779f83a7fe64578c1b6f2b96d17d68b
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\27\2779f83a7fe64578c1b6f2b96d17d68b
+    projectPath: Library\Artifacts\27\2779f83a7fe64578c1b6f2b96d17d68b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\28\281216e320c21adb30c6215e3e88f896
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\28\281216e320c21adb30c6215e3e88f896
     projectPath: Library\Artifacts\28\281216e320c21adb30c6215e3e88f896
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\2a\2a8e7f189c017f828c94b71e9b506252
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\2a\2a8e7f189c017f828c94b71e9b506252
+    projectPath: Library\Artifacts\2a\2a8e7f189c017f828c94b71e9b506252
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\2e\2ecba8f4e27b853fefa0f7cd21ad3a24
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\2e\2ecba8f4e27b853fefa0f7cd21ad3a24
     projectPath: Library\Artifacts\2e\2ecba8f4e27b853fefa0f7cd21ad3a24
@@ -1156,24 +1066,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\32\32e3d33e7d116ff4c14e460c85f8258a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\32\32e3d33e7d116ff4c14e460c85f8258a
-    projectPath: Library\Artifacts\32\32e3d33e7d116ff4c14e460c85f8258a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\34\34cf23c707809cbac94292fc3146f0f0
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\34\34cf23c707809cbac94292fc3146f0f0
     projectPath: Library\Artifacts\34\34cf23c707809cbac94292fc3146f0f0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\35\35cfa32baef600a1e55378590ea4d6fa
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\35\35cfa32baef600a1e55378590ea4d6fa
+    projectPath: Library\Artifacts\35\35cfa32baef600a1e55378590ea4d6fa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\35\35ea230b519fe65929cc9514195af28d
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\35\35ea230b519fe65929cc9514195af28d
     projectPath: Library\Artifacts\35\35ea230b519fe65929cc9514195af28d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\39\39f6381887a9623c6caa577840fffff7
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\39\39f6381887a9623c6caa577840fffff7
+    projectPath: Library\Artifacts\39\39f6381887a9623c6caa577840fffff7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\3b\3b6c5a5d9a93bccdcc226bf5fb184d38
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3b\3b6c5a5d9a93bccdcc226bf5fb184d38
     projectPath: Library\Artifacts\3b\3b6c5a5d9a93bccdcc226bf5fb184d38
@@ -1198,21 +1114,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\3d\3d0aebb7934ee1544f7e7c8164b70919
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3d\3d0aebb7934ee1544f7e7c8164b70919
-    projectPath: Library\Artifacts\3d\3d0aebb7934ee1544f7e7c8164b70919
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3d\3ddb7e5dd45f6032efcf99831d861b9e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3d\3ddb7e5dd45f6032efcf99831d861b9e
-    projectPath: Library\Artifacts\3d\3ddb7e5dd45f6032efcf99831d861b9e
+  - path: Library\Artifacts\3d\3d82e501fd99000be4ebe268c805bb7b
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3d\3d82e501fd99000be4ebe268c805bb7b
+    projectPath: Library\Artifacts\3d\3d82e501fd99000be4ebe268c805bb7b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\3f\3f41ec4479c8fe7a09d0fabc48ecfe6b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3f\3f41ec4479c8fe7a09d0fabc48ecfe6b
-    projectPath: Library\Artifacts\3f\3f41ec4479c8fe7a09d0fabc48ecfe6b
+  - path: Library\Artifacts\3d\3dd30eebfbfdfae38b81f64ec2a03439
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3d\3dd30eebfbfdfae38b81f64ec2a03439
+    projectPath: Library\Artifacts\3d\3dd30eebfbfdfae38b81f64ec2a03439
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3f\3f4ad2073cd0758ad62b54a14c1edcd4
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3f\3f4ad2073cd0758ad62b54a14c1edcd4
+    projectPath: Library\Artifacts\3f\3f4ad2073cd0758ad62b54a14c1edcd4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3f\3fcc2e425aad07a31e8729ef53b7edfa
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3f\3fcc2e425aad07a31e8729ef53b7edfa
+    projectPath: Library\Artifacts\3f\3fcc2e425aad07a31e8729ef53b7edfa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\44\44e8a5d162673410e51dd48918d38fa2
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\44\44e8a5d162673410e51dd48918d38fa2
+    projectPath: Library\Artifacts\44\44e8a5d162673410e51dd48918d38fa2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1240,6 +1168,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\48\48973c784f73afdf0ec55a6c00eac9ef
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\48\48973c784f73afdf0ec55a6c00eac9ef
+    projectPath: Library\Artifacts\48\48973c784f73afdf0ec55a6c00eac9ef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\4a\4a3f1a223ec2c68824c5aebf08141a9f
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4a\4a3f1a223ec2c68824c5aebf08141a9f
     projectPath: Library\Artifacts\4a\4a3f1a223ec2c68824c5aebf08141a9f
@@ -1252,69 +1186,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\4d\4d9a3563f59db7fbbceae0e0c53a0542
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4d\4d9a3563f59db7fbbceae0e0c53a0542
-    projectPath: Library\Artifacts\4d\4d9a3563f59db7fbbceae0e0c53a0542
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4d\4dba8aaa7882523023ff8e2ebb4a9618
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4d\4dba8aaa7882523023ff8e2ebb4a9618
-    projectPath: Library\Artifacts\4d\4dba8aaa7882523023ff8e2ebb4a9618
+  - path: Library\Artifacts\4d\4d31be6cd5b0c35d5a2848cd77279291
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4d\4d31be6cd5b0c35d5a2848cd77279291
+    projectPath: Library\Artifacts\4d\4d31be6cd5b0c35d5a2848cd77279291
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\4f\4fd6dfeeabe7129a0dd2293a391a2e21
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4f\4fd6dfeeabe7129a0dd2293a391a2e21
-    projectPath: Library\Artifacts\4f\4fd6dfeeabe7129a0dd2293a391a2e21
+  - path: Library\Artifacts\52\520d04d8d7c078d0e6e06df800f36d4b
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\52\520d04d8d7c078d0e6e06df800f36d4b
+    projectPath: Library\Artifacts\52\520d04d8d7c078d0e6e06df800f36d4b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\51\51738ab0bfebbd82e57d73a5091bca0d
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\51\51738ab0bfebbd82e57d73a5091bca0d
-    projectPath: Library\Artifacts\51\51738ab0bfebbd82e57d73a5091bca0d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\51\51d9b141a16d14d5db93b47d3d5db8ea
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\51\51d9b141a16d14d5db93b47d3d5db8ea
-    projectPath: Library\Artifacts\51\51d9b141a16d14d5db93b47d3d5db8ea
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\54\54cea484b18641a4f7e285a275a24130
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\54\54cea484b18641a4f7e285a275a24130
     projectPath: Library\Artifacts\54\54cea484b18641a4f7e285a275a24130
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\56\5687c5315bbeb9816359abe723603230
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\56\5687c5315bbeb9816359abe723603230
-    projectPath: Library\Artifacts\56\5687c5315bbeb9816359abe723603230
+  - path: Library\Artifacts\56\5643a66d7ca009d0c3ebd389cc522274
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\56\5643a66d7ca009d0c3ebd389cc522274
+    projectPath: Library\Artifacts\56\5643a66d7ca009d0c3ebd389cc522274
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\58\58257cf2574035a0a6f6df218cc5e34c
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\58\58257cf2574035a0a6f6df218cc5e34c
     projectPath: Library\Artifacts\58\58257cf2574035a0a6f6df218cc5e34c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
-    projectPath: Library\Artifacts\5a\5a3d45a71c545c5d3d3d044f90a36aa3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\5c\5c1276aac9a9c230bd6b3056c0c4b816
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\5c\5c1276aac9a9c230bd6b3056c0c4b816
     projectPath: Library\Artifacts\5c\5c1276aac9a9c230bd6b3056c0c4b816
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\5d\5ddc197cbfab8065cae150978b23908e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\5d\5ddc197cbfab8065cae150978b23908e
-    projectPath: Library\Artifacts\5d\5ddc197cbfab8065cae150978b23908e
+  - path: Library\Artifacts\5c\5cc02de8f7e4e1b34d0cae0c66e1c9e5
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\5c\5cc02de8f7e4e1b34d0cae0c66e1c9e5
+    projectPath: Library\Artifacts\5c\5cc02de8f7e4e1b34d0cae0c66e1c9e5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1336,27 +1246,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\63\63267ba14b1c69d500b5bc989961b251
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\63\63267ba14b1c69d500b5bc989961b251
-    projectPath: Library\Artifacts\63\63267ba14b1c69d500b5bc989961b251
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\64\640a44d2dbaac57390a5df53d8473007
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\64\640a44d2dbaac57390a5df53d8473007
     projectPath: Library\Artifacts\64\640a44d2dbaac57390a5df53d8473007
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\65\65e892c4b5195e4a4664811ffb0bf9d8
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\65\65e892c4b5195e4a4664811ffb0bf9d8
-    projectPath: Library\Artifacts\65\65e892c4b5195e4a4664811ffb0bf9d8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\68\68af46fa0187be2d24721f9dfd7026a3
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\68\68af46fa0187be2d24721f9dfd7026a3
     projectPath: Library\Artifacts\68\68af46fa0187be2d24721f9dfd7026a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\69\69f005a383643df35ddbae144d98f6cb
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\69\69f005a383643df35ddbae144d98f6cb
+    projectPath: Library\Artifacts\69\69f005a383643df35ddbae144d98f6cb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1384,6 +1288,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\70\70706151dbe8963d6f14866ec291ca0f
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\70\70706151dbe8963d6f14866ec291ca0f
+    projectPath: Library\Artifacts\70\70706151dbe8963d6f14866ec291ca0f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\71\713d9162968683ba7319d6f2d3b78922
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\71\713d9162968683ba7319d6f2d3b78922
+    projectPath: Library\Artifacts\71\713d9162968683ba7319d6f2d3b78922
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\72\72d25ae52eed937779147c58ffc28ead
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\72\72d25ae52eed937779147c58ffc28ead
     projectPath: Library\Artifacts\72\72d25ae52eed937779147c58ffc28ead
@@ -1393,6 +1309,12 @@ MonoBehaviour:
   - path: Library\Artifacts\73\735e7267d54f3cffab90f20609bb7e90
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\73\735e7267d54f3cffab90f20609bb7e90
     projectPath: Library\Artifacts\73\735e7267d54f3cffab90f20609bb7e90
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\74\74da3fe16bf19c92c3a342324ff9a94f
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\74\74da3fe16bf19c92c3a342324ff9a94f
+    projectPath: Library\Artifacts\74\74da3fe16bf19c92c3a342324ff9a94f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1438,18 +1360,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\79\79be6db806be5107a5520519c19c4e82
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\79\79be6db806be5107a5520519c19c4e82
-    projectPath: Library\Artifacts\79\79be6db806be5107a5520519c19c4e82
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7a\7a0c9ca35f249dc9e2e513f0c58af1af
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7a\7a0c9ca35f249dc9e2e513f0c58af1af
-    projectPath: Library\Artifacts\7a\7a0c9ca35f249dc9e2e513f0c58af1af
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\7a\7a12f7547ec84dbf602d1de166673cd0
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7a\7a12f7547ec84dbf602d1de166673cd0
     projectPath: Library\Artifacts\7a\7a12f7547ec84dbf602d1de166673cd0
@@ -1468,18 +1378,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\7c\7c6d77d0700d1dc027a5c91995352be2
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7c\7c6d77d0700d1dc027a5c91995352be2
-    projectPath: Library\Artifacts\7c\7c6d77d0700d1dc027a5c91995352be2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7d\7db32f25f1e54f0243cd6d1427b83478
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7d\7db32f25f1e54f0243cd6d1427b83478
-    projectPath: Library\Artifacts\7d\7db32f25f1e54f0243cd6d1427b83478
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\7e\7e4b1ca41d9b4ddbbf8daeb2926a85ba
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7e\7e4b1ca41d9b4ddbbf8daeb2926a85ba
     projectPath: Library\Artifacts\7e\7e4b1ca41d9b4ddbbf8daeb2926a85ba
@@ -1498,27 +1396,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\81\81c157469a0506ccbc645dce3e28f94b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\81\81c157469a0506ccbc645dce3e28f94b
-    projectPath: Library\Artifacts\81\81c157469a0506ccbc645dce3e28f94b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\81\81f70867a0c68cc4086cf2e5342295b6
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\81\81f70867a0c68cc4086cf2e5342295b6
     projectPath: Library\Artifacts\81\81f70867a0c68cc4086cf2e5342295b6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\82\8251f089cd7ab41f8200e8f1428f026c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\82\8251f089cd7ab41f8200e8f1428f026c
-    projectPath: Library\Artifacts\82\8251f089cd7ab41f8200e8f1428f026c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\82\82dba1e54441cd6cd5c5010dcdf02581
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\82\82dba1e54441cd6cd5c5010dcdf02581
-    projectPath: Library\Artifacts\82\82dba1e54441cd6cd5c5010dcdf02581
+  - path: Library\Artifacts\83\83471be0109e07356abf161b18708571
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\83\83471be0109e07356abf161b18708571
+    projectPath: Library\Artifacts\83\83471be0109e07356abf161b18708571
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1534,6 +1420,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\89\8937ec75d1855fbfbb3769d36191d87f
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\89\8937ec75d1855fbfbb3769d36191d87f
+    projectPath: Library\Artifacts\89\8937ec75d1855fbfbb3769d36191d87f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\89\89fd9db914c0e07bd4242b36f1af59c3
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\89\89fd9db914c0e07bd4242b36f1af59c3
     projectPath: Library\Artifacts\89\89fd9db914c0e07bd4242b36f1af59c3
@@ -1546,15 +1438,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\8c\8ce6157ab14b0e080c3fde8d0f0cb9ff
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8c\8ce6157ab14b0e080c3fde8d0f0cb9ff
-    projectPath: Library\Artifacts\8c\8ce6157ab14b0e080c3fde8d0f0cb9ff
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8d\8d2927814b669a09cdbe75587f80726d
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8d\8d2927814b669a09cdbe75587f80726d
-    projectPath: Library\Artifacts\8d\8d2927814b669a09cdbe75587f80726d
+  - path: Library\Artifacts\8c\8ca67756d571707a6e1d35a75c6a16e5
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8c\8ca67756d571707a6e1d35a75c6a16e5
+    projectPath: Library\Artifacts\8c\8ca67756d571707a6e1d35a75c6a16e5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1564,12 +1450,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\8e\8ed783edd9ddc7d58b7f63d05ba0a572
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8e\8ed783edd9ddc7d58b7f63d05ba0a572
+    projectPath: Library\Artifacts\8e\8ed783edd9ddc7d58b7f63d05ba0a572
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\8e\8ef188a012ab34149690ed12a19ce4d5
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8e\8ef188a012ab34149690ed12a19ce4d5
     projectPath: Library\Artifacts\8e\8ef188a012ab34149690ed12a19ce4d5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\8f\8fdc8b219f29226f3983a1c9bde9da09
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8f\8fdc8b219f29226f3983a1c9bde9da09
+    projectPath: Library\Artifacts\8f\8fdc8b219f29226f3983a1c9bde9da09
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\90\906392fd0abf273aff0b8f92ff3fe3c7
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\90\906392fd0abf273aff0b8f92ff3fe3c7
     projectPath: Library\Artifacts\90\906392fd0abf273aff0b8f92ff3fe3c7
@@ -1588,18 +1486,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\92\9252ff608abb873cc6b3e1d91cad6eae
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\92\9252ff608abb873cc6b3e1d91cad6eae
-    projectPath: Library\Artifacts\92\9252ff608abb873cc6b3e1d91cad6eae
+  - path: Library\Artifacts\91\9179a0ffa97a0c5f290af53de6556787
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\91\9179a0ffa97a0c5f290af53de6556787
+    projectPath: Library\Artifacts\91\9179a0ffa97a0c5f290af53de6556787
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\92\92a150d635b57673019ee6c34457ec63
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\92\92a150d635b57673019ee6c34457ec63
+    projectPath: Library\Artifacts\92\92a150d635b57673019ee6c34457ec63
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\93\9331115f606df2bc00de4b2a077030a3
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\93\9331115f606df2bc00de4b2a077030a3
     projectPath: Library\Artifacts\93\9331115f606df2bc00de4b2a077030a3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\93\93f431789e4345e4769e09d48de27b3d
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\93\93f431789e4345e4769e09d48de27b3d
+    projectPath: Library\Artifacts\93\93f431789e4345e4769e09d48de27b3d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\94\94610050325238aa5586ac54204f62cc
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\94\94610050325238aa5586ac54204f62cc
     projectPath: Library\Artifacts\94\94610050325238aa5586ac54204f62cc
@@ -1618,9 +1528,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\98\980609b480a7e545a17090b3ac835901
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\98\980609b480a7e545a17090b3ac835901
-    projectPath: Library\Artifacts\98\980609b480a7e545a17090b3ac835901
+  - path: Library\Artifacts\97\97e5aa54892459454dfe9a435cf52cab
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\97\97e5aa54892459454dfe9a435cf52cab
+    projectPath: Library\Artifacts\97\97e5aa54892459454dfe9a435cf52cab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1636,6 +1546,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\99\99725a33d030dcb6a79b04368fc49f2e
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\99\99725a33d030dcb6a79b04368fc49f2e
+    projectPath: Library\Artifacts\99\99725a33d030dcb6a79b04368fc49f2e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\99\99768ecaa1c41e71814a10989e241f9b
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\99\99768ecaa1c41e71814a10989e241f9b
     projectPath: Library\Artifacts\99\99768ecaa1c41e71814a10989e241f9b
@@ -1672,15 +1588,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\9f\9f8efd27bdf8ff0587be59ac61f7086d
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\9f\9f8efd27bdf8ff0587be59ac61f7086d
-    projectPath: Library\Artifacts\9f\9f8efd27bdf8ff0587be59ac61f7086d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9f\9fea023842a09680fabce3574c60d5dc
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\9f\9fea023842a09680fabce3574c60d5dc
-    projectPath: Library\Artifacts\9f\9fea023842a09680fabce3574c60d5dc
+  - path: Library\Artifacts\9e\9e927b20d2ecfdc6ca75270994fcef81
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\9e\9e927b20d2ecfdc6ca75270994fcef81
+    projectPath: Library\Artifacts\9e\9e927b20d2ecfdc6ca75270994fcef81
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1702,12 +1612,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\a1\a1f5edc85ac02bea9f9d0109f1701f29
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a1\a1f5edc85ac02bea9f9d0109f1701f29
-    projectPath: Library\Artifacts\a1\a1f5edc85ac02bea9f9d0109f1701f29
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\a2\a2c00961b49f3cc3c5cb1e0d3a3c51c0
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a2\a2c00961b49f3cc3c5cb1e0d3a3c51c0
     projectPath: Library\Artifacts\a2\a2c00961b49f3cc3c5cb1e0d3a3c51c0
@@ -1726,39 +1630,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\a7\a7d80e7f06eb57e7939a1b4fa1bf40e1
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a7\a7d80e7f06eb57e7939a1b4fa1bf40e1
-    projectPath: Library\Artifacts\a7\a7d80e7f06eb57e7939a1b4fa1bf40e1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a7\a7f3678ce3870b2b795581d1e79ca485
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a7\a7f3678ce3870b2b795581d1e79ca485
-    projectPath: Library\Artifacts\a7\a7f3678ce3870b2b795581d1e79ca485
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\a9\a9a4272fb8a42aca848615a26030ed6f
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a9\a9a4272fb8a42aca848615a26030ed6f
     projectPath: Library\Artifacts\a9\a9a4272fb8a42aca848615a26030ed6f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\ab\aba74cd9bc0b11500871c2fb2626ee94
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ab\aba74cd9bc0b11500871c2fb2626ee94
-    projectPath: Library\Artifacts\ab\aba74cd9bc0b11500871c2fb2626ee94
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ad\ad66d69e50e322b7aabb0fc9b811ab87
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ad\ad66d69e50e322b7aabb0fc9b811ab87
-    projectPath: Library\Artifacts\ad\ad66d69e50e322b7aabb0fc9b811ab87
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b1\b17747e4b189819ce380c7512b29e5de
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b1\b17747e4b189819ce380c7512b29e5de
-    projectPath: Library\Artifacts\b1\b17747e4b189819ce380c7512b29e5de
+  - path: Library\Artifacts\ab\abd714c35e8bf8a63059212c5960bf72
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ab\abd714c35e8bf8a63059212c5960bf72
+    projectPath: Library\Artifacts\ab\abd714c35e8bf8a63059212c5960bf72
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1774,12 +1654,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\b4\b48906dfb36bb4c8cf1a5c32abcdf943
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b4\b48906dfb36bb4c8cf1a5c32abcdf943
-    projectPath: Library\Artifacts\b4\b48906dfb36bb4c8cf1a5c32abcdf943
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\b4\b4f8aad3ebe62ce45f4846d7deedbac8
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b4\b4f8aad3ebe62ce45f4846d7deedbac8
     projectPath: Library\Artifacts\b4\b4f8aad3ebe62ce45f4846d7deedbac8
@@ -1789,12 +1663,6 @@ MonoBehaviour:
   - path: Library\Artifacts\b5\b5920b18adb655ff3cba13ba9977bdf3
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b5\b5920b18adb655ff3cba13ba9977bdf3
     projectPath: Library\Artifacts\b5\b5920b18adb655ff3cba13ba9977bdf3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b7\b7ebe074a572df11a4aa972acabaa07b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b7\b7ebe074a572df11a4aa972acabaa07b
-    projectPath: Library\Artifacts\b7\b7ebe074a572df11a4aa972acabaa07b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1819,6 +1687,12 @@ MonoBehaviour:
   - path: Library\Artifacts\ba\ba543b43540f423bacab39cfde0ff8a1
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ba\ba543b43540f423bacab39cfde0ff8a1
     projectPath: Library\Artifacts\ba\ba543b43540f423bacab39cfde0ff8a1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bf\bf5a78e9487d0c2ef130b32d317e5053
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\bf\bf5a78e9487d0c2ef130b32d317e5053
+    projectPath: Library\Artifacts\bf\bf5a78e9487d0c2ef130b32d317e5053
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1852,21 +1726,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\c4\c42d1225d102fa437d4b97279339b6fc
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c4\c42d1225d102fa437d4b97279339b6fc
-    projectPath: Library\Artifacts\c4\c42d1225d102fa437d4b97279339b6fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\c4\c4815f7bc407189a09866652fa3ef997
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c4\c4815f7bc407189a09866652fa3ef997
     projectPath: Library\Artifacts\c4\c4815f7bc407189a09866652fa3ef997
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c5\c53f384aad3acef773c722c7558d9c1c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c5\c53f384aad3acef773c722c7558d9c1c
-    projectPath: Library\Artifacts\c5\c53f384aad3acef773c722c7558d9c1c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1876,15 +1738,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\c6\c6f3326790dab2c5e5620c31395216aa
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c6\c6f3326790dab2c5e5620c31395216aa
-    projectPath: Library\Artifacts\c6\c6f3326790dab2c5e5620c31395216aa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\c7\c73b509225f1a41e2b6d3049d51b58d4
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c7\c73b509225f1a41e2b6d3049d51b58d4
     projectPath: Library\Artifacts\c7\c73b509225f1a41e2b6d3049d51b58d4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c9\c93b73d31b9f3c077c832ad7409865f3
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c9\c93b73d31b9f3c077c832ad7409865f3
+    projectPath: Library\Artifacts\c9\c93b73d31b9f3c077c832ad7409865f3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1906,33 +1768,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\ce\ce1b52bcbd0d5fd5e7b0d9effbfdd67e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ce\ce1b52bcbd0d5fd5e7b0d9effbfdd67e
-    projectPath: Library\Artifacts\ce\ce1b52bcbd0d5fd5e7b0d9effbfdd67e
+  - path: Library\Artifacts\d0\d0f2378f4eb9e819a6a82974699bc914
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d0\d0f2378f4eb9e819a6a82974699bc914
+    projectPath: Library\Artifacts\d0\d0f2378f4eb9e819a6a82974699bc914
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d0\d0eb3bf3a90854b316c78bf3ab1bf2c3
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d0\d0eb3bf3a90854b316c78bf3ab1bf2c3
-    projectPath: Library\Artifacts\d0\d0eb3bf3a90854b316c78bf3ab1bf2c3
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    projectPath: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d3\d3414ee0c720b85c8026075a57488b25
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d3\d3414ee0c720b85c8026075a57488b25
-    projectPath: Library\Artifacts\d3\d3414ee0c720b85c8026075a57488b25
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d4\d495099dc739a3b5a94d7aec02e0f93a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d4\d495099dc739a3b5a94d7aec02e0f93a
-    projectPath: Library\Artifacts\d4\d495099dc739a3b5a94d7aec02e0f93a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d5\d582fe4fd80122285f89291d62b8305f
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d5\d582fe4fd80122285f89291d62b8305f
-    projectPath: Library\Artifacts\d5\d582fe4fd80122285f89291d62b8305f
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d6\d68b78a96b2b8517b6ecb52c78048bf7
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d6\d68b78a96b2b8517b6ecb52c78048bf7
+    projectPath: Library\Artifacts\d6\d68b78a96b2b8517b6ecb52c78048bf7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1942,27 +1792,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\da\da01020738c7dbee004f5a670c195bb3
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\da\da01020738c7dbee004f5a670c195bb3
-    projectPath: Library\Artifacts\da\da01020738c7dbee004f5a670c195bb3
+  - path: Library\Artifacts\d7\d7f9e69343729d650a765ea9146fe4ae
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d7\d7f9e69343729d650a765ea9146fe4ae
+    projectPath: Library\Artifacts\d7\d7f9e69343729d650a765ea9146fe4ae
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\da\da1224b90fab0c5ddc0a6f11b65a42b6
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\da\da1224b90fab0c5ddc0a6f11b65a42b6
-    projectPath: Library\Artifacts\da\da1224b90fab0c5ddc0a6f11b65a42b6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\da\dad4541cf4129f2622f4ffb66562b1a7
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\da\dad4541cf4129f2622f4ffb66562b1a7
     projectPath: Library\Artifacts\da\dad4541cf4129f2622f4ffb66562b1a7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\dd\dd0fb91bd6f000f3cd8aa6da8b935f31
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\dd\dd0fb91bd6f000f3cd8aa6da8b935f31
-    projectPath: Library\Artifacts\dd\dd0fb91bd6f000f3cd8aa6da8b935f31
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2002,15 +1840,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    projectPath: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\e1\e1c9129747273c1f5ccb68af841b2014
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e1\e1c9129747273c1f5ccb68af841b2014
     projectPath: Library\Artifacts\e1\e1c9129747273c1f5ccb68af841b2014
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e2\e24d05f97b0d9e33cf836f8732ca0206
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e2\e24d05f97b0d9e33cf836f8732ca0206
-    projectPath: Library\Artifacts\e2\e24d05f97b0d9e33cf836f8732ca0206
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2023,6 +1861,12 @@ MonoBehaviour:
   - path: Library\Artifacts\e5\e58163bace328dc8eb49c702ed1e5a6e
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e5\e58163bace328dc8eb49c702ed1e5a6e
     projectPath: Library\Artifacts\e5\e58163bace328dc8eb49c702ed1e5a6e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e8\e811d690a9cd69cf3e33d5af04596f19
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e8\e811d690a9cd69cf3e33d5af04596f19
+    projectPath: Library\Artifacts\e8\e811d690a9cd69cf3e33d5af04596f19
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2050,9 +1894,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\ec\eca663d8d962fd3c11a94e89231a349f
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ec\eca663d8d962fd3c11a94e89231a349f
+    projectPath: Library\Artifacts\ec\eca663d8d962fd3c11a94e89231a349f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\ef\ef275db1810fcd038ea6b83f04347cf1
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ef\ef275db1810fcd038ea6b83f04347cf1
     projectPath: Library\Artifacts\ef\ef275db1810fcd038ea6b83f04347cf1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f0\f00cc162dc6c580f91f15f97840e022f
+    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\f0\f00cc162dc6c580f91f15f97840e022f
+    projectPath: Library\Artifacts\f0\f00cc162dc6c580f91f15f97840e022f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2092,24 +1948,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\f6\f6edd355fdc78c2d4ba98ce6ab4a1d7a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\f6\f6edd355fdc78c2d4ba98ce6ab4a1d7a
-    projectPath: Library\Artifacts\f6\f6edd355fdc78c2d4ba98ce6ab4a1d7a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\fe\fe4128fc0d2b8c5129d23586464f3e61
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\fe\fe4128fc0d2b8c5129d23586464f3e61
-    projectPath: Library\Artifacts\fe\fe4128fc0d2b8c5129d23586464f3e61
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\Joseph\KGB2\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\EditorInstance.json
     fullPath: C:\Users\Joseph\KGB2\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -2158,18 +1996,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\PackageManager\ProjectCache
-    fullPath: C:\Users\Joseph\KGB2\Library\PackageManager\ProjectCache
-    projectPath: Library\PackageManager\ProjectCache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PackageManager\ProjectCache.md5
-    fullPath: C:\Users\Joseph\KGB2\Library\PackageManager\ProjectCache.md5
-    projectPath: Library\PackageManager\ProjectCache.md5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ProtocolInstance.json
     fullPath: C:\Users\Joseph\KGB2\Library\ProtocolInstance.json
     projectPath: Library\ProtocolInstance.json
@@ -2191,18 +2017,6 @@ MonoBehaviour:
   - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
     fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\Joseph\KGB2\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2236,12 +2050,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ShaderCache\f\fac01337ec0190baa48b3693426fb66f.bin
     fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\f\fac01337ec0190baa48b3693426fb66f.bin
     projectPath: Library\ShaderCache\f\fac01337ec0190baa48b3693426fb66f.bin
@@ -2266,12 +2074,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\StateCache\PrefabStageHierarchy\e1\e185b6b7e30f0c5b0e9ce57dc7fc5fa2.json
-    fullPath: C:\Users\Joseph\KGB2\Library\StateCache\PrefabStageHierarchy\e1\e185b6b7e30f0c5b0e9ce57dc7fc5fa2.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\e1\e185b6b7e30f0c5b0e9ce57dc7fc5fa2.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
@@ -2284,12 +2086,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\StateCache\SceneView\b5\b51d24cbcc1402170527011231d6d193.json
-    fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\b5\b51d24cbcc1402170527011231d6d193.json
-    projectPath: Library\StateCache\SceneView\b5\b51d24cbcc1402170527011231d6d193.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\StateCache\SceneView\d8\d8fdc8e982b75200c5913110e6f84d88.json
     fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\d8\d8fdc8e982b75200c5913110e6f84d88.json
     projectPath: Library\StateCache\SceneView\d8\d8fdc8e982b75200c5913110e6f84d88.json
@@ -2410,174 +2206,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
-    fullPath: C:\Users\Joseph\KGB2\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
-    fullPath: C:\Users\Joseph\KGB2\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\Joseph\KGB2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml
-    projectPath: Packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Buffers.4.5.1\lib\netstandard1.1\System.Buffers.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\lib\netstandard1.1\System.Buffers.xml
-    projectPath: Packages\System.Buffers.4.5.1\lib\netstandard1.1\System.Buffers.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Buffers.4.5.1\lib\netstandard2.0\System.Buffers.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\lib\netstandard2.0\System.Buffers.xml
-    projectPath: Packages\System.Buffers.4.5.1\lib\netstandard2.0\System.Buffers.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Buffers.4.5.1\ref\net45\System.Buffers.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\ref\net45\System.Buffers.xml
-    projectPath: Packages\System.Buffers.4.5.1\ref\net45\System.Buffers.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Buffers.4.5.1\ref\netstandard1.1\System.Buffers.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\ref\netstandard1.1\System.Buffers.xml
-    projectPath: Packages\System.Buffers.4.5.1\ref\netstandard1.1\System.Buffers.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Buffers.4.5.1\ref\netstandard2.0\System.Buffers.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Buffers.4.5.1\ref\netstandard2.0\System.Buffers.xml
-    projectPath: Packages\System.Buffers.4.5.1\ref\netstandard2.0\System.Buffers.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Memory.4.5.4\lib\net461\System.Memory.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Memory.4.5.4\lib\net461\System.Memory.xml
-    projectPath: Packages\System.Memory.4.5.4\lib\net461\System.Memory.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Memory.4.5.4\lib\netstandard1.1\System.Memory.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Memory.4.5.4\lib\netstandard1.1\System.Memory.xml
-    projectPath: Packages\System.Memory.4.5.4\lib\netstandard1.1\System.Memory.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Memory.4.5.4\lib\netstandard2.0\System.Memory.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Memory.4.5.4\lib\netstandard2.0\System.Memory.xml
-    projectPath: Packages\System.Memory.4.5.4\lib\netstandard2.0\System.Memory.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml
-    projectPath: Packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Numerics.Vectors.4.5.0\lib\netstandard1.0\System.Numerics.Vectors.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\lib\netstandard1.0\System.Numerics.Vectors.xml
-    projectPath: Packages\System.Numerics.Vectors.4.5.0\lib\netstandard1.0\System.Numerics.Vectors.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Numerics.Vectors.4.5.0\lib\netstandard2.0\System.Numerics.Vectors.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\lib\netstandard2.0\System.Numerics.Vectors.xml
-    projectPath: Packages\System.Numerics.Vectors.4.5.0\lib\netstandard2.0\System.Numerics.Vectors.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.xml
-    projectPath: Packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Numerics.Vectors.4.5.0\ref\net45\System.Numerics.Vectors.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\ref\net45\System.Numerics.Vectors.xml
-    projectPath: Packages\System.Numerics.Vectors.4.5.0\ref\net45\System.Numerics.Vectors.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Numerics.Vectors.4.5.0\ref\net46\System.Numerics.Vectors.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\ref\net46\System.Numerics.Vectors.xml
-    projectPath: Packages\System.Numerics.Vectors.4.5.0\ref\net46\System.Numerics.Vectors.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Numerics.Vectors.4.5.0\ref\netstandard1.0\System.Numerics.Vectors.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\ref\netstandard1.0\System.Numerics.Vectors.xml
-    projectPath: Packages\System.Numerics.Vectors.4.5.0\ref\netstandard1.0\System.Numerics.Vectors.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Numerics.Vectors.4.5.0\ref\netstandard2.0\System.Numerics.Vectors.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Numerics.Vectors.4.5.0\ref\netstandard2.0\System.Numerics.Vectors.xml
-    projectPath: Packages\System.Numerics.Vectors.4.5.0\ref\netstandard2.0\System.Numerics.Vectors.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.xml
-    projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.xml
-    projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
-    projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
-    projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\net461\System.Runtime.CompilerServices.Unsafe.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\net461\System.Runtime.CompilerServices.Unsafe.xml
-    projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\net461\System.Runtime.CompilerServices.Unsafe.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
-    projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
-    fullPath: C:\Users\Joseph\KGB2\Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
-    projectPath: Packages\System.Runtime.CompilerServices.Unsafe.4.5.3\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\TagManager.asset
-    fullPath: C:\Users\Joseph\KGB2\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Temp\__Backupscenes\0.backup
     fullPath: C:\Users\Joseph\KGB2\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
@@ -2590,99 +2218,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Assembly-CSharp-Editor-firstpass.dll.hash
-    projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\CompilationLog.txt
     fullPath: C:\Users\Joseph\KGB2\Temp\CompilationLog.txt
     projectPath: Temp\CompilationLog.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.CollabProxy.Editor.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.CollabProxy.Editor.dll.hash
-    projectPath: Temp\Unity.CollabProxy.Editor.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.InputSystem.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.InputSystem.dll.hash
-    projectPath: Temp\Unity.InputSystem.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.PlasticSCM.Editor.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.PlasticSCM.Editor.dll.hash
-    projectPath: Temp\Unity.PlasticSCM.Editor.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.Rider.Editor.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.Rider.Editor.dll.hash
-    projectPath: Temp\Unity.Rider.Editor.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.TextMeshPro.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.TextMeshPro.dll.hash
-    projectPath: Temp\Unity.TextMeshPro.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.TextMeshPro.Editor.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.TextMeshPro.Editor.dll.hash
-    projectPath: Temp\Unity.TextMeshPro.Editor.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.Timeline.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.Timeline.dll.hash
-    projectPath: Temp\Unity.Timeline.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.Timeline.Editor.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.Timeline.Editor.dll.hash
-    projectPath: Temp\Unity.Timeline.Editor.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.VisualStudio.Editor.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.VisualStudio.Editor.dll.hash
-    projectPath: Temp\Unity.VisualStudio.Editor.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\Unity.VSCode.Editor.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Unity.VSCode.Editor.dll.hash
-    projectPath: Temp\Unity.VSCode.Editor.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityEditor.TestRunner.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityEditor.TestRunner.dll.hash
-    projectPath: Temp\UnityEditor.TestRunner.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityEditor.UI.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityEditor.UI.dll.hash
-    projectPath: Temp\UnityEditor.UI.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityEngine.TestRunner.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityEngine.TestRunner.dll.hash
-    projectPath: Temp\UnityEngine.TestRunner.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityEngine.UI.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityEngine.UI.dll.hash
-    projectPath: Temp\UnityEngine.UI.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2692,225 +2230,117 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-161d4285701971d4e8b198994150d331
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-161d4285701971d4e8b198994150d331
-    projectPath: Temp\UnityTempFile-161d4285701971d4e8b198994150d331
+  - path: Temp\UnityTempFile-076e19a2849bd954db2fbade450a384d
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-076e19a2849bd954db2fbade450a384d
+    projectPath: Temp\UnityTempFile-076e19a2849bd954db2fbade450a384d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1bdc5cc4a5045744289be46b8da7ba3c
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-1bdc5cc4a5045744289be46b8da7ba3c
-    projectPath: Temp\UnityTempFile-1bdc5cc4a5045744289be46b8da7ba3c
+  - path: Temp\UnityTempFile-12fe13d31ed42f148a21782197887835
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-12fe13d31ed42f148a21782197887835
+    projectPath: Temp\UnityTempFile-12fe13d31ed42f148a21782197887835
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-272b5d331d77f024d867114a31545ae4
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-272b5d331d77f024d867114a31545ae4
-    projectPath: Temp\UnityTempFile-272b5d331d77f024d867114a31545ae4
+  - path: Temp\UnityTempFile-18382a7e24986ae4dba55f2a85600f0d
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-18382a7e24986ae4dba55f2a85600f0d
+    projectPath: Temp\UnityTempFile-18382a7e24986ae4dba55f2a85600f0d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2e836cabcf2cfc943a591ad2ddabda09
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-2e836cabcf2cfc943a591ad2ddabda09
-    projectPath: Temp\UnityTempFile-2e836cabcf2cfc943a591ad2ddabda09
+  - path: Temp\UnityTempFile-1d0537b5417c93847b6bb6b4c9384b10
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-1d0537b5417c93847b6bb6b4c9384b10
+    projectPath: Temp\UnityTempFile-1d0537b5417c93847b6bb6b4c9384b10
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3d9d1b9b192972445bff07e64ca96731
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-3d9d1b9b192972445bff07e64ca96731
-    projectPath: Temp\UnityTempFile-3d9d1b9b192972445bff07e64ca96731
+  - path: Temp\UnityTempFile-307502ffc50ded147be45284b52e4b0d
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-307502ffc50ded147be45284b52e4b0d
+    projectPath: Temp\UnityTempFile-307502ffc50ded147be45284b52e4b0d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4b2663402ea318049ae84166a77eb9b7
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-4b2663402ea318049ae84166a77eb9b7
-    projectPath: Temp\UnityTempFile-4b2663402ea318049ae84166a77eb9b7
+  - path: Temp\UnityTempFile-34ecd648c59346f47b62327cbdb1ad84
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-34ecd648c59346f47b62327cbdb1ad84
+    projectPath: Temp\UnityTempFile-34ecd648c59346f47b62327cbdb1ad84
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-53c5d27422596fc4bacc6d5f488b5643
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-53c5d27422596fc4bacc6d5f488b5643
-    projectPath: Temp\UnityTempFile-53c5d27422596fc4bacc6d5f488b5643
+  - path: Temp\UnityTempFile-351f005263766fa409874f88b569a96b
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-351f005263766fa409874f88b569a96b
+    projectPath: Temp\UnityTempFile-351f005263766fa409874f88b569a96b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-55308966ad58de6458336babdb9b81f1
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-55308966ad58de6458336babdb9b81f1
-    projectPath: Temp\UnityTempFile-55308966ad58de6458336babdb9b81f1
+  - path: Temp\UnityTempFile-54790eb25f318a94e8582bdf96f4f350
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-54790eb25f318a94e8582bdf96f4f350
+    projectPath: Temp\UnityTempFile-54790eb25f318a94e8582bdf96f4f350
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-568419d6985262445a0f83c94c37df33
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-568419d6985262445a0f83c94c37df33
-    projectPath: Temp\UnityTempFile-568419d6985262445a0f83c94c37df33
+  - path: Temp\UnityTempFile-5c8cd9c6122c8b544bd3b997dfba58d2
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-5c8cd9c6122c8b544bd3b997dfba58d2
+    projectPath: Temp\UnityTempFile-5c8cd9c6122c8b544bd3b997dfba58d2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6a879e38b54a7dc44bbad3c7e9b6becc
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-6a879e38b54a7dc44bbad3c7e9b6becc
-    projectPath: Temp\UnityTempFile-6a879e38b54a7dc44bbad3c7e9b6becc
+  - path: Temp\UnityTempFile-8d4b55a964be523459858a774526bc8b
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-8d4b55a964be523459858a774526bc8b
+    projectPath: Temp\UnityTempFile-8d4b55a964be523459858a774526bc8b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6be834c4312fcf74480d2a21926a34ee
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-6be834c4312fcf74480d2a21926a34ee
-    projectPath: Temp\UnityTempFile-6be834c4312fcf74480d2a21926a34ee
+  - path: Temp\UnityTempFile-93bd21dabce99974c8ff55a35035f72a
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-93bd21dabce99974c8ff55a35035f72a
+    projectPath: Temp\UnityTempFile-93bd21dabce99974c8ff55a35035f72a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-70b8d1fd736e78b4e9472738bc9413f3
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-70b8d1fd736e78b4e9472738bc9413f3
-    projectPath: Temp\UnityTempFile-70b8d1fd736e78b4e9472738bc9413f3
+  - path: Temp\UnityTempFile-97a545da1667a574a8fd22a0bb790a1d
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-97a545da1667a574a8fd22a0bb790a1d
+    projectPath: Temp\UnityTempFile-97a545da1667a574a8fd22a0bb790a1d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-70bbf476a86fa89428e50bf08b2de3c2
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-70bbf476a86fa89428e50bf08b2de3c2
-    projectPath: Temp\UnityTempFile-70bbf476a86fa89428e50bf08b2de3c2
+  - path: Temp\UnityTempFile-a55831fa34d0a25419fb07b7795afe7f
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-a55831fa34d0a25419fb07b7795afe7f
+    projectPath: Temp\UnityTempFile-a55831fa34d0a25419fb07b7795afe7f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-748640c770f251c478281a0bce7a440f
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-748640c770f251c478281a0bce7a440f
-    projectPath: Temp\UnityTempFile-748640c770f251c478281a0bce7a440f
+  - path: Temp\UnityTempFile-ad4f40805b78f3c409c481e4a62e2bc9
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-ad4f40805b78f3c409c481e4a62e2bc9
+    projectPath: Temp\UnityTempFile-ad4f40805b78f3c409c481e4a62e2bc9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7c5c85933b8c96f45856182482d57006
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-7c5c85933b8c96f45856182482d57006
-    projectPath: Temp\UnityTempFile-7c5c85933b8c96f45856182482d57006
+  - path: Temp\UnityTempFile-cbeaaebc364034847a6d5b121713cd42
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-cbeaaebc364034847a6d5b121713cd42
+    projectPath: Temp\UnityTempFile-cbeaaebc364034847a6d5b121713cd42
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7dbaf6f7bfe80b64cb07a0e680970a9d
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-7dbaf6f7bfe80b64cb07a0e680970a9d
-    projectPath: Temp\UnityTempFile-7dbaf6f7bfe80b64cb07a0e680970a9d
+  - path: Temp\UnityTempFile-ce3e08ee868275a49911731f5776e132
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-ce3e08ee868275a49911731f5776e132
+    projectPath: Temp\UnityTempFile-ce3e08ee868275a49911731f5776e132
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7efb8d70245a66942abe647f26aa0b36
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-7efb8d70245a66942abe647f26aa0b36
-    projectPath: Temp\UnityTempFile-7efb8d70245a66942abe647f26aa0b36
+  - path: Temp\UnityTempFile-cf221ebe4c0f72746a367a38f3b0307f
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-cf221ebe4c0f72746a367a38f3b0307f
+    projectPath: Temp\UnityTempFile-cf221ebe4c0f72746a367a38f3b0307f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-862e732f81832c74786500444e080bfd
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-862e732f81832c74786500444e080bfd
-    projectPath: Temp\UnityTempFile-862e732f81832c74786500444e080bfd
+  - path: Temp\UnityTempFile-e33e7618b124c68439a14e782994a8a3
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-e33e7618b124c68439a14e782994a8a3
+    projectPath: Temp\UnityTempFile-e33e7618b124c68439a14e782994a8a3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-8c65c33bb07a2b84fb3e42ac8de4be60
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-8c65c33bb07a2b84fb3e42ac8de4be60
-    projectPath: Temp\UnityTempFile-8c65c33bb07a2b84fb3e42ac8de4be60
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-90d98f1c79f6736408a4ba487b7bb6ad
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-90d98f1c79f6736408a4ba487b7bb6ad
-    projectPath: Temp\UnityTempFile-90d98f1c79f6736408a4ba487b7bb6ad
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-928acf11a6012b24e802d061c221c396
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-928acf11a6012b24e802d061c221c396
-    projectPath: Temp\UnityTempFile-928acf11a6012b24e802d061c221c396
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-99993b93bded7964ea443d5e74080213
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-99993b93bded7964ea443d5e74080213
-    projectPath: Temp\UnityTempFile-99993b93bded7964ea443d5e74080213
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a20df800267efdb4a84e3964795c6340
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-a20df800267efdb4a84e3964795c6340
-    projectPath: Temp\UnityTempFile-a20df800267efdb4a84e3964795c6340
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ac8c351e8b683b7498e27c8163ed0aa5
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-ac8c351e8b683b7498e27c8163ed0aa5
-    projectPath: Temp\UnityTempFile-ac8c351e8b683b7498e27c8163ed0aa5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b06ddc18b4f89594f8ba53116c2a4a58
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-b06ddc18b4f89594f8ba53116c2a4a58
-    projectPath: Temp\UnityTempFile-b06ddc18b4f89594f8ba53116c2a4a58
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b4bafbca1dc7ab2498ae27578a337cb4
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-b4bafbca1dc7ab2498ae27578a337cb4
-    projectPath: Temp\UnityTempFile-b4bafbca1dc7ab2498ae27578a337cb4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bb4336e21cae25947b913c61dc43ee97
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-bb4336e21cae25947b913c61dc43ee97
-    projectPath: Temp\UnityTempFile-bb4336e21cae25947b913c61dc43ee97
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-be44d0405906e1240b5cdfbbe1edac9a
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-be44d0405906e1240b5cdfbbe1edac9a
-    projectPath: Temp\UnityTempFile-be44d0405906e1240b5cdfbbe1edac9a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c24c69b6eede0194a9ecf9e030a69e3e
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-c24c69b6eede0194a9ecf9e030a69e3e
-    projectPath: Temp\UnityTempFile-c24c69b6eede0194a9ecf9e030a69e3e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c66da441f2673ac42821d37843727422
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-c66da441f2673ac42821d37843727422
-    projectPath: Temp\UnityTempFile-c66da441f2673ac42821d37843727422
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c794c29df10f3104ab7143e093c2291e
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-c794c29df10f3104ab7143e093c2291e
-    projectPath: Temp\UnityTempFile-c794c29df10f3104ab7143e093c2291e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-db22182b83863104eb7303e9f184d07b
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-db22182b83863104eb7303e9f184d07b
-    projectPath: Temp\UnityTempFile-db22182b83863104eb7303e9f184d07b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e117d6bb352095349a7d909d8299af83
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-e117d6bb352095349a7d909d8299af83
-    projectPath: Temp\UnityTempFile-e117d6bb352095349a7d909d8299af83
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ed4cde2ea766dc349b11acdcc625f349
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-ed4cde2ea766dc349b11acdcc625f349
-    projectPath: Temp\UnityTempFile-ed4cde2ea766dc349b11acdcc625f349
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f260e8205193a6b47940de2d6117d3e3
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-f260e8205193a6b47940de2d6117d3e3
-    projectPath: Temp\UnityTempFile-f260e8205193a6b47940de2d6117d3e3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fb0bf07ef67e9fa45ba3ffee8a4e2a66
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-fb0bf07ef67e9fa45ba3ffee8a4e2a66
-    projectPath: Temp\UnityTempFile-fb0bf07ef67e9fa45ba3ffee8a4e2a66
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fea0fb1a3bdfaec46bc7133ef6322e5d
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-fea0fb1a3bdfaec46bc7133ef6322e5d
-    projectPath: Temp\UnityTempFile-fea0fb1a3bdfaec46bc7133ef6322e5d
+  - path: Temp\UnityTempFile-e69684363cad6644eb0effdd504e86ed
+    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-e69684363cad6644eb0effdd504e86ed
+    projectPath: Temp\UnityTempFile-e69684363cad6644eb0effdd504e86ed
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

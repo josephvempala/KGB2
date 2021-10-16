@@ -8,24 +8,24 @@ public class MouseLook : MonoBehaviour
     public float camClampXMax = 90f;
     public float camClampXMin = -90f;
 
-    public float MouseSensitivityX;
-    public float MouseSensitivityY;
-    public bool InvertMouseX;
-    public bool InvertMouseY;
-    private Vector3 CameraRotation;
-    private Vector3 CharacterRotation;
-    private InputMaster controls;
-    private float mouseX;
-    private float mouseY;
-    public Orientation orientationToSend;
+    public float mouseSensitivityX;
+    public float mouseSensitivityY;
+    public bool invertMouseX;
+    public bool invertMouseY;
+    private Vector3 _cameraRotation;
+    private Vector3 _characterRotation;
+    private InputMaster _controls;
+    private float _mouseX;
+    private float _mouseY;
+    public Orientation OrientationToSend;
 
     private void Awake()
     {
-        controls = InputMaster.GetInstance();
-        controls.GroundMovement.MouseX.performed += ctx => mouseX = ctx.ReadValue<float>();
-        controls.GroundMovement.MouseY.performed += ctx => mouseY = ctx.ReadValue<float>();
-        CameraRotation = cameraHolder.localRotation.eulerAngles;
-        CharacterRotation = transform.localRotation.eulerAngles;
+        _controls = InputMaster.GetInstance();
+        _controls.GroundMovement.MouseX.performed += ctx => _mouseX = ctx.ReadValue<float>();
+        _controls.GroundMovement.MouseY.performed += ctx => _mouseY = ctx.ReadValue<float>();
+        _cameraRotation = cameraHolder.localRotation.eulerAngles;
+        _characterRotation = transform.localRotation.eulerAngles;
     }
 
     private void Update()
@@ -35,12 +35,12 @@ public class MouseLook : MonoBehaviour
 
     private void CalculateMouseLook()
     {
-        CameraRotation.x += MouseSensitivityY * (InvertMouseY ? mouseY : -mouseY) * Time.deltaTime;
-        CameraRotation.x = Mathf.Clamp(CameraRotation.x, camClampXMin, camClampXMax);
-        CharacterRotation.y += MouseSensitivityX * (InvertMouseX ? -mouseX : mouseX) * Time.deltaTime;
-        transform.localRotation = Quaternion.Euler(CharacterRotation);
-        cameraHolder.localRotation = Quaternion.Euler(CameraRotation);
-        orientationToSend.CameraRotationX = CameraRotation.x;
-        orientationToSend.CharacterRotationY = CharacterRotation.y;
+        _cameraRotation.x += mouseSensitivityY * (invertMouseY ? _mouseY : -_mouseY) * Time.deltaTime;
+        _cameraRotation.x = Mathf.Clamp(_cameraRotation.x, camClampXMin, camClampXMax);
+        _characterRotation.y += mouseSensitivityX * (invertMouseX ? -_mouseX : _mouseX) * Time.deltaTime;
+        transform.localRotation = Quaternion.Euler(_characterRotation);
+        cameraHolder.localRotation = Quaternion.Euler(_cameraRotation);
+        OrientationToSend.CameraRotationX = _cameraRotation.x;
+        OrientationToSend.CharacterRotationY = _characterRotation.y;
     }
 }

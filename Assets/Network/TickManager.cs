@@ -30,17 +30,16 @@ public class TickManager : MonoBehaviour
 
     private static void StartTick()
     {
-        if (_actionToExecuteOnTickPresent)
+        if (!_actionToExecuteOnTickPresent) return;
+        ToExecuteOnTickCopy.Clear();
+        lock (ToExecuteOnTick)
         {
-            ToExecuteOnTickCopy.Clear();
-            lock (ToExecuteOnTick)
-            {
-                ToExecuteOnTickCopy.AddRange(ToExecuteOnTick);
-                ToExecuteOnTick.Clear();
-                _actionToExecuteOnTickPresent = false;
-            }
-
-            for (var i = 0; i < ToExecuteOnTickCopy.Count; i++) ToExecuteOnTickCopy[i]();
+            ToExecuteOnTickCopy.AddRange(ToExecuteOnTick);
+            ToExecuteOnTick.Clear();
+            _actionToExecuteOnTickPresent = false;
         }
+
+        foreach (var t in ToExecuteOnTickCopy)
+            t();
     }
 }
