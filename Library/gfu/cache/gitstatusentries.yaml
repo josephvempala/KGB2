@@ -13,807 +13,1525 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-10-16T13:26:45.826+05:30
-  initializedAtString: 2021-10-16T12:08:42.046+05:30
+  lastUpdatedAtString: 2021-10-17T15:32:36.478+05:30
+  initializedAtString: 2021-10-17T15:27:57.293+05:30
   entries:
-  - path: Assets\Materials\Soldier_Body_diffuse.png
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_Body_diffuse.png
-    projectPath: Assets\Materials\Soldier_Body_diffuse.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_Body_diffuse.png.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_Body_diffuse.png.meta
-    projectPath: Assets\Materials\Soldier_Body_diffuse.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_Body_normal.png
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_Body_normal.png
-    projectPath: Assets\Materials\Soldier_Body_normal.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_Body_normal.png.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_Body_normal.png.meta
-    projectPath: Assets\Materials\Soldier_Body_normal.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_Body_specular.png
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_Body_specular.png
-    projectPath: Assets\Materials\Soldier_Body_specular.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_Body_specular.png.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_Body_specular.png.meta
-    projectPath: Assets\Materials\Soldier_Body_specular.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_body1.mat
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_body1.mat
-    projectPath: Assets\Materials\Soldier_body1.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_body1.mat.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_body1.mat.meta
-    projectPath: Assets\Materials\Soldier_body1.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_head_diffuse.png
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_head_diffuse.png
-    projectPath: Assets\Materials\Soldier_head_diffuse.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_head_diffuse.png.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_head_diffuse.png.meta
-    projectPath: Assets\Materials\Soldier_head_diffuse.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_head_normal.png
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_head_normal.png
-    projectPath: Assets\Materials\Soldier_head_normal.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_head_normal.png.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_head_normal.png.meta
-    projectPath: Assets\Materials\Soldier_head_normal.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_head_specular.png
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_head_specular.png
-    projectPath: Assets\Materials\Soldier_head_specular.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_head_specular.png.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_head_specular.png.meta
-    projectPath: Assets\Materials\Soldier_head_specular.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_head6.mat
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_head6.mat
-    projectPath: Assets\Materials\Soldier_head6.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Materials\Soldier_head6.mat.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Materials\Soldier_head6.mat.meta
-    projectPath: Assets\Materials\Soldier_head6.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Network\GameManager.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\GameManager.cs
-    projectPath: Assets\Network\GameManager.cs
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\Joseph\KGB2\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Network\Packet.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\Packet.cs
-    projectPath: Assets\Network\Packet.cs
+  - path: Assets\Anim.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim.meta
+    projectPath: Assets\Anim.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Network\TCP.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\TCP.cs
-    projectPath: Assets\Network\TCP.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Network\TickManager.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\TickManager.cs
-    projectPath: Assets\Network\TickManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Network\UDP.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Network\UDP.cs
-    projectPath: Assets\Network\UDP.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Player\Anim.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim.meta
-    projectPath: Assets\Player\Anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Player\Anim\crouching turn 90 left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\crouching turn 90 left.fbx
-    projectPath: Assets\Player\Anim\crouching turn 90 left.fbx
-    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\crouching turn 90 left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\crouching turn 90 left.fbx.meta
-    projectPath: Assets\Player\Anim\crouching turn 90 left.fbx.meta
+  - path: Assets\Anim\crouching turn 90 left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\crouching turn 90 left.fbx
+    projectPath: Assets\Anim\crouching turn 90 left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\crouching turn 90 right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\crouching turn 90 right.fbx
-    projectPath: Assets\Player\Anim\crouching turn 90 right.fbx
+  - path: Assets\Anim\crouching turn 90 left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\crouching turn 90 left.fbx.meta
+    projectPath: Assets\Anim\crouching turn 90 left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\crouching turn 90 right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\crouching turn 90 right.fbx.meta
-    projectPath: Assets\Player\Anim\crouching turn 90 right.fbx.meta
+  - path: Assets\Anim\crouching turn 90 right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\crouching turn 90 right.fbx
+    projectPath: Assets\Anim\crouching turn 90 right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death crouching headshot front.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death crouching headshot front.fbx
-    projectPath: Assets\Player\Anim\death crouching headshot front.fbx
+  - path: Assets\Anim\crouching turn 90 right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\crouching turn 90 right.fbx.meta
+    projectPath: Assets\Anim\crouching turn 90 right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death crouching headshot front.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death crouching headshot front.fbx.meta
-    projectPath: Assets\Player\Anim\death crouching headshot front.fbx.meta
+  - path: Assets\Anim\death crouching headshot front.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death crouching headshot front.fbx
+    projectPath: Assets\Anim\death crouching headshot front.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from back headshot.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from back headshot.fbx
-    projectPath: Assets\Player\Anim\death from back headshot.fbx
+  - path: Assets\Anim\death crouching headshot front.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death crouching headshot front.fbx.meta
+    projectPath: Assets\Anim\death crouching headshot front.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from back headshot.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from back headshot.fbx.meta
-    projectPath: Assets\Player\Anim\death from back headshot.fbx.meta
+  - path: Assets\Anim\death from back headshot.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from back headshot.fbx
+    projectPath: Assets\Anim\death from back headshot.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from front headshot.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from front headshot.fbx
-    projectPath: Assets\Player\Anim\death from front headshot.fbx
+  - path: Assets\Anim\death from back headshot.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from back headshot.fbx.meta
+    projectPath: Assets\Anim\death from back headshot.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from front headshot.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from front headshot.fbx.meta
-    projectPath: Assets\Player\Anim\death from front headshot.fbx.meta
+  - path: Assets\Anim\death from front headshot.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from front headshot.fbx
+    projectPath: Assets\Anim\death from front headshot.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from right.fbx
-    projectPath: Assets\Player\Anim\death from right.fbx
+  - path: Assets\Anim\death from front headshot.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from front headshot.fbx.meta
+    projectPath: Assets\Anim\death from front headshot.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from right.fbx.meta
-    projectPath: Assets\Player\Anim\death from right.fbx.meta
+  - path: Assets\Anim\death from right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from right.fbx
+    projectPath: Assets\Anim\death from right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from the back.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from the back.fbx
-    projectPath: Assets\Player\Anim\death from the back.fbx
+  - path: Assets\Anim\death from right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from right.fbx.meta
+    projectPath: Assets\Anim\death from right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from the back.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from the back.fbx.meta
-    projectPath: Assets\Player\Anim\death from the back.fbx.meta
+  - path: Assets\Anim\death from the back.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from the back.fbx
+    projectPath: Assets\Anim\death from the back.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from the front.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from the front.fbx
-    projectPath: Assets\Player\Anim\death from the front.fbx
+  - path: Assets\Anim\death from the back.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from the back.fbx.meta
+    projectPath: Assets\Anim\death from the back.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\death from the front.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\death from the front.fbx.meta
-    projectPath: Assets\Player\Anim\death from the front.fbx.meta
+  - path: Assets\Anim\death from the front.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from the front.fbx
+    projectPath: Assets\Anim\death from the front.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\idle aiming.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\idle aiming.fbx
-    projectPath: Assets\Player\Anim\idle aiming.fbx
+  - path: Assets\Anim\death from the front.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\death from the front.fbx.meta
+    projectPath: Assets\Anim\death from the front.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\idle aiming.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\idle aiming.fbx.meta
-    projectPath: Assets\Player\Anim\idle aiming.fbx.meta
+  - path: Assets\Anim\idle aiming.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\idle aiming.fbx
+    projectPath: Assets\Anim\idle aiming.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\idle crouching aiming.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\idle crouching aiming.fbx
-    projectPath: Assets\Player\Anim\idle crouching aiming.fbx
+  - path: Assets\Anim\idle aiming.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\idle aiming.fbx.meta
+    projectPath: Assets\Anim\idle aiming.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\idle crouching aiming.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\idle crouching aiming.fbx.meta
-    projectPath: Assets\Player\Anim\idle crouching aiming.fbx.meta
+  - path: Assets\Anim\idle crouching aiming.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\idle crouching aiming.fbx
+    projectPath: Assets\Anim\idle crouching aiming.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\idle crouching.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\idle crouching.fbx
-    projectPath: Assets\Player\Anim\idle crouching.fbx
+  - path: Assets\Anim\idle crouching aiming.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\idle crouching aiming.fbx.meta
+    projectPath: Assets\Anim\idle crouching aiming.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\idle crouching.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\idle crouching.fbx.meta
-    projectPath: Assets\Player\Anim\idle crouching.fbx.meta
+  - path: Assets\Anim\idle crouching.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\idle crouching.fbx
+    projectPath: Assets\Anim\idle crouching.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\idle.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\idle.fbx
-    projectPath: Assets\Player\Anim\idle.fbx
+  - path: Assets\Anim\idle crouching.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\idle crouching.fbx.meta
+    projectPath: Assets\Anim\idle crouching.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\idle.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\idle.fbx.meta
-    projectPath: Assets\Player\Anim\idle.fbx.meta
+  - path: Assets\Anim\idle.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\idle.fbx
+    projectPath: Assets\Anim\idle.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\jump down.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\jump down.fbx
-    projectPath: Assets\Player\Anim\jump down.fbx
+  - path: Assets\Anim\idle.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\idle.fbx.meta
+    projectPath: Assets\Anim\idle.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\jump down.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\jump down.fbx.meta
-    projectPath: Assets\Player\Anim\jump down.fbx.meta
+  - path: Assets\Anim\jump down.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\jump down.fbx
+    projectPath: Assets\Anim\jump down.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\jump loop.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\jump loop.fbx
-    projectPath: Assets\Player\Anim\jump loop.fbx
+  - path: Assets\Anim\jump down.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\jump down.fbx.meta
+    projectPath: Assets\Anim\jump down.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\jump loop.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\jump loop.fbx.meta
-    projectPath: Assets\Player\Anim\jump loop.fbx.meta
+  - path: Assets\Anim\jump loop.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\jump loop.fbx
+    projectPath: Assets\Anim\jump loop.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\jump up.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\jump up.fbx
-    projectPath: Assets\Player\Anim\jump up.fbx
+  - path: Assets\Anim\jump loop.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\jump loop.fbx.meta
+    projectPath: Assets\Anim\jump loop.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\jump up.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\jump up.fbx.meta
-    projectPath: Assets\Player\Anim\jump up.fbx.meta
+  - path: Assets\Anim\jump up.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\jump up.fbx
+    projectPath: Assets\Anim\jump up.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\PlayerAnimator.controller
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\PlayerAnimator.controller
-    projectPath: Assets\Player\Anim\PlayerAnimator.controller
+  - path: Assets\Anim\jump up.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\jump up.fbx.meta
+    projectPath: Assets\Anim\jump up.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\PlayerAnimator.controller.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\PlayerAnimator.controller.meta
-    projectPath: Assets\Player\Anim\PlayerAnimator.controller.meta
+  - path: Assets\Anim\PlayerAnimator.controller
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\PlayerAnimator.controller
+    projectPath: Assets\Anim\PlayerAnimator.controller
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run backward left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run backward left.fbx
-    projectPath: Assets\Player\Anim\run backward left.fbx
+  - path: Assets\Anim\PlayerAnimator.controller.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\PlayerAnimator.controller.meta
+    projectPath: Assets\Anim\PlayerAnimator.controller.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run backward left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run backward left.fbx.meta
-    projectPath: Assets\Player\Anim\run backward left.fbx.meta
+  - path: Assets\Anim\run backward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run backward left.fbx
+    projectPath: Assets\Anim\run backward left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run backward right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run backward right.fbx
-    projectPath: Assets\Player\Anim\run backward right.fbx
+  - path: Assets\Anim\run backward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run backward left.fbx.meta
+    projectPath: Assets\Anim\run backward left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run backward right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run backward right.fbx.meta
-    projectPath: Assets\Player\Anim\run backward right.fbx.meta
+  - path: Assets\Anim\run backward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run backward right.fbx
+    projectPath: Assets\Anim\run backward right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run backward.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run backward.fbx
-    projectPath: Assets\Player\Anim\run backward.fbx
+  - path: Assets\Anim\run backward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run backward right.fbx.meta
+    projectPath: Assets\Anim\run backward right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run backward.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run backward.fbx.meta
-    projectPath: Assets\Player\Anim\run backward.fbx.meta
+  - path: Assets\Anim\run backward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run backward.fbx
+    projectPath: Assets\Anim\run backward.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run forward left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run forward left.fbx
-    projectPath: Assets\Player\Anim\run forward left.fbx
+  - path: Assets\Anim\run backward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run backward.fbx.meta
+    projectPath: Assets\Anim\run backward.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run forward left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run forward left.fbx.meta
-    projectPath: Assets\Player\Anim\run forward left.fbx.meta
+  - path: Assets\Anim\run forward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run forward left.fbx
+    projectPath: Assets\Anim\run forward left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run forward right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run forward right.fbx
-    projectPath: Assets\Player\Anim\run forward right.fbx
+  - path: Assets\Anim\run forward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run forward left.fbx.meta
+    projectPath: Assets\Anim\run forward left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run forward right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run forward right.fbx.meta
-    projectPath: Assets\Player\Anim\run forward right.fbx.meta
+  - path: Assets\Anim\run forward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run forward right.fbx
+    projectPath: Assets\Anim\run forward right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run forward.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run forward.fbx
-    projectPath: Assets\Player\Anim\run forward.fbx
+  - path: Assets\Anim\run forward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run forward right.fbx.meta
+    projectPath: Assets\Anim\run forward right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run forward.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run forward.fbx.meta
-    projectPath: Assets\Player\Anim\run forward.fbx.meta
+  - path: Assets\Anim\run forward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run forward.fbx
+    projectPath: Assets\Anim\run forward.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run left.fbx
-    projectPath: Assets\Player\Anim\run left.fbx
+  - path: Assets\Anim\run forward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run forward.fbx.meta
+    projectPath: Assets\Anim\run forward.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run left.fbx.meta
-    projectPath: Assets\Player\Anim\run left.fbx.meta
+  - path: Assets\Anim\run left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run left.fbx
+    projectPath: Assets\Anim\run left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run right.fbx
-    projectPath: Assets\Player\Anim\run right.fbx
+  - path: Assets\Anim\run left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run left.fbx.meta
+    projectPath: Assets\Anim\run left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\run right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\run right.fbx.meta
-    projectPath: Assets\Player\Anim\run right.fbx.meta
+  - path: Assets\Anim\run right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run right.fbx
+    projectPath: Assets\Anim\run right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint backward left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint backward left.fbx
-    projectPath: Assets\Player\Anim\sprint backward left.fbx
+  - path: Assets\Anim\run right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\run right.fbx.meta
+    projectPath: Assets\Anim\run right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint backward left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint backward left.fbx.meta
-    projectPath: Assets\Player\Anim\sprint backward left.fbx.meta
+  - path: Assets\Anim\sprint backward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint backward left.fbx
+    projectPath: Assets\Anim\sprint backward left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint backward right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint backward right.fbx
-    projectPath: Assets\Player\Anim\sprint backward right.fbx
+  - path: Assets\Anim\sprint backward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint backward left.fbx.meta
+    projectPath: Assets\Anim\sprint backward left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint backward right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint backward right.fbx.meta
-    projectPath: Assets\Player\Anim\sprint backward right.fbx.meta
+  - path: Assets\Anim\sprint backward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint backward right.fbx
+    projectPath: Assets\Anim\sprint backward right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint backward.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint backward.fbx
-    projectPath: Assets\Player\Anim\sprint backward.fbx
+  - path: Assets\Anim\sprint backward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint backward right.fbx.meta
+    projectPath: Assets\Anim\sprint backward right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint backward.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint backward.fbx.meta
-    projectPath: Assets\Player\Anim\sprint backward.fbx.meta
+  - path: Assets\Anim\sprint backward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint backward.fbx
+    projectPath: Assets\Anim\sprint backward.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint forward left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint forward left.fbx
-    projectPath: Assets\Player\Anim\sprint forward left.fbx
+  - path: Assets\Anim\sprint backward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint backward.fbx.meta
+    projectPath: Assets\Anim\sprint backward.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint forward left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint forward left.fbx.meta
-    projectPath: Assets\Player\Anim\sprint forward left.fbx.meta
+  - path: Assets\Anim\sprint forward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint forward left.fbx
+    projectPath: Assets\Anim\sprint forward left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint forward right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint forward right.fbx
-    projectPath: Assets\Player\Anim\sprint forward right.fbx
+  - path: Assets\Anim\sprint forward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint forward left.fbx.meta
+    projectPath: Assets\Anim\sprint forward left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint forward right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint forward right.fbx.meta
-    projectPath: Assets\Player\Anim\sprint forward right.fbx.meta
+  - path: Assets\Anim\sprint forward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint forward right.fbx
+    projectPath: Assets\Anim\sprint forward right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint forward.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint forward.fbx
-    projectPath: Assets\Player\Anim\sprint forward.fbx
+  - path: Assets\Anim\sprint forward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint forward right.fbx.meta
+    projectPath: Assets\Anim\sprint forward right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint forward.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint forward.fbx.meta
-    projectPath: Assets\Player\Anim\sprint forward.fbx.meta
+  - path: Assets\Anim\sprint forward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint forward.fbx
+    projectPath: Assets\Anim\sprint forward.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint left.fbx
-    projectPath: Assets\Player\Anim\sprint left.fbx
+  - path: Assets\Anim\sprint forward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint forward.fbx.meta
+    projectPath: Assets\Anim\sprint forward.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint left.fbx.meta
-    projectPath: Assets\Player\Anim\sprint left.fbx.meta
+  - path: Assets\Anim\sprint left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint left.fbx
+    projectPath: Assets\Anim\sprint left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint right.fbx
-    projectPath: Assets\Player\Anim\sprint right.fbx
+  - path: Assets\Anim\sprint left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint left.fbx.meta
+    projectPath: Assets\Anim\sprint left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\sprint right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\sprint right.fbx.meta
-    projectPath: Assets\Player\Anim\sprint right.fbx.meta
+  - path: Assets\Anim\sprint right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint right.fbx
+    projectPath: Assets\Anim\sprint right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\swat.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\swat.fbx
-    projectPath: Assets\Player\Anim\swat.fbx
+  - path: Assets\Anim\sprint right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\sprint right.fbx.meta
+    projectPath: Assets\Anim\sprint right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\swat.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\swat.fbx.meta
-    projectPath: Assets\Player\Anim\swat.fbx.meta
+  - path: Assets\Anim\swat.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\swat.fbx
+    projectPath: Assets\Anim\swat.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\turn 90 left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\turn 90 left.fbx
-    projectPath: Assets\Player\Anim\turn 90 left.fbx
+  - path: Assets\Anim\swat.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\swat.fbx.meta
+    projectPath: Assets\Anim\swat.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\turn 90 left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\turn 90 left.fbx.meta
-    projectPath: Assets\Player\Anim\turn 90 left.fbx.meta
+  - path: Assets\Anim\turn 90 left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\turn 90 left.fbx
+    projectPath: Assets\Anim\turn 90 left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\turn 90 right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\turn 90 right.fbx
-    projectPath: Assets\Player\Anim\turn 90 right.fbx
+  - path: Assets\Anim\turn 90 left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\turn 90 left.fbx.meta
+    projectPath: Assets\Anim\turn 90 left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\turn 90 right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\turn 90 right.fbx.meta
-    projectPath: Assets\Player\Anim\turn 90 right.fbx.meta
+  - path: Assets\Anim\turn 90 right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\turn 90 right.fbx
+    projectPath: Assets\Anim\turn 90 right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk backward left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk backward left.fbx
-    projectPath: Assets\Player\Anim\walk backward left.fbx
+  - path: Assets\Anim\turn 90 right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\turn 90 right.fbx.meta
+    projectPath: Assets\Anim\turn 90 right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk backward left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk backward left.fbx.meta
-    projectPath: Assets\Player\Anim\walk backward left.fbx.meta
+  - path: Assets\Anim\walk backward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk backward left.fbx
+    projectPath: Assets\Anim\walk backward left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk backward right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk backward right.fbx
-    projectPath: Assets\Player\Anim\walk backward right.fbx
+  - path: Assets\Anim\walk backward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk backward left.fbx.meta
+    projectPath: Assets\Anim\walk backward left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk backward right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk backward right.fbx.meta
-    projectPath: Assets\Player\Anim\walk backward right.fbx.meta
+  - path: Assets\Anim\walk backward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk backward right.fbx
+    projectPath: Assets\Anim\walk backward right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk backward.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk backward.fbx
-    projectPath: Assets\Player\Anim\walk backward.fbx
+  - path: Assets\Anim\walk backward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk backward right.fbx.meta
+    projectPath: Assets\Anim\walk backward right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk backward.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk backward.fbx.meta
-    projectPath: Assets\Player\Anim\walk backward.fbx.meta
+  - path: Assets\Anim\walk backward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk backward.fbx
+    projectPath: Assets\Anim\walk backward.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching backward left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching backward left.fbx
-    projectPath: Assets\Player\Anim\walk crouching backward left.fbx
+  - path: Assets\Anim\walk backward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk backward.fbx.meta
+    projectPath: Assets\Anim\walk backward.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching backward left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching backward left.fbx.meta
-    projectPath: Assets\Player\Anim\walk crouching backward left.fbx.meta
+  - path: Assets\Anim\walk crouching backward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching backward left.fbx
+    projectPath: Assets\Anim\walk crouching backward left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching backward right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching backward right.fbx
-    projectPath: Assets\Player\Anim\walk crouching backward right.fbx
+  - path: Assets\Anim\walk crouching backward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching backward left.fbx.meta
+    projectPath: Assets\Anim\walk crouching backward left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching backward right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching backward right.fbx.meta
-    projectPath: Assets\Player\Anim\walk crouching backward right.fbx.meta
+  - path: Assets\Anim\walk crouching backward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching backward right.fbx
+    projectPath: Assets\Anim\walk crouching backward right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching backward.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching backward.fbx
-    projectPath: Assets\Player\Anim\walk crouching backward.fbx
+  - path: Assets\Anim\walk crouching backward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching backward right.fbx.meta
+    projectPath: Assets\Anim\walk crouching backward right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching backward.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching backward.fbx.meta
-    projectPath: Assets\Player\Anim\walk crouching backward.fbx.meta
+  - path: Assets\Anim\walk crouching backward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching backward.fbx
+    projectPath: Assets\Anim\walk crouching backward.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching forward left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching forward left.fbx
-    projectPath: Assets\Player\Anim\walk crouching forward left.fbx
+  - path: Assets\Anim\walk crouching backward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching backward.fbx.meta
+    projectPath: Assets\Anim\walk crouching backward.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching forward left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching forward left.fbx.meta
-    projectPath: Assets\Player\Anim\walk crouching forward left.fbx.meta
+  - path: Assets\Anim\walk crouching forward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching forward left.fbx
+    projectPath: Assets\Anim\walk crouching forward left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching forward right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching forward right.fbx
-    projectPath: Assets\Player\Anim\walk crouching forward right.fbx
+  - path: Assets\Anim\walk crouching forward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching forward left.fbx.meta
+    projectPath: Assets\Anim\walk crouching forward left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching forward right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching forward right.fbx.meta
-    projectPath: Assets\Player\Anim\walk crouching forward right.fbx.meta
+  - path: Assets\Anim\walk crouching forward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching forward right.fbx
+    projectPath: Assets\Anim\walk crouching forward right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching forward.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching forward.fbx
-    projectPath: Assets\Player\Anim\walk crouching forward.fbx
+  - path: Assets\Anim\walk crouching forward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching forward right.fbx.meta
+    projectPath: Assets\Anim\walk crouching forward right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching forward.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching forward.fbx.meta
-    projectPath: Assets\Player\Anim\walk crouching forward.fbx.meta
+  - path: Assets\Anim\walk crouching forward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching forward.fbx
+    projectPath: Assets\Anim\walk crouching forward.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching left.fbx
-    projectPath: Assets\Player\Anim\walk crouching left.fbx
+  - path: Assets\Anim\walk crouching forward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching forward.fbx.meta
+    projectPath: Assets\Anim\walk crouching forward.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching left.fbx.meta
-    projectPath: Assets\Player\Anim\walk crouching left.fbx.meta
+  - path: Assets\Anim\walk crouching left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching left.fbx
+    projectPath: Assets\Anim\walk crouching left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching right.fbx
-    projectPath: Assets\Player\Anim\walk crouching right.fbx
+  - path: Assets\Anim\walk crouching left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching left.fbx.meta
+    projectPath: Assets\Anim\walk crouching left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk crouching right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk crouching right.fbx.meta
-    projectPath: Assets\Player\Anim\walk crouching right.fbx.meta
+  - path: Assets\Anim\walk crouching right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching right.fbx
+    projectPath: Assets\Anim\walk crouching right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk forward left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk forward left.fbx
-    projectPath: Assets\Player\Anim\walk forward left.fbx
+  - path: Assets\Anim\walk crouching right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk crouching right.fbx.meta
+    projectPath: Assets\Anim\walk crouching right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk forward left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk forward left.fbx.meta
-    projectPath: Assets\Player\Anim\walk forward left.fbx.meta
+  - path: Assets\Anim\walk forward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk forward left.fbx
+    projectPath: Assets\Anim\walk forward left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk forward right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk forward right.fbx
-    projectPath: Assets\Player\Anim\walk forward right.fbx
+  - path: Assets\Anim\walk forward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk forward left.fbx.meta
+    projectPath: Assets\Anim\walk forward left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk forward right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk forward right.fbx.meta
-    projectPath: Assets\Player\Anim\walk forward right.fbx.meta
+  - path: Assets\Anim\walk forward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk forward right.fbx
+    projectPath: Assets\Anim\walk forward right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk forward.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk forward.fbx
-    projectPath: Assets\Player\Anim\walk forward.fbx
+  - path: Assets\Anim\walk forward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk forward right.fbx.meta
+    projectPath: Assets\Anim\walk forward right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk forward.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk forward.fbx.meta
-    projectPath: Assets\Player\Anim\walk forward.fbx.meta
+  - path: Assets\Anim\walk forward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk forward.fbx
+    projectPath: Assets\Anim\walk forward.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk left.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk left.fbx
-    projectPath: Assets\Player\Anim\walk left.fbx
+  - path: Assets\Anim\walk forward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk forward.fbx.meta
+    projectPath: Assets\Anim\walk forward.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk left.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk left.fbx.meta
-    projectPath: Assets\Player\Anim\walk left.fbx.meta
+  - path: Assets\Anim\walk left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk left.fbx
+    projectPath: Assets\Anim\walk left.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk right.fbx
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk right.fbx
-    projectPath: Assets\Player\Anim\walk right.fbx
+  - path: Assets\Anim\walk left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk left.fbx.meta
+    projectPath: Assets\Anim\walk left.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\Anim\walk right.fbx.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim\walk right.fbx.meta
-    projectPath: Assets\Player\Anim\walk right.fbx.meta
+  - path: Assets\Anim\walk right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk right.fbx
+    projectPath: Assets\Anim\walk right.fbx
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\AnimationManager.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\AnimationManager.cs
-    projectPath: Assets\Player\AnimationManager.cs
+  - path: Assets\Anim\walk right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Anim\walk right.fbx.meta
+    projectPath: Assets\Anim\walk right.fbx.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Player\AnimationManager.cs.meta
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\AnimationManager.cs.meta
-    projectPath: Assets\Player\AnimationManager.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Player\Controls.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Controls.cs
-    projectPath: Assets\Player\Controls.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Player\MouseLook.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\MouseLook.cs
-    projectPath: Assets\Player\MouseLook.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Player\Movement.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Movement.cs
-    projectPath: Assets\Player\Movement.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Player\Orientation.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Orientation.cs
-    projectPath: Assets\Player\Orientation.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Player\PlayerManager.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\PlayerManager.cs
-    projectPath: Assets\Player\PlayerManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Player\PlayerNetworkManager.cs
-    fullPath: C:\Users\Joseph\KGB2\Assets\Player\PlayerNetworkManager.cs
-    projectPath: Assets\Player\PlayerNetworkManager.cs
+  - path: Assets\Player\Anim.meta -> Assets\Scripts\Player\Anim.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Player\Anim.meta -> Assets\Scripts\Player\Anim.meta
+    projectPath: Assets\Player\Anim.meta -> Assets\Scripts\Player\Anim.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\LocalPlayer.prefab
-    fullPath: C:\Users\Joseph\KGB2\Assets\Prefabs\LocalPlayer.prefab
-    projectPath: Assets\Prefabs\LocalPlayer.prefab
+    indexStatus: 6
+    workTreeStatus: 5
+  - path: Assets\Scripts.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts.meta
+    projectPath: Assets\Scripts.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network.meta
+    projectPath: Assets\Scripts\Network.meta
+    originalPath: Assets\Network.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\Client.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\Client.cs
+    projectPath: Assets\Scripts\Network\Client.cs
+    originalPath: Assets\Network\Client.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\Client.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\Client.cs.meta
+    projectPath: Assets\Scripts\Network\Client.cs.meta
+    originalPath: Assets\Network\Client.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\ClientHandle.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\ClientHandle.cs
+    projectPath: Assets\Scripts\Network\ClientHandle.cs
+    originalPath: Assets\Network\ClientHandle.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\ClientHandle.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\ClientHandle.cs.meta
+    projectPath: Assets\Scripts\Network\ClientHandle.cs.meta
+    originalPath: Assets\Network\ClientHandle.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\ClientSend.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\ClientSend.cs
+    projectPath: Assets\Scripts\Network\ClientSend.cs
+    originalPath: Assets\Network\ClientSend.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\ClientSend.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\ClientSend.cs.meta
+    projectPath: Assets\Scripts\Network\ClientSend.cs.meta
+    originalPath: Assets\Network\ClientSend.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\Constants.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\Constants.cs
+    projectPath: Assets\Scripts\Network\Constants.cs
+    originalPath: Assets\Network\Constants.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\Constants.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\Constants.cs.meta
+    projectPath: Assets\Scripts\Network\Constants.cs.meta
+    originalPath: Assets\Network\Constants.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\GameManager.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\GameManager.cs
+    projectPath: Assets\Scripts\Network\GameManager.cs
+    originalPath: Assets\Network\GameManager.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\GameManager.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\GameManager.cs.meta
+    projectPath: Assets\Scripts\Network\GameManager.cs.meta
+    originalPath: Assets\Network\GameManager.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\TCP.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\TCP.cs
+    projectPath: Assets\Scripts\Network\TCP.cs
+    originalPath: Assets\Network\TCP.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\TCP.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\TCP.cs.meta
+    projectPath: Assets\Scripts\Network\TCP.cs.meta
+    originalPath: Assets\Network\TCP.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\UDP.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\UDP.cs
+    projectPath: Assets\Scripts\Network\UDP.cs
+    originalPath: Assets\Network\UDP.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\UDP.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\UDP.cs.meta
+    projectPath: Assets\Scripts\Network\UDP.cs.meta
+    originalPath: Assets\Network\UDP.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\UIManager.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\UIManager.cs
+    projectPath: Assets\Scripts\Network\UIManager.cs
+    originalPath: Assets\Network\UIManager.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Network\UIManager.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Network\UIManager.cs.meta
+    projectPath: Assets\Scripts\Network\UIManager.cs.meta
+    originalPath: Assets\Network\UIManager.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player.meta
+    projectPath: Assets\Scripts\Player.meta
+    originalPath: Assets\Player.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\crouching turn 90 left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\crouching turn 90 left.fbx
+    projectPath: Assets\Scripts\Player\Anim\crouching turn 90 left.fbx
+    originalPath: Assets\Player\Anim\crouching turn 90 left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\crouching turn 90 left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\crouching turn 90 left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\crouching turn 90 left.fbx.meta
+    originalPath: Assets\Player\Anim\crouching turn 90 left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\crouching turn 90 right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\crouching turn 90 right.fbx
+    projectPath: Assets\Scripts\Player\Anim\crouching turn 90 right.fbx
+    originalPath: Assets\Player\Anim\crouching turn 90 right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\crouching turn 90 right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\crouching turn 90 right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\crouching turn 90 right.fbx.meta
+    originalPath: Assets\Player\Anim\crouching turn 90 right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death crouching headshot front.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death crouching headshot
+      front.fbx
+    projectPath: Assets\Scripts\Player\Anim\death crouching headshot front.fbx
+    originalPath: Assets\Player\Anim\death crouching headshot front.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death crouching headshot front.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death crouching headshot
+      front.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\death crouching headshot front.fbx.meta
+    originalPath: Assets\Player\Anim\death crouching headshot front.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from back headshot.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from back headshot.fbx
+    projectPath: Assets\Scripts\Player\Anim\death from back headshot.fbx
+    originalPath: Assets\Player\Anim\death from back headshot.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from back headshot.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from back headshot.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\death from back headshot.fbx.meta
+    originalPath: Assets\Player\Anim\death from back headshot.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from front headshot.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from front headshot.fbx
+    projectPath: Assets\Scripts\Player\Anim\death from front headshot.fbx
+    originalPath: Assets\Player\Anim\death from front headshot.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from front headshot.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from front headshot.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\death from front headshot.fbx.meta
+    originalPath: Assets\Player\Anim\death from front headshot.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from right.fbx
+    projectPath: Assets\Scripts\Player\Anim\death from right.fbx
+    originalPath: Assets\Player\Anim\death from right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\death from right.fbx.meta
+    originalPath: Assets\Player\Anim\death from right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from the back.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from the back.fbx
+    projectPath: Assets\Scripts\Player\Anim\death from the back.fbx
+    originalPath: Assets\Player\Anim\death from the back.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from the back.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from the back.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\death from the back.fbx.meta
+    originalPath: Assets\Player\Anim\death from the back.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from the front.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from the front.fbx
+    projectPath: Assets\Scripts\Player\Anim\death from the front.fbx
+    originalPath: Assets\Player\Anim\death from the front.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\death from the front.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\death from the front.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\death from the front.fbx.meta
+    originalPath: Assets\Player\Anim\death from the front.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\idle aiming.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\idle aiming.fbx
+    projectPath: Assets\Scripts\Player\Anim\idle aiming.fbx
+    originalPath: Assets\Player\Anim\idle aiming.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\idle aiming.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\idle aiming.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\idle aiming.fbx.meta
+    originalPath: Assets\Player\Anim\idle aiming.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\idle crouching aiming.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\idle crouching aiming.fbx
+    projectPath: Assets\Scripts\Player\Anim\idle crouching aiming.fbx
+    originalPath: Assets\Player\Anim\idle crouching aiming.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\idle crouching aiming.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\idle crouching aiming.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\idle crouching aiming.fbx.meta
+    originalPath: Assets\Player\Anim\idle crouching aiming.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\idle crouching.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\idle crouching.fbx
+    projectPath: Assets\Scripts\Player\Anim\idle crouching.fbx
+    originalPath: Assets\Player\Anim\idle crouching.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\idle crouching.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\idle crouching.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\idle crouching.fbx.meta
+    originalPath: Assets\Player\Anim\idle crouching.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\idle.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\idle.fbx
+    projectPath: Assets\Scripts\Player\Anim\idle.fbx
+    originalPath: Assets\Player\Anim\idle.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\idle.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\idle.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\idle.fbx.meta
+    originalPath: Assets\Player\Anim\idle.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\jump down.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\jump down.fbx
+    projectPath: Assets\Scripts\Player\Anim\jump down.fbx
+    originalPath: Assets\Player\Anim\jump down.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\jump down.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\jump down.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\jump down.fbx.meta
+    originalPath: Assets\Player\Anim\jump down.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\jump loop.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\jump loop.fbx
+    projectPath: Assets\Scripts\Player\Anim\jump loop.fbx
+    originalPath: Assets\Player\Anim\jump loop.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\jump loop.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\jump loop.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\jump loop.fbx.meta
+    originalPath: Assets\Player\Anim\jump loop.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\jump up.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\jump up.fbx
+    projectPath: Assets\Scripts\Player\Anim\jump up.fbx
+    originalPath: Assets\Player\Anim\jump up.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\jump up.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\jump up.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\jump up.fbx.meta
+    originalPath: Assets\Player\Anim\jump up.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\PlayerAnimator.controller
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\PlayerAnimator.controller
+    projectPath: Assets\Scripts\Player\Anim\PlayerAnimator.controller
+    originalPath: Assets\Player\Anim\PlayerAnimator.controller
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\PlayerAnimator.controller.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\PlayerAnimator.controller.meta
+    projectPath: Assets\Scripts\Player\Anim\PlayerAnimator.controller.meta
+    originalPath: Assets\Player\Anim\PlayerAnimator.controller.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run backward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run backward left.fbx
+    projectPath: Assets\Scripts\Player\Anim\run backward left.fbx
+    originalPath: Assets\Player\Anim\run backward left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run backward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run backward left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\run backward left.fbx.meta
+    originalPath: Assets\Player\Anim\run backward left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run backward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run backward right.fbx
+    projectPath: Assets\Scripts\Player\Anim\run backward right.fbx
+    originalPath: Assets\Player\Anim\run backward right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run backward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run backward right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\run backward right.fbx.meta
+    originalPath: Assets\Player\Anim\run backward right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run backward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run backward.fbx
+    projectPath: Assets\Scripts\Player\Anim\run backward.fbx
+    originalPath: Assets\Player\Anim\run backward.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run backward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run backward.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\run backward.fbx.meta
+    originalPath: Assets\Player\Anim\run backward.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run forward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run forward left.fbx
+    projectPath: Assets\Scripts\Player\Anim\run forward left.fbx
+    originalPath: Assets\Player\Anim\run forward left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run forward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run forward left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\run forward left.fbx.meta
+    originalPath: Assets\Player\Anim\run forward left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run forward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run forward right.fbx
+    projectPath: Assets\Scripts\Player\Anim\run forward right.fbx
+    originalPath: Assets\Player\Anim\run forward right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run forward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run forward right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\run forward right.fbx.meta
+    originalPath: Assets\Player\Anim\run forward right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run forward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run forward.fbx
+    projectPath: Assets\Scripts\Player\Anim\run forward.fbx
+    originalPath: Assets\Player\Anim\run forward.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run forward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run forward.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\run forward.fbx.meta
+    originalPath: Assets\Player\Anim\run forward.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run left.fbx
+    projectPath: Assets\Scripts\Player\Anim\run left.fbx
+    originalPath: Assets\Player\Anim\run left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\run left.fbx.meta
+    originalPath: Assets\Player\Anim\run left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run right.fbx
+    projectPath: Assets\Scripts\Player\Anim\run right.fbx
+    originalPath: Assets\Player\Anim\run right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\run right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\run right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\run right.fbx.meta
+    originalPath: Assets\Player\Anim\run right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint backward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint backward left.fbx
+    projectPath: Assets\Scripts\Player\Anim\sprint backward left.fbx
+    originalPath: Assets\Player\Anim\sprint backward left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint backward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint backward left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\sprint backward left.fbx.meta
+    originalPath: Assets\Player\Anim\sprint backward left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint backward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint backward right.fbx
+    projectPath: Assets\Scripts\Player\Anim\sprint backward right.fbx
+    originalPath: Assets\Player\Anim\sprint backward right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint backward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint backward right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\sprint backward right.fbx.meta
+    originalPath: Assets\Player\Anim\sprint backward right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint backward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint backward.fbx
+    projectPath: Assets\Scripts\Player\Anim\sprint backward.fbx
+    originalPath: Assets\Player\Anim\sprint backward.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint backward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint backward.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\sprint backward.fbx.meta
+    originalPath: Assets\Player\Anim\sprint backward.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint forward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint forward left.fbx
+    projectPath: Assets\Scripts\Player\Anim\sprint forward left.fbx
+    originalPath: Assets\Player\Anim\sprint forward left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint forward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint forward left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\sprint forward left.fbx.meta
+    originalPath: Assets\Player\Anim\sprint forward left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint forward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint forward right.fbx
+    projectPath: Assets\Scripts\Player\Anim\sprint forward right.fbx
+    originalPath: Assets\Player\Anim\sprint forward right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint forward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint forward right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\sprint forward right.fbx.meta
+    originalPath: Assets\Player\Anim\sprint forward right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint forward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint forward.fbx
+    projectPath: Assets\Scripts\Player\Anim\sprint forward.fbx
+    originalPath: Assets\Player\Anim\sprint forward.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint forward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint forward.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\sprint forward.fbx.meta
+    originalPath: Assets\Player\Anim\sprint forward.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint left.fbx
+    projectPath: Assets\Scripts\Player\Anim\sprint left.fbx
+    originalPath: Assets\Player\Anim\sprint left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\sprint left.fbx.meta
+    originalPath: Assets\Player\Anim\sprint left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint right.fbx
+    projectPath: Assets\Scripts\Player\Anim\sprint right.fbx
+    originalPath: Assets\Player\Anim\sprint right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\sprint right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\sprint right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\sprint right.fbx.meta
+    originalPath: Assets\Player\Anim\sprint right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\swat.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\swat.fbx
+    projectPath: Assets\Scripts\Player\Anim\swat.fbx
+    originalPath: Assets\Player\Anim\swat.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\swat.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\swat.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\swat.fbx.meta
+    originalPath: Assets\Player\Anim\swat.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\turn 90 left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\turn 90 left.fbx
+    projectPath: Assets\Scripts\Player\Anim\turn 90 left.fbx
+    originalPath: Assets\Player\Anim\turn 90 left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\turn 90 left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\turn 90 left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\turn 90 left.fbx.meta
+    originalPath: Assets\Player\Anim\turn 90 left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\turn 90 right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\turn 90 right.fbx
+    projectPath: Assets\Scripts\Player\Anim\turn 90 right.fbx
+    originalPath: Assets\Player\Anim\turn 90 right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\turn 90 right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\turn 90 right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\turn 90 right.fbx.meta
+    originalPath: Assets\Player\Anim\turn 90 right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk backward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk backward left.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk backward left.fbx
+    originalPath: Assets\Player\Anim\walk backward left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk backward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk backward left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk backward left.fbx.meta
+    originalPath: Assets\Player\Anim\walk backward left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk backward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk backward right.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk backward right.fbx
+    originalPath: Assets\Player\Anim\walk backward right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk backward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk backward right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk backward right.fbx.meta
+    originalPath: Assets\Player\Anim\walk backward right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk backward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk backward.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk backward.fbx
+    originalPath: Assets\Player\Anim\walk backward.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk backward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk backward.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk backward.fbx.meta
+    originalPath: Assets\Player\Anim\walk backward.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching backward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching backward
+      left.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk crouching backward left.fbx
+    originalPath: Assets\Player\Anim\walk crouching backward left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching backward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching backward
+      left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk crouching backward left.fbx.meta
+    originalPath: Assets\Player\Anim\walk crouching backward left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching backward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching backward
+      right.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk crouching backward right.fbx
+    originalPath: Assets\Player\Anim\walk crouching backward right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching backward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching backward
+      right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk crouching backward right.fbx.meta
+    originalPath: Assets\Player\Anim\walk crouching backward right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching backward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching backward.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk crouching backward.fbx
+    originalPath: Assets\Player\Anim\walk crouching backward.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching backward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching backward.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk crouching backward.fbx.meta
+    originalPath: Assets\Player\Anim\walk crouching backward.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching forward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching forward
+      left.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk crouching forward left.fbx
+    originalPath: Assets\Player\Anim\walk crouching forward left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching forward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching forward
+      left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk crouching forward left.fbx.meta
+    originalPath: Assets\Player\Anim\walk crouching forward left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching forward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching forward
+      right.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk crouching forward right.fbx
+    originalPath: Assets\Player\Anim\walk crouching forward right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching forward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching forward
+      right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk crouching forward right.fbx.meta
+    originalPath: Assets\Player\Anim\walk crouching forward right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching forward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching forward.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk crouching forward.fbx
+    originalPath: Assets\Player\Anim\walk crouching forward.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching forward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching forward.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk crouching forward.fbx.meta
+    originalPath: Assets\Player\Anim\walk crouching forward.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching left.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk crouching left.fbx
+    originalPath: Assets\Player\Anim\walk crouching left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk crouching left.fbx.meta
+    originalPath: Assets\Player\Anim\walk crouching left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching right.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk crouching right.fbx
+    originalPath: Assets\Player\Anim\walk crouching right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk crouching right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk crouching right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk crouching right.fbx.meta
+    originalPath: Assets\Player\Anim\walk crouching right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk forward left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk forward left.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk forward left.fbx
+    originalPath: Assets\Player\Anim\walk forward left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk forward left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk forward left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk forward left.fbx.meta
+    originalPath: Assets\Player\Anim\walk forward left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk forward right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk forward right.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk forward right.fbx
+    originalPath: Assets\Player\Anim\walk forward right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk forward right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk forward right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk forward right.fbx.meta
+    originalPath: Assets\Player\Anim\walk forward right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk forward.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk forward.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk forward.fbx
+    originalPath: Assets\Player\Anim\walk forward.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk forward.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk forward.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk forward.fbx.meta
+    originalPath: Assets\Player\Anim\walk forward.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk left.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk left.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk left.fbx
+    originalPath: Assets\Player\Anim\walk left.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk left.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk left.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk left.fbx.meta
+    originalPath: Assets\Player\Anim\walk left.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk right.fbx
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk right.fbx
+    projectPath: Assets\Scripts\Player\Anim\walk right.fbx
+    originalPath: Assets\Player\Anim\walk right.fbx
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Anim\walk right.fbx.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Anim\walk right.fbx.meta
+    projectPath: Assets\Scripts\Player\Anim\walk right.fbx.meta
+    originalPath: Assets\Player\Anim\walk right.fbx.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\AnimationManager.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\AnimationManager.cs
+    projectPath: Assets\Scripts\Player\AnimationManager.cs
+    originalPath: Assets\Player\AnimationManager.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\AnimationManager.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\AnimationManager.cs.meta
+    projectPath: Assets\Scripts\Player\AnimationManager.cs.meta
+    originalPath: Assets\Player\AnimationManager.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\InputMaster.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\InputMaster.cs
+    projectPath: Assets\Scripts\Player\InputMaster.cs
+    originalPath: Assets\Player\InputMaster.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\InputMaster.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\InputMaster.cs.meta
+    projectPath: Assets\Scripts\Player\InputMaster.cs.meta
+    originalPath: Assets\Player\InputMaster.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\InputMaster.inputactions
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\InputMaster.inputactions
+    projectPath: Assets\Scripts\Player\InputMaster.inputactions
+    originalPath: Assets\Player\InputMaster.inputactions
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\InputMaster.inputactions.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\InputMaster.inputactions.meta
+    projectPath: Assets\Scripts\Player\InputMaster.inputactions.meta
+    originalPath: Assets\Player\InputMaster.inputactions.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\MouseLook.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\MouseLook.cs
+    projectPath: Assets\Scripts\Player\MouseLook.cs
+    originalPath: Assets\Player\MouseLook.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\MouseLook.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\MouseLook.cs.meta
+    projectPath: Assets\Scripts\Player\MouseLook.cs.meta
+    originalPath: Assets\Player\MouseLook.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Movement.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Movement.cs
+    projectPath: Assets\Scripts\Player\Movement.cs
+    originalPath: Assets\Player\Movement.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\Movement.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\Movement.cs.meta
+    projectPath: Assets\Scripts\Player\Movement.cs.meta
+    originalPath: Assets\Player\Movement.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\PlayerManager.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\PlayerManager.cs
+    projectPath: Assets\Scripts\Player\PlayerManager.cs
+    originalPath: Assets\Player\PlayerManager.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\PlayerManager.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\PlayerManager.cs.meta
+    projectPath: Assets\Scripts\Player\PlayerManager.cs.meta
+    originalPath: Assets\Player\PlayerManager.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\PlayerNetworkManager.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\PlayerNetworkManager.cs
+    projectPath: Assets\Scripts\Player\PlayerNetworkManager.cs
+    originalPath: Assets\Player\PlayerNetworkManager.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Player\PlayerNetworkManager.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Player\PlayerNetworkManager.cs.meta
+    projectPath: Assets\Scripts\Player\PlayerNetworkManager.cs.meta
+    originalPath: Assets\Player\PlayerNetworkManager.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared.meta
+    projectPath: Assets\Scripts\Shared.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\ClientState.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\ClientState.cs
+    projectPath: Assets\Scripts\Shared\ClientState.cs
+    originalPath: Assets\Player\ClientState.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\ClientState.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\ClientState.cs.meta
+    projectPath: Assets\Scripts\Shared\ClientState.cs.meta
+    originalPath: Assets\Player\ClientState.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\Controls.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\Controls.cs
+    projectPath: Assets\Scripts\Shared\Controls.cs
+    originalPath: Assets\Player\Controls.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\Controls.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\Controls.cs.meta
+    projectPath: Assets\Scripts\Shared\Controls.cs.meta
+    originalPath: Assets\Player\Controls.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\Orientation.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\Orientation.cs
+    projectPath: Assets\Scripts\Shared\Orientation.cs
+    originalPath: Assets\Player\Orientation.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\Orientation.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\Orientation.cs.meta
+    projectPath: Assets\Scripts\Shared\Orientation.cs.meta
+    originalPath: Assets\Player\Orientation.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\Packet.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\Packet.cs
+    projectPath: Assets\Scripts\Shared\Packet.cs
+    originalPath: Assets\Network\Packet.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\Packet.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\Packet.cs.meta
+    projectPath: Assets\Scripts\Shared\Packet.cs.meta
+    originalPath: Assets\Network\Packet.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\TickManager.cs
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\TickManager.cs
+    projectPath: Assets\Scripts\Shared\TickManager.cs
+    originalPath: Assets\Network\TickManager.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\Shared\TickManager.cs.meta
+    fullPath: C:\Users\Joseph\KGB2\Assets\Scripts\Shared\TickManager.cs.meta
+    projectPath: Assets\Scripts\Shared\TickManager.cs.meta
+    originalPath: Assets\Network\TickManager.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
   - path: Library\ArtifactDB
     fullPath: C:\Users\Joseph\KGB2\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -824,17 +1542,11 @@ MonoBehaviour:
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\03\03d26b2957fb5ca68025d3600b797360
     projectPath: Library\Artifacts\03\03d26b2957fb5ca68025d3600b797360
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\05\0534d41a762019554b8b7511dac643a8
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\05\0534d41a762019554b8b7511dac643a8
     projectPath: Library\Artifacts\05\0534d41a762019554b8b7511dac643a8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\05\05a189b19e78a47d8ff60d06cc0fee36
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\05\05a189b19e78a47d8ff60d06cc0fee36
-    projectPath: Library\Artifacts\05\05a189b19e78a47d8ff60d06cc0fee36
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -842,29 +1554,17 @@ MonoBehaviour:
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\06\063d4f2f90922f493c492ab8c5b8a198
     projectPath: Library\Artifacts\06\063d4f2f90922f493c492ab8c5b8a198
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\07\07e4aeb135d69ac34487aa06ce7eb4c2
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\07\07e4aeb135d69ac34487aa06ce7eb4c2
     projectPath: Library\Artifacts\07\07e4aeb135d69ac34487aa06ce7eb4c2
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\08\08b67b752078a3e3192307994297941a
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\08\08b67b752078a3e3192307994297941a
     projectPath: Library\Artifacts\08\08b67b752078a3e3192307994297941a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\09\097292fbefe29fd888dc2c58912fd88a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\09\097292fbefe29fd888dc2c58912fd88a
-    projectPath: Library\Artifacts\09\097292fbefe29fd888dc2c58912fd88a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\0a\0a968e4f6354ee3e954f5a3f6d5d3c9e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0a\0a968e4f6354ee3e954f5a3f6d5d3c9e
-    projectPath: Library\Artifacts\0a\0a968e4f6354ee3e954f5a3f6d5d3c9e
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -872,161 +1572,23 @@ MonoBehaviour:
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0d\0da3ad99b220149601301ea066785afb
     projectPath: Library\Artifacts\0d\0da3ad99b220149601301ea066785afb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\0d\0dc24b080aaf05a925d48e703e9a6736
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0d\0dc24b080aaf05a925d48e703e9a6736
-    projectPath: Library\Artifacts\0d\0dc24b080aaf05a925d48e703e9a6736
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\0e\0e4f9a46c55098a015a4c4d1bdeb174a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0e\0e4f9a46c55098a015a4c4d1bdeb174a
-    projectPath: Library\Artifacts\0e\0e4f9a46c55098a015a4c4d1bdeb174a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\0e\0eaca0a246ddd71405eeaa89aef069e3
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0e\0eaca0a246ddd71405eeaa89aef069e3
-    projectPath: Library\Artifacts\0e\0eaca0a246ddd71405eeaa89aef069e3
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\0f\0f777d92f98593ea075d6a6bb8398b96
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\0f\0f777d92f98593ea075d6a6bb8398b96
-    projectPath: Library\Artifacts\0f\0f777d92f98593ea075d6a6bb8398b96
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\10\10241f2147674fbe6e2f34774ba243d4
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\10\10241f2147674fbe6e2f34774ba243d4
     projectPath: Library\Artifacts\10\10241f2147674fbe6e2f34774ba243d4
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\10\1072d59a7e645b1364f1771e0c73055a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\10\1072d59a7e645b1364f1771e0c73055a
-    projectPath: Library\Artifacts\10\1072d59a7e645b1364f1771e0c73055a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\12\12ac6c90aa77b2c4edf3365dd31c6197
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\12\12ac6c90aa77b2c4edf3365dd31c6197
-    projectPath: Library\Artifacts\12\12ac6c90aa77b2c4edf3365dd31c6197
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\13\1316665edf47d2be13da50c5adc35609
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\13\1316665edf47d2be13da50c5adc35609
-    projectPath: Library\Artifacts\13\1316665edf47d2be13da50c5adc35609
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\14\143d9bf0612ddfd012f9cc140fd78efd
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\14\143d9bf0612ddfd012f9cc140fd78efd
-    projectPath: Library\Artifacts\14\143d9bf0612ddfd012f9cc140fd78efd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\14\14458671123dd113b25c0d07264ae93c
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\14\14458671123dd113b25c0d07264ae93c
     projectPath: Library\Artifacts\14\14458671123dd113b25c0d07264ae93c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\14\14b7850efe4ae938090248cc8dffe02c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\14\14b7850efe4ae938090248cc8dffe02c
-    projectPath: Library\Artifacts\14\14b7850efe4ae938090248cc8dffe02c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\14\14e404f3f21ec6c143861a8af98ba75c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\14\14e404f3f21ec6c143861a8af98ba75c
-    projectPath: Library\Artifacts\14\14e404f3f21ec6c143861a8af98ba75c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\16\165b0310b5fc9e2cd712075228f7f69e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\16\165b0310b5fc9e2cd712075228f7f69e
-    projectPath: Library\Artifacts\16\165b0310b5fc9e2cd712075228f7f69e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\18\188e59b7e40232bb43e9c320d1fee3c0
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\18\188e59b7e40232bb43e9c320d1fee3c0
-    projectPath: Library\Artifacts\18\188e59b7e40232bb43e9c320d1fee3c0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\19\193f7302e6158b1e1a73880029558fdd
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\19\193f7302e6158b1e1a73880029558fdd
     projectPath: Library\Artifacts\19\193f7302e6158b1e1a73880029558fdd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1a\1af19dd4d6f060e80d6320d6868a0d25
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1a\1af19dd4d6f060e80d6320d6868a0d25
-    projectPath: Library\Artifacts\1a\1af19dd4d6f060e80d6320d6868a0d25
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1b\1b84e65761674864fed98bc43929fc9b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1b\1b84e65761674864fed98bc43929fc9b
-    projectPath: Library\Artifacts\1b\1b84e65761674864fed98bc43929fc9b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1c\1c90bd89ebce86733ddca505d8a59b24
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1c\1c90bd89ebce86733ddca505d8a59b24
-    projectPath: Library\Artifacts\1c\1c90bd89ebce86733ddca505d8a59b24
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1c\1cb61835b2faeb45e94e0f23b66b670d
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1c\1cb61835b2faeb45e94e0f23b66b670d
-    projectPath: Library\Artifacts\1c\1cb61835b2faeb45e94e0f23b66b670d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1e\1ea905898492e9601e05d5c3433fa1b5
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\1e\1ea905898492e9601e05d5c3433fa1b5
-    projectPath: Library\Artifacts\1e\1ea905898492e9601e05d5c3433fa1b5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\21\21d7ddd5a4cd68354ccfbf1aebdd06b9
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\21\21d7ddd5a4cd68354ccfbf1aebdd06b9
-    projectPath: Library\Artifacts\21\21d7ddd5a4cd68354ccfbf1aebdd06b9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\22\222c34ddcedfcdee81bc036f5469af77
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\22\222c34ddcedfcdee81bc036f5469af77
-    projectPath: Library\Artifacts\22\222c34ddcedfcdee81bc036f5469af77
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\25\250a351e649740a58a1251e73e24ecc2
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\25\250a351e649740a58a1251e73e24ecc2
-    projectPath: Library\Artifacts\25\250a351e649740a58a1251e73e24ecc2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\26\26336c82e6765ee92dc6a152cc2ebf2e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\26\26336c82e6765ee92dc6a152cc2ebf2e
-    projectPath: Library\Artifacts\26\26336c82e6765ee92dc6a152cc2ebf2e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\27\275252421fd8f0f8dfd870c118363d93
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\27\275252421fd8f0f8dfd870c118363d93
-    projectPath: Library\Artifacts\27\275252421fd8f0f8dfd870c118363d93
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\27\2779f83a7fe64578c1b6f2b96d17d68b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\27\2779f83a7fe64578c1b6f2b96d17d68b
-    projectPath: Library\Artifacts\27\2779f83a7fe64578c1b6f2b96d17d68b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1034,59 +1596,11 @@ MonoBehaviour:
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\28\281216e320c21adb30c6215e3e88f896
     projectPath: Library\Artifacts\28\281216e320c21adb30c6215e3e88f896
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2a\2a8e7f189c017f828c94b71e9b506252
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\2a\2a8e7f189c017f828c94b71e9b506252
-    projectPath: Library\Artifacts\2a\2a8e7f189c017f828c94b71e9b506252
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\2e\2ecba8f4e27b853fefa0f7cd21ad3a24
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\2e\2ecba8f4e27b853fefa0f7cd21ad3a24
-    projectPath: Library\Artifacts\2e\2ecba8f4e27b853fefa0f7cd21ad3a24
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2f\2f2811740a37be48eae98bffd11d2f07
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\2f\2f2811740a37be48eae98bffd11d2f07
-    projectPath: Library\Artifacts\2f\2f2811740a37be48eae98bffd11d2f07
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\30\30ea60e0d24b44f3f86a7024173e35fa
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\30\30ea60e0d24b44f3f86a7024173e35fa
-    projectPath: Library\Artifacts\30\30ea60e0d24b44f3f86a7024173e35fa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\31\3158aa6e09b4fab16dcf03bbe4d81c1b
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\31\3158aa6e09b4fab16dcf03bbe4d81c1b
     projectPath: Library\Artifacts\31\3158aa6e09b4fab16dcf03bbe4d81c1b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\34\34cf23c707809cbac94292fc3146f0f0
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\34\34cf23c707809cbac94292fc3146f0f0
-    projectPath: Library\Artifacts\34\34cf23c707809cbac94292fc3146f0f0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\35\35cfa32baef600a1e55378590ea4d6fa
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\35\35cfa32baef600a1e55378590ea4d6fa
-    projectPath: Library\Artifacts\35\35cfa32baef600a1e55378590ea4d6fa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\35\35ea230b519fe65929cc9514195af28d
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\35\35ea230b519fe65929cc9514195af28d
-    projectPath: Library\Artifacts\35\35ea230b519fe65929cc9514195af28d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\39\39f6381887a9623c6caa577840fffff7
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\39\39f6381887a9623c6caa577840fffff7
-    projectPath: Library\Artifacts\39\39f6381887a9623c6caa577840fffff7
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1094,689 +1608,77 @@ MonoBehaviour:
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3b\3b6c5a5d9a93bccdcc226bf5fb184d38
     projectPath: Library\Artifacts\3b\3b6c5a5d9a93bccdcc226bf5fb184d38
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3c\3c0c1789d769171293d9624d914bf686
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3c\3c0c1789d769171293d9624d914bf686
-    projectPath: Library\Artifacts\3c\3c0c1789d769171293d9624d914bf686
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3c\3ccdc0c6aa4d32a0e560931f1fd4c971
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3c\3ccdc0c6aa4d32a0e560931f1fd4c971
-    projectPath: Library\Artifacts\3c\3ccdc0c6aa4d32a0e560931f1fd4c971
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3c\3ce3504e9857af872a83c0c9b4af2d00
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3c\3ce3504e9857af872a83c0c9b4af2d00
-    projectPath: Library\Artifacts\3c\3ce3504e9857af872a83c0c9b4af2d00
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3d\3d82e501fd99000be4ebe268c805bb7b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3d\3d82e501fd99000be4ebe268c805bb7b
-    projectPath: Library\Artifacts\3d\3d82e501fd99000be4ebe268c805bb7b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\3d\3dd30eebfbfdfae38b81f64ec2a03439
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3d\3dd30eebfbfdfae38b81f64ec2a03439
     projectPath: Library\Artifacts\3d\3dd30eebfbfdfae38b81f64ec2a03439
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3f\3f4ad2073cd0758ad62b54a14c1edcd4
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3f\3f4ad2073cd0758ad62b54a14c1edcd4
-    projectPath: Library\Artifacts\3f\3f4ad2073cd0758ad62b54a14c1edcd4
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\3f\3fcc2e425aad07a31e8729ef53b7edfa
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\3f\3fcc2e425aad07a31e8729ef53b7edfa
-    projectPath: Library\Artifacts\3f\3fcc2e425aad07a31e8729ef53b7edfa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\44\44e8a5d162673410e51dd48918d38fa2
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\44\44e8a5d162673410e51dd48918d38fa2
-    projectPath: Library\Artifacts\44\44e8a5d162673410e51dd48918d38fa2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\45\4577a3b8433f14843b435f07116092a4
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\45\4577a3b8433f14843b435f07116092a4
-    projectPath: Library\Artifacts\45\4577a3b8433f14843b435f07116092a4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\46\46b48c80e79955a159df756a9a2c1cd4
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\46\46b48c80e79955a159df756a9a2c1cd4
     projectPath: Library\Artifacts\46\46b48c80e79955a159df756a9a2c1cd4
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\47\4736bd7c52455e3b0bc78af741d567aa
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\47\4736bd7c52455e3b0bc78af741d567aa
-    projectPath: Library\Artifacts\47\4736bd7c52455e3b0bc78af741d567aa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\48\487913d83f370e5da94c8e196bc750b2
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\48\487913d83f370e5da94c8e196bc750b2
-    projectPath: Library\Artifacts\48\487913d83f370e5da94c8e196bc750b2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\48\48973c784f73afdf0ec55a6c00eac9ef
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\48\48973c784f73afdf0ec55a6c00eac9ef
     projectPath: Library\Artifacts\48\48973c784f73afdf0ec55a6c00eac9ef
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4a\4a3f1a223ec2c68824c5aebf08141a9f
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4a\4a3f1a223ec2c68824c5aebf08141a9f
-    projectPath: Library\Artifacts\4a\4a3f1a223ec2c68824c5aebf08141a9f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4a\4a5301b647426d995bd018b4af40e070
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4a\4a5301b647426d995bd018b4af40e070
-    projectPath: Library\Artifacts\4a\4a5301b647426d995bd018b4af40e070
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\4d\4d31be6cd5b0c35d5a2848cd77279291
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\4d\4d31be6cd5b0c35d5a2848cd77279291
-    projectPath: Library\Artifacts\4d\4d31be6cd5b0c35d5a2848cd77279291
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\52\520d04d8d7c078d0e6e06df800f36d4b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\52\520d04d8d7c078d0e6e06df800f36d4b
-    projectPath: Library\Artifacts\52\520d04d8d7c078d0e6e06df800f36d4b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\54\54cea484b18641a4f7e285a275a24130
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\54\54cea484b18641a4f7e285a275a24130
-    projectPath: Library\Artifacts\54\54cea484b18641a4f7e285a275a24130
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\56\5643a66d7ca009d0c3ebd389cc522274
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\56\5643a66d7ca009d0c3ebd389cc522274
-    projectPath: Library\Artifacts\56\5643a66d7ca009d0c3ebd389cc522274
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\58\58257cf2574035a0a6f6df218cc5e34c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\58\58257cf2574035a0a6f6df218cc5e34c
-    projectPath: Library\Artifacts\58\58257cf2574035a0a6f6df218cc5e34c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\5c\5c1276aac9a9c230bd6b3056c0c4b816
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\5c\5c1276aac9a9c230bd6b3056c0c4b816
-    projectPath: Library\Artifacts\5c\5c1276aac9a9c230bd6b3056c0c4b816
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\5c\5cc02de8f7e4e1b34d0cae0c66e1c9e5
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\5c\5cc02de8f7e4e1b34d0cae0c66e1c9e5
-    projectPath: Library\Artifacts\5c\5cc02de8f7e4e1b34d0cae0c66e1c9e5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\60\601f6e8c8d146cb652386ffd64881d50
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\60\601f6e8c8d146cb652386ffd64881d50
     projectPath: Library\Artifacts\60\601f6e8c8d146cb652386ffd64881d50
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\60\60c92e5fe58d9e65f9330fc7abd985bd
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\60\60c92e5fe58d9e65f9330fc7abd985bd
-    projectPath: Library\Artifacts\60\60c92e5fe58d9e65f9330fc7abd985bd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\61\61a1451f804c105e71b0800767cc8723
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\61\61a1451f804c105e71b0800767cc8723
-    projectPath: Library\Artifacts\61\61a1451f804c105e71b0800767cc8723
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\64\640a44d2dbaac57390a5df53d8473007
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\64\640a44d2dbaac57390a5df53d8473007
-    projectPath: Library\Artifacts\64\640a44d2dbaac57390a5df53d8473007
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\68\68af46fa0187be2d24721f9dfd7026a3
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\68\68af46fa0187be2d24721f9dfd7026a3
-    projectPath: Library\Artifacts\68\68af46fa0187be2d24721f9dfd7026a3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\69\69f005a383643df35ddbae144d98f6cb
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\69\69f005a383643df35ddbae144d98f6cb
-    projectPath: Library\Artifacts\69\69f005a383643df35ddbae144d98f6cb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6b\6b6d36399cb4be2855aa353e19bcd19b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\6b\6b6d36399cb4be2855aa353e19bcd19b
-    projectPath: Library\Artifacts\6b\6b6d36399cb4be2855aa353e19bcd19b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6c\6c36691155b2721acc651615f4cab2ab
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\6c\6c36691155b2721acc651615f4cab2ab
-    projectPath: Library\Artifacts\6c\6c36691155b2721acc651615f4cab2ab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6d\6d584c56e06681af929c992c5be0950a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\6d\6d584c56e06681af929c992c5be0950a
-    projectPath: Library\Artifacts\6d\6d584c56e06681af929c992c5be0950a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6f\6fd75e03b279d1646f88f08faeb84bd1
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\6f\6fd75e03b279d1646f88f08faeb84bd1
-    projectPath: Library\Artifacts\6f\6fd75e03b279d1646f88f08faeb84bd1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\70\70706151dbe8963d6f14866ec291ca0f
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\70\70706151dbe8963d6f14866ec291ca0f
-    projectPath: Library\Artifacts\70\70706151dbe8963d6f14866ec291ca0f
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\71\713d9162968683ba7319d6f2d3b78922
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\71\713d9162968683ba7319d6f2d3b78922
-    projectPath: Library\Artifacts\71\713d9162968683ba7319d6f2d3b78922
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\72\72d25ae52eed937779147c58ffc28ead
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\72\72d25ae52eed937779147c58ffc28ead
-    projectPath: Library\Artifacts\72\72d25ae52eed937779147c58ffc28ead
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\73\735e7267d54f3cffab90f20609bb7e90
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\73\735e7267d54f3cffab90f20609bb7e90
-    projectPath: Library\Artifacts\73\735e7267d54f3cffab90f20609bb7e90
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\74\74da3fe16bf19c92c3a342324ff9a94f
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\74\74da3fe16bf19c92c3a342324ff9a94f
-    projectPath: Library\Artifacts\74\74da3fe16bf19c92c3a342324ff9a94f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\75\75577342c2d030ba397102cb18fe5323
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\75\75577342c2d030ba397102cb18fe5323
-    projectPath: Library\Artifacts\75\75577342c2d030ba397102cb18fe5323
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\75\75d295458fd12cf4d6328c345d2ee3c7
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\75\75d295458fd12cf4d6328c345d2ee3c7
-    projectPath: Library\Artifacts\75\75d295458fd12cf4d6328c345d2ee3c7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\75\75e751269329ae0cef73709ecfd39375
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\75\75e751269329ae0cef73709ecfd39375
-    projectPath: Library\Artifacts\75\75e751269329ae0cef73709ecfd39375
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\76\7664cdfab55c8bb4e9b308909ffcea6c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\76\7664cdfab55c8bb4e9b308909ffcea6c
-    projectPath: Library\Artifacts\76\7664cdfab55c8bb4e9b308909ffcea6c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\78\7838009197999a8914977235a2ef17da
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\78\7838009197999a8914977235a2ef17da
     projectPath: Library\Artifacts\78\7838009197999a8914977235a2ef17da
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\78\78b231eef920634901ea614fa22c77d6
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\78\78b231eef920634901ea614fa22c77d6
-    projectPath: Library\Artifacts\78\78b231eef920634901ea614fa22c77d6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\78\78be2687c711c61a1d539c098a2d675b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\78\78be2687c711c61a1d539c098a2d675b
-    projectPath: Library\Artifacts\78\78be2687c711c61a1d539c098a2d675b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7a\7a12f7547ec84dbf602d1de166673cd0
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7a\7a12f7547ec84dbf602d1de166673cd0
-    projectPath: Library\Artifacts\7a\7a12f7547ec84dbf602d1de166673cd0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7a\7ab94c87a7bef2865253a4d16589d12a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7a\7ab94c87a7bef2865253a4d16589d12a
-    projectPath: Library\Artifacts\7a\7ab94c87a7bef2865253a4d16589d12a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7c\7c127bcce2ae1184afe15c75e1c2395e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7c\7c127bcce2ae1184afe15c75e1c2395e
-    projectPath: Library\Artifacts\7c\7c127bcce2ae1184afe15c75e1c2395e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7e\7e4b1ca41d9b4ddbbf8daeb2926a85ba
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7e\7e4b1ca41d9b4ddbbf8daeb2926a85ba
-    projectPath: Library\Artifacts\7e\7e4b1ca41d9b4ddbbf8daeb2926a85ba
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7f\7fd150d1e379cf770dc42c8733dad5a5
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\7f\7fd150d1e379cf770dc42c8733dad5a5
-    projectPath: Library\Artifacts\7f\7fd150d1e379cf770dc42c8733dad5a5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\81\81010ab0fe42c6ca1916dadf7eb6e4d8
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\81\81010ab0fe42c6ca1916dadf7eb6e4d8
-    projectPath: Library\Artifacts\81\81010ab0fe42c6ca1916dadf7eb6e4d8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\81\81f70867a0c68cc4086cf2e5342295b6
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\81\81f70867a0c68cc4086cf2e5342295b6
-    projectPath: Library\Artifacts\81\81f70867a0c68cc4086cf2e5342295b6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\83\83471be0109e07356abf161b18708571
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\83\83471be0109e07356abf161b18708571
-    projectPath: Library\Artifacts\83\83471be0109e07356abf161b18708571
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\87\8770ef7cc62fb1f43a31c1e89e7f4441
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\87\8770ef7cc62fb1f43a31c1e89e7f4441
-    projectPath: Library\Artifacts\87\8770ef7cc62fb1f43a31c1e89e7f4441
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\87\87c453575c2f3a9a5133b9e52c3cf0ac
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\87\87c453575c2f3a9a5133b9e52c3cf0ac
-    projectPath: Library\Artifacts\87\87c453575c2f3a9a5133b9e52c3cf0ac
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\89\8937ec75d1855fbfbb3769d36191d87f
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\89\8937ec75d1855fbfbb3769d36191d87f
-    projectPath: Library\Artifacts\89\8937ec75d1855fbfbb3769d36191d87f
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\89\89fd9db914c0e07bd4242b36f1af59c3
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\89\89fd9db914c0e07bd4242b36f1af59c3
-    projectPath: Library\Artifacts\89\89fd9db914c0e07bd4242b36f1af59c3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8a\8adb08f3a952d5b6b57181e16cb6d018
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8a\8adb08f3a952d5b6b57181e16cb6d018
-    projectPath: Library\Artifacts\8a\8adb08f3a952d5b6b57181e16cb6d018
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\8c\8ca67756d571707a6e1d35a75c6a16e5
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8c\8ca67756d571707a6e1d35a75c6a16e5
     projectPath: Library\Artifacts\8c\8ca67756d571707a6e1d35a75c6a16e5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8e\8e52b5441103c2d79bfc13eb273ed5db
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8e\8e52b5441103c2d79bfc13eb273ed5db
-    projectPath: Library\Artifacts\8e\8e52b5441103c2d79bfc13eb273ed5db
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8e\8ed783edd9ddc7d58b7f63d05ba0a572
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8e\8ed783edd9ddc7d58b7f63d05ba0a572
-    projectPath: Library\Artifacts\8e\8ed783edd9ddc7d58b7f63d05ba0a572
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8e\8ef188a012ab34149690ed12a19ce4d5
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8e\8ef188a012ab34149690ed12a19ce4d5
-    projectPath: Library\Artifacts\8e\8ef188a012ab34149690ed12a19ce4d5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8f\8fdc8b219f29226f3983a1c9bde9da09
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\8f\8fdc8b219f29226f3983a1c9bde9da09
-    projectPath: Library\Artifacts\8f\8fdc8b219f29226f3983a1c9bde9da09
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\90\906392fd0abf273aff0b8f92ff3fe3c7
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\90\906392fd0abf273aff0b8f92ff3fe3c7
-    projectPath: Library\Artifacts\90\906392fd0abf273aff0b8f92ff3fe3c7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\90\90f72da4dee92ad70e4f7934f5c982ab
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\90\90f72da4dee92ad70e4f7934f5c982ab
     projectPath: Library\Artifacts\90\90f72da4dee92ad70e4f7934f5c982ab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\91\916887bc95c85aec38824e307fa2ef32
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\91\916887bc95c85aec38824e307fa2ef32
-    projectPath: Library\Artifacts\91\916887bc95c85aec38824e307fa2ef32
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\91\9179a0ffa97a0c5f290af53de6556787
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\91\9179a0ffa97a0c5f290af53de6556787
-    projectPath: Library\Artifacts\91\9179a0ffa97a0c5f290af53de6556787
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\92\92a150d635b57673019ee6c34457ec63
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\92\92a150d635b57673019ee6c34457ec63
-    projectPath: Library\Artifacts\92\92a150d635b57673019ee6c34457ec63
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\93\9331115f606df2bc00de4b2a077030a3
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\93\9331115f606df2bc00de4b2a077030a3
-    projectPath: Library\Artifacts\93\9331115f606df2bc00de4b2a077030a3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\93\93f431789e4345e4769e09d48de27b3d
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\93\93f431789e4345e4769e09d48de27b3d
-    projectPath: Library\Artifacts\93\93f431789e4345e4769e09d48de27b3d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\94\94610050325238aa5586ac54204f62cc
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\94\94610050325238aa5586ac54204f62cc
-    projectPath: Library\Artifacts\94\94610050325238aa5586ac54204f62cc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\96\96dc276b045b8d4411696f6100273ff1
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\96\96dc276b045b8d4411696f6100273ff1
-    projectPath: Library\Artifacts\96\96dc276b045b8d4411696f6100273ff1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\97\971edd490fb61629c81529962c0829e2
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\97\971edd490fb61629c81529962c0829e2
-    projectPath: Library\Artifacts\97\971edd490fb61629c81529962c0829e2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\97\97e5aa54892459454dfe9a435cf52cab
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\97\97e5aa54892459454dfe9a435cf52cab
     projectPath: Library\Artifacts\97\97e5aa54892459454dfe9a435cf52cab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\98\9813bc86ddb98142821829a874ba15dd
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\98\9813bc86ddb98142821829a874ba15dd
-    projectPath: Library\Artifacts\98\9813bc86ddb98142821829a874ba15dd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\99\99006e4db4857879ca6af2dfeac3c771
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\99\99006e4db4857879ca6af2dfeac3c771
-    projectPath: Library\Artifacts\99\99006e4db4857879ca6af2dfeac3c771
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\99\99725a33d030dcb6a79b04368fc49f2e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\99\99725a33d030dcb6a79b04368fc49f2e
-    projectPath: Library\Artifacts\99\99725a33d030dcb6a79b04368fc49f2e
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\99\99768ecaa1c41e71814a10989e241f9b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\99\99768ecaa1c41e71814a10989e241f9b
-    projectPath: Library\Artifacts\99\99768ecaa1c41e71814a10989e241f9b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\99\99f87713fb1f1df77c59c75493a24d43
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\99\99f87713fb1f1df77c59c75493a24d43
-    projectPath: Library\Artifacts\99\99f87713fb1f1df77c59c75493a24d43
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9a\9a56d89c1700a574578b94f28109e0a6
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\9a\9a56d89c1700a574578b94f28109e0a6
-    projectPath: Library\Artifacts\9a\9a56d89c1700a574578b94f28109e0a6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\9a\9afc7ec16f608bf96969df50427aad7f
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\9a\9afc7ec16f608bf96969df50427aad7f
     projectPath: Library\Artifacts\9a\9afc7ec16f608bf96969df50427aad7f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9c\9c5ce3239654116e43e5f409393e5ab6
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\9c\9c5ce3239654116e43e5f409393e5ab6
-    projectPath: Library\Artifacts\9c\9c5ce3239654116e43e5f409393e5ab6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9c\9c5d34e60b96efc5737205230582d155
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\9c\9c5d34e60b96efc5737205230582d155
-    projectPath: Library\Artifacts\9c\9c5d34e60b96efc5737205230582d155
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\9e\9e927b20d2ecfdc6ca75270994fcef81
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\9e\9e927b20d2ecfdc6ca75270994fcef81
     projectPath: Library\Artifacts\9e\9e927b20d2ecfdc6ca75270994fcef81
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a0\a0c0ae817e6dfd5b6906daf91667bea1
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a0\a0c0ae817e6dfd5b6906daf91667bea1
-    projectPath: Library\Artifacts\a0\a0c0ae817e6dfd5b6906daf91667bea1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a1\a11bbf1d48e8e172c9ec0d1d09750ca0
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a1\a11bbf1d48e8e172c9ec0d1d09750ca0
-    projectPath: Library\Artifacts\a1\a11bbf1d48e8e172c9ec0d1d09750ca0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a1\a1832ce23e3ad46c199c0248635151d4
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a1\a1832ce23e3ad46c199c0248635151d4
-    projectPath: Library\Artifacts\a1\a1832ce23e3ad46c199c0248635151d4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a2\a2c00961b49f3cc3c5cb1e0d3a3c51c0
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a2\a2c00961b49f3cc3c5cb1e0d3a3c51c0
-    projectPath: Library\Artifacts\a2\a2c00961b49f3cc3c5cb1e0d3a3c51c0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a3\a3fc2b86e6932bd785cd7f6138fe92b1
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a3\a3fc2b86e6932bd785cd7f6138fe92b1
-    projectPath: Library\Artifacts\a3\a3fc2b86e6932bd785cd7f6138fe92b1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a7\a7a737d8644da590b65136b5a04bc823
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a7\a7a737d8644da590b65136b5a04bc823
-    projectPath: Library\Artifacts\a7\a7a737d8644da590b65136b5a04bc823
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a9\a9a4272fb8a42aca848615a26030ed6f
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\a9\a9a4272fb8a42aca848615a26030ed6f
-    projectPath: Library\Artifacts\a9\a9a4272fb8a42aca848615a26030ed6f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ab\abd714c35e8bf8a63059212c5960bf72
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ab\abd714c35e8bf8a63059212c5960bf72
-    projectPath: Library\Artifacts\ab\abd714c35e8bf8a63059212c5960bf72
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b1\b1e32c2ebb0d412d9e8d5b9346be05a4
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b1\b1e32c2ebb0d412d9e8d5b9346be05a4
-    projectPath: Library\Artifacts\b1\b1e32c2ebb0d412d9e8d5b9346be05a4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b4\b449b70d8a7ddcb881acae405c62c168
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b4\b449b70d8a7ddcb881acae405c62c168
-    projectPath: Library\Artifacts\b4\b449b70d8a7ddcb881acae405c62c168
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b4\b4f8aad3ebe62ce45f4846d7deedbac8
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b4\b4f8aad3ebe62ce45f4846d7deedbac8
-    projectPath: Library\Artifacts\b4\b4f8aad3ebe62ce45f4846d7deedbac8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b5\b5920b18adb655ff3cba13ba9977bdf3
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b5\b5920b18adb655ff3cba13ba9977bdf3
-    projectPath: Library\Artifacts\b5\b5920b18adb655ff3cba13ba9977bdf3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b8\b88baee6f6ff40517f3a885e4052d74e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b8\b88baee6f6ff40517f3a885e4052d74e
-    projectPath: Library\Artifacts\b8\b88baee6f6ff40517f3a885e4052d74e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b9\b9f3c279abb3c1f121056791e833250a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\b9\b9f3c279abb3c1f121056791e833250a
-    projectPath: Library\Artifacts\b9\b9f3c279abb3c1f121056791e833250a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ba\ba1b4ce72893215bf539bf23d98d4c6e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ba\ba1b4ce72893215bf539bf23d98d4c6e
-    projectPath: Library\Artifacts\ba\ba1b4ce72893215bf539bf23d98d4c6e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ba\ba543b43540f423bacab39cfde0ff8a1
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ba\ba543b43540f423bacab39cfde0ff8a1
-    projectPath: Library\Artifacts\ba\ba543b43540f423bacab39cfde0ff8a1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\bf\bf5a78e9487d0c2ef130b32d317e5053
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\bf\bf5a78e9487d0c2ef130b32d317e5053
-    projectPath: Library\Artifacts\bf\bf5a78e9487d0c2ef130b32d317e5053
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\bf\bfc65910b753ee9c98d95c71c1996007
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\bf\bfc65910b753ee9c98d95c71c1996007
-    projectPath: Library\Artifacts\bf\bfc65910b753ee9c98d95c71c1996007
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c0\c0fa1a638d3cd0ac4a048d86f591cc07
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c0\c0fa1a638d3cd0ac4a048d86f591cc07
-    projectPath: Library\Artifacts\c0\c0fa1a638d3cd0ac4a048d86f591cc07
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c2\c2238e2aaff0805bdb88424dcd9f6fa7
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c2\c2238e2aaff0805bdb88424dcd9f6fa7
-    projectPath: Library\Artifacts\c2\c2238e2aaff0805bdb88424dcd9f6fa7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c3\c30d0dfdca1542957bf58121c0450852
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c3\c30d0dfdca1542957bf58121c0450852
-    projectPath: Library\Artifacts\c3\c30d0dfdca1542957bf58121c0450852
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c3\c370f2ae1d272a7dbe5b317cc6a8cd0b
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c3\c370f2ae1d272a7dbe5b317cc6a8cd0b
-    projectPath: Library\Artifacts\c3\c370f2ae1d272a7dbe5b317cc6a8cd0b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c4\c4815f7bc407189a09866652fa3ef997
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c4\c4815f7bc407189a09866652fa3ef997
-    projectPath: Library\Artifacts\c4\c4815f7bc407189a09866652fa3ef997
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c6\c66b64d6f0bd7f20cbe13bfd8f8fd0b9
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c6\c66b64d6f0bd7f20cbe13bfd8f8fd0b9
-    projectPath: Library\Artifacts\c6\c66b64d6f0bd7f20cbe13bfd8f8fd0b9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c7\c73b509225f1a41e2b6d3049d51b58d4
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c7\c73b509225f1a41e2b6d3049d51b58d4
-    projectPath: Library\Artifacts\c7\c73b509225f1a41e2b6d3049d51b58d4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\c9\c93b73d31b9f3c077c832ad7409865f3
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c9\c93b73d31b9f3c077c832ad7409865f3
     projectPath: Library\Artifacts\c9\c93b73d31b9f3c077c832ad7409865f3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\c9\c93e31ae56db61435237278180bf530a
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\c9\c93e31ae56db61435237278180bf530a
     projectPath: Library\Artifacts\c9\c93e31ae56db61435237278180bf530a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ca\cacf765b821f896b18e77f30932cc5f8
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ca\cacf765b821f896b18e77f30932cc5f8
-    projectPath: Library\Artifacts\ca\cacf765b821f896b18e77f30932cc5f8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\cc\ccdfb67ffff47f90f0b2a255314f2754
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\cc\ccdfb67ffff47f90f0b2a255314f2754
-    projectPath: Library\Artifacts\cc\ccdfb67ffff47f90f0b2a255314f2754
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d0\d0f2378f4eb9e819a6a82974699bc914
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d0\d0f2378f4eb9e819a6a82974699bc914
-    projectPath: Library\Artifacts\d0\d0f2378f4eb9e819a6a82974699bc914
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
-    projectPath: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1784,170 +1686,38 @@ MonoBehaviour:
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d6\d68b78a96b2b8517b6ecb52c78048bf7
     projectPath: Library\Artifacts\d6\d68b78a96b2b8517b6ecb52c78048bf7
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d7\d7794580a341e3536772bdaf1f1bd551
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d7\d7794580a341e3536772bdaf1f1bd551
-    projectPath: Library\Artifacts\d7\d7794580a341e3536772bdaf1f1bd551
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d7\d7f9e69343729d650a765ea9146fe4ae
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\d7\d7f9e69343729d650a765ea9146fe4ae
-    projectPath: Library\Artifacts\d7\d7f9e69343729d650a765ea9146fe4ae
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\da\dad4541cf4129f2622f4ffb66562b1a7
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\da\dad4541cf4129f2622f4ffb66562b1a7
-    projectPath: Library\Artifacts\da\dad4541cf4129f2622f4ffb66562b1a7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\dd\dd1e0c966759371d5659aa0d29b0cb9d
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\dd\dd1e0c966759371d5659aa0d29b0cb9d
-    projectPath: Library\Artifacts\dd\dd1e0c966759371d5659aa0d29b0cb9d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\dd\dd24f36e4afcc8fc1a390304c3b34797
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\dd\dd24f36e4afcc8fc1a390304c3b34797
-    projectPath: Library\Artifacts\dd\dd24f36e4afcc8fc1a390304c3b34797
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\dd\dd421d79cf883fa02173dd8f6a21c7bb
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\dd\dd421d79cf883fa02173dd8f6a21c7bb
     projectPath: Library\Artifacts\dd\dd421d79cf883fa02173dd8f6a21c7bb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\df\df2e184b9eff5e7e7a888233321b42bf
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\df\df2e184b9eff5e7e7a888233321b42bf
     projectPath: Library\Artifacts\df\df2e184b9eff5e7e7a888233321b42bf
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e0\e02880367747412b6f3ac3831d709cc5
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e0\e02880367747412b6f3ac3831d709cc5
-    projectPath: Library\Artifacts\e0\e02880367747412b6f3ac3831d709cc5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e0\e03f3faadcbf5287611970aae878ebc6
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e0\e03f3faadcbf5287611970aae878ebc6
-    projectPath: Library\Artifacts\e0\e03f3faadcbf5287611970aae878ebc6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
-    projectPath: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\e1\e1c9129747273c1f5ccb68af841b2014
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e1\e1c9129747273c1f5ccb68af841b2014
-    projectPath: Library\Artifacts\e1\e1c9129747273c1f5ccb68af841b2014
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e5\e553ef3bdc2c2921053da5f47b96d5a1
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e5\e553ef3bdc2c2921053da5f47b96d5a1
-    projectPath: Library\Artifacts\e5\e553ef3bdc2c2921053da5f47b96d5a1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e5\e58163bace328dc8eb49c702ed1e5a6e
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e5\e58163bace328dc8eb49c702ed1e5a6e
-    projectPath: Library\Artifacts\e5\e58163bace328dc8eb49c702ed1e5a6e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\e8\e811d690a9cd69cf3e33d5af04596f19
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e8\e811d690a9cd69cf3e33d5af04596f19
     projectPath: Library\Artifacts\e8\e811d690a9cd69cf3e33d5af04596f19
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e8\e8ad545a4b2c0a9160e3c2f96bfc5bcc
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e8\e8ad545a4b2c0a9160e3c2f96bfc5bcc
-    projectPath: Library\Artifacts\e8\e8ad545a4b2c0a9160e3c2f96bfc5bcc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e9\e9ef61ed080a28fc44cf88fa1279dab3
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\e9\e9ef61ed080a28fc44cf88fa1279dab3
-    projectPath: Library\Artifacts\e9\e9ef61ed080a28fc44cf88fa1279dab3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ea\ea12f9c56f3eadd4d0826739a108ca7c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ea\ea12f9c56f3eadd4d0826739a108ca7c
-    projectPath: Library\Artifacts\ea\ea12f9c56f3eadd4d0826739a108ca7c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ea\ea46685f06de85236ddeb7eb753a579a
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ea\ea46685f06de85236ddeb7eb753a579a
-    projectPath: Library\Artifacts\ea\ea46685f06de85236ddeb7eb753a579a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ec\eca663d8d962fd3c11a94e89231a349f
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ec\eca663d8d962fd3c11a94e89231a349f
-    projectPath: Library\Artifacts\ec\eca663d8d962fd3c11a94e89231a349f
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\ef\ef275db1810fcd038ea6b83f04347cf1
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\ef\ef275db1810fcd038ea6b83f04347cf1
-    projectPath: Library\Artifacts\ef\ef275db1810fcd038ea6b83f04347cf1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\f0\f00cc162dc6c580f91f15f97840e022f
     fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\f0\f00cc162dc6c580f91f15f97840e022f
     projectPath: Library\Artifacts\f0\f00cc162dc6c580f91f15f97840e022f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f1\f185bb9903907839f47178c0a7b77ee5
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\f1\f185bb9903907839f47178c0a7b77ee5
-    projectPath: Library\Artifacts\f1\f185bb9903907839f47178c0a7b77ee5
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\Joseph\KGB2\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f1\f1c2a27a0cae29ce7cd32d84b12c557c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\f1\f1c2a27a0cae29ce7cd32d84b12c557c
-    projectPath: Library\Artifacts\f1\f1c2a27a0cae29ce7cd32d84b12c557c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f3\f39a6679c6e8febe00086bdd92992b29
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\f3\f39a6679c6e8febe00086bdd92992b29
-    projectPath: Library\Artifacts\f3\f39a6679c6e8febe00086bdd92992b29
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f4\f41bb3cf38179726e8d8e87d48b77d3c
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\f4\f41bb3cf38179726e8d8e87d48b77d3c
-    projectPath: Library\Artifacts\f4\f41bb3cf38179726e8d8e87d48b77d3c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f5\f54c63bce6c8d09989fc79264d42b0d1
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\f5\f54c63bce6c8d09989fc79264d42b0d1
-    projectPath: Library\Artifacts\f5\f54c63bce6c8d09989fc79264d42b0d1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f6\f6596b73faba6dbb6b06bf11456c8156
-    fullPath: C:\Users\Joseph\KGB2\Library\Artifacts\f6\f6596b73faba6dbb6b06bf11456c8156
-    projectPath: Library\Artifacts\f6\f6596b73faba6dbb6b06bf11456c8156
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\EditorInstance.json
     fullPath: C:\Users\Joseph\KGB2\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -1990,12 +1760,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\Joseph\KGB2\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ProtocolInstance.json
     fullPath: C:\Users\Joseph\KGB2\Library\ProtocolInstance.json
     projectPath: Library\ProtocolInstance.json
@@ -2020,42 +1784,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\0\02697cef76d9f202c12344c50ad212ff.bin
-    fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\0\02697cef76d9f202c12344c50ad212ff.bin
-    projectPath: Library\ShaderCache\0\02697cef76d9f202c12344c50ad212ff.bin
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\1\1fc4ac8ed3ad441ad2da15bbed1cef61.bin
-    fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\1\1fc4ac8ed3ad441ad2da15bbed1cef61.bin
-    projectPath: Library\ShaderCache\1\1fc4ac8ed3ad441ad2da15bbed1cef61.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\2\2c7cc01da3577397879591b932fcf7e6.bin
-    fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\2\2c7cc01da3577397879591b932fcf7e6.bin
-    projectPath: Library\ShaderCache\2\2c7cc01da3577397879591b932fcf7e6.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\3\366c9017ca98fea02ab4316bf2f092c3.bin
-    fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\3\366c9017ca98fea02ab4316bf2f092c3.bin
-    projectPath: Library\ShaderCache\3\366c9017ca98fea02ab4316bf2f092c3.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\4\483e8bc4130974e68818fb7889abffb7.bin
-    fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\4\483e8bc4130974e68818fb7889abffb7.bin
-    projectPath: Library\ShaderCache\4\483e8bc4130974e68818fb7889abffb7.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\f\fac01337ec0190baa48b3693426fb66f.bin
-    fullPath: C:\Users\Joseph\KGB2\Library\ShaderCache\f\fac01337ec0190baa48b3693426fb66f.bin
-    projectPath: Library\ShaderCache\f\fac01337ec0190baa48b3693426fb66f.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\SourceAssetDB
     fullPath: C:\Users\Joseph\KGB2\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -2068,36 +1802,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\PrefabStageHierarchy\c1\c1d6497e7212fc5c51edaa5b5d6edcd1.json
-    fullPath: C:\Users\Joseph\KGB2\Library\StateCache\PrefabStageHierarchy\c1\c1d6497e7212fc5c51edaa5b5d6edcd1.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\c1\c1d6497e7212fc5c51edaa5b5d6edcd1.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\ac\ac4a4ee82fbb171a091380e2cb0befc6.json
-    fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\ac\ac4a4ee82fbb171a091380e2cb0befc6.json
-    projectPath: Library\StateCache\SceneView\ac\ac4a4ee82fbb171a091380e2cb0befc6.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\d8\d8fdc8e982b75200c5913110e6f84d88.json
-    fullPath: C:\Users\Joseph\KGB2\Library\StateCache\SceneView\d8\d8fdc8e982b75200c5913110e6f84d88.json
-    projectPath: Library\StateCache\SceneView\d8\d8fdc8e982b75200c5913110e6f84d88.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Logs\AssetImportWorker0.log
     fullPath: C:\Users\Joseph\KGB2\Logs\AssetImportWorker0.log
     projectPath: Logs\AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\AssetImportWorker0-prev.log
     fullPath: C:\Users\Joseph\KGB2\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
@@ -2109,7 +1819,7 @@ MonoBehaviour:
     projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\Joseph\KGB2\Logs\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
@@ -2206,141 +1916,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    fullPath: C:\Users\Joseph\KGB2\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp\__Backupscenes\0.backup
     fullPath: C:\Users\Joseph\KGB2\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\Assembly-CSharp.dll.hash
-    fullPath: C:\Users\Joseph\KGB2\Temp\Assembly-CSharp.dll.hash
-    projectPath: Temp\Assembly-CSharp.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\CompilationLog.txt
-    fullPath: C:\Users\Joseph\KGB2\Temp\CompilationLog.txt
-    projectPath: Temp\CompilationLog.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\UnityLockfile
     fullPath: C:\Users\Joseph\KGB2\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-076e19a2849bd954db2fbade450a384d
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-076e19a2849bd954db2fbade450a384d
-    projectPath: Temp\UnityTempFile-076e19a2849bd954db2fbade450a384d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-12fe13d31ed42f148a21782197887835
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-12fe13d31ed42f148a21782197887835
-    projectPath: Temp\UnityTempFile-12fe13d31ed42f148a21782197887835
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-18382a7e24986ae4dba55f2a85600f0d
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-18382a7e24986ae4dba55f2a85600f0d
-    projectPath: Temp\UnityTempFile-18382a7e24986ae4dba55f2a85600f0d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-1d0537b5417c93847b6bb6b4c9384b10
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-1d0537b5417c93847b6bb6b4c9384b10
-    projectPath: Temp\UnityTempFile-1d0537b5417c93847b6bb6b4c9384b10
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-307502ffc50ded147be45284b52e4b0d
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-307502ffc50ded147be45284b52e4b0d
-    projectPath: Temp\UnityTempFile-307502ffc50ded147be45284b52e4b0d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-34ecd648c59346f47b62327cbdb1ad84
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-34ecd648c59346f47b62327cbdb1ad84
-    projectPath: Temp\UnityTempFile-34ecd648c59346f47b62327cbdb1ad84
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-351f005263766fa409874f88b569a96b
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-351f005263766fa409874f88b569a96b
-    projectPath: Temp\UnityTempFile-351f005263766fa409874f88b569a96b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-54790eb25f318a94e8582bdf96f4f350
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-54790eb25f318a94e8582bdf96f4f350
-    projectPath: Temp\UnityTempFile-54790eb25f318a94e8582bdf96f4f350
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-5c8cd9c6122c8b544bd3b997dfba58d2
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-5c8cd9c6122c8b544bd3b997dfba58d2
-    projectPath: Temp\UnityTempFile-5c8cd9c6122c8b544bd3b997dfba58d2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-8d4b55a964be523459858a774526bc8b
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-8d4b55a964be523459858a774526bc8b
-    projectPath: Temp\UnityTempFile-8d4b55a964be523459858a774526bc8b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-93bd21dabce99974c8ff55a35035f72a
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-93bd21dabce99974c8ff55a35035f72a
-    projectPath: Temp\UnityTempFile-93bd21dabce99974c8ff55a35035f72a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-97a545da1667a574a8fd22a0bb790a1d
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-97a545da1667a574a8fd22a0bb790a1d
-    projectPath: Temp\UnityTempFile-97a545da1667a574a8fd22a0bb790a1d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a55831fa34d0a25419fb07b7795afe7f
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-a55831fa34d0a25419fb07b7795afe7f
-    projectPath: Temp\UnityTempFile-a55831fa34d0a25419fb07b7795afe7f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ad4f40805b78f3c409c481e4a62e2bc9
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-ad4f40805b78f3c409c481e4a62e2bc9
-    projectPath: Temp\UnityTempFile-ad4f40805b78f3c409c481e4a62e2bc9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cbeaaebc364034847a6d5b121713cd42
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-cbeaaebc364034847a6d5b121713cd42
-    projectPath: Temp\UnityTempFile-cbeaaebc364034847a6d5b121713cd42
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ce3e08ee868275a49911731f5776e132
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-ce3e08ee868275a49911731f5776e132
-    projectPath: Temp\UnityTempFile-ce3e08ee868275a49911731f5776e132
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cf221ebe4c0f72746a367a38f3b0307f
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-cf221ebe4c0f72746a367a38f3b0307f
-    projectPath: Temp\UnityTempFile-cf221ebe4c0f72746a367a38f3b0307f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e33e7618b124c68439a14e782994a8a3
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-e33e7618b124c68439a14e782994a8a3
-    projectPath: Temp\UnityTempFile-e33e7618b124c68439a14e782994a8a3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e69684363cad6644eb0effdd504e86ed
-    fullPath: C:\Users\Joseph\KGB2\Temp\UnityTempFile-e69684363cad6644eb0effdd504e86ed
-    projectPath: Temp\UnityTempFile-e69684363cad6644eb0effdd504e86ed
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

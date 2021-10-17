@@ -52,25 +52,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Network\ClientHandle.cs" />
-     <Compile Include="Assets\Player\Orientation.cs" />
-     <Compile Include="Assets\Network\Client.cs" />
-     <Compile Include="Assets\Network\TickManager.cs" />
-     <Compile Include="Assets\Player\InputMaster.cs" />
-     <Compile Include="Assets\Network\ClientSend.cs" />
-     <Compile Include="Assets\Player\AnimationManager.cs" />
-     <Compile Include="Assets\Network\UIManager.cs" />
-     <Compile Include="Assets\Network\GameManager.cs" />
-     <Compile Include="Assets\Network\UDP.cs" />
-     <Compile Include="Assets\Player\MouseLook.cs" />
-     <Compile Include="Assets\Network\Constants.cs" />
-     <Compile Include="Assets\Player\PlayerManager.cs" />
-     <Compile Include="Assets\Network\Packet.cs" />
-     <Compile Include="Assets\Network\TCP.cs" />
-     <Compile Include="Assets\Player\PlayerNetworkManager.cs" />
-     <Compile Include="Assets\Player\Controls.cs" />
-     <Compile Include="Assets\Player\Movement.cs" />
-     <Compile Include="Assets\Player\ClientState.cs" />
+     <Compile Include="Assets\Scripts\Network\ClientHandle.cs" />
+     <Compile Include="Assets\Scripts\Shared\Orientation.cs" />
+     <Compile Include="Assets\Scripts\Network\Client.cs" />
+     <Compile Include="Assets\Scripts\Shared\TickManager.cs" />
+     <Compile Include="Assets\Scripts\Player\InputMaster.cs" />
+     <Compile Include="Assets\Scripts\Network\ClientSend.cs" />
+     <Compile Include="Assets\Scripts\Player\AnimationManager.cs" />
+     <Compile Include="Assets\Scripts\Network\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Network\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Network\UDP.cs" />
+     <Compile Include="Assets\Scripts\Player\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\Network\Constants.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Shared\Packet.cs" />
+     <Compile Include="Assets\Scripts\Network\TCP.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerNetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Shared\Controls.cs" />
+     <Compile Include="Assets\Scripts\Player\Movement.cs" />
+     <Compile Include="Assets\Scripts\Shared\ClientState.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
